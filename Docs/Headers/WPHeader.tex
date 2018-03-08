@@ -1,0 +1,52 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Standard header for working papers
+%
+% WPHeader.tex
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\documentclass[11pt]{article}
+
+%%%%%%%%%%%%%%%%%%%%
+%% Include general header where common packages are defined
+%%%%%%%%%%%%%%%%%%%%
+
+\input{/Users/juste/ComplexSystems/CityNetwork/Docs/Headers/GeneralHeader.tex}
+
+%%%%%%%%%%%%%%%%%%%%
+%% Idem general commands
+%%%%%%%%%%%%%%%%%%%%
+\input{/Users/juste/ComplexSystems/CityNetwork/Docs/Headers/GeneralCommands.tex}
+
+
+
+
+% geometry
+\usepackage[margin=2cm]{geometry}
+
+% layout : use fancyhdr package
+\usepackage{fancyhdr}
+\pagestyle{fancy}
+
+\makeatletter
+
+\renewcommand{\headrulewidth}{0.4pt}
+\renewcommand{\footrulewidth}{0.4pt}
+\fancyhead[RO,RE]{\textit{Working Paper}}
+\fancyhead[LO,LE]{G{\'e}ographie-Cit{\'e}s/LVMT}
+\fancyfoot[RO,RE] {\thepage}
+\fancyfoot[LO,LE] {\noun{J. Raimbault}}
+\fancyfoot[CO,CE] {}
+
+\makeatother
+
+
+%%%%%%%%%%%%%%%%%%%%%
+%% Begin doc
+%%%%%%%%%%%%%%%%%%%%%
+
+\begin{document}
+
+
+
+
