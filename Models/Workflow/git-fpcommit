@@ -13,7 +13,8 @@ git commit -m $1
 
 #
 REMOTE_ORIG=`git remote show|grep origin`
-if [ $REMOTE_ORIG -ne "" ]; then echo "origin remote"; git push origin master; fi
+if [ ! -z "$REMOTE_ORIG" ]; then echo "origin remote"; git push origin master; fi
+
 
 REMOTE_GITHUB=`git remote show|grep github`
-if [ $REMOTE_GITHUB -ne "" ]; then echo "github remote"; git push github master; fi
+if [ ! -z "$REMOTE_GITHUB" ]; then echo "github remote"; git push github master; fi
