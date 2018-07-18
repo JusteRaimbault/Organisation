@@ -13,8 +13,10 @@ git commit -m $1
 
 #
 REMOTE_ORIG=`git remote show|grep origin`
-if [ ! -z "$REMOTE_ORIG" ]; then echo "origin remote"; git push origin master; fi
-
+if [ ! -z "$REMOTE_ORIG" ]; then echo "Pushing to remote origin"; git push origin master; fi
 
 REMOTE_GITHUB=`git remote show|grep github`
-if [ ! -z "$REMOTE_GITHUB" ]; then echo "github remote"; git push github master; fi
+if [ ! -z "$REMOTE_GITHUB" ]; then echo "Pushing to remote github"; git push github master; fi
+
+# push to all remotes ? not necessary desired
+# git remote | xargs -L1 git push --all
