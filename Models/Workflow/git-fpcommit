@@ -1,0 +1,19 @@
+
+
+# fpcommit script, ie full pushed commit
+# rapid command for brutal commit
+
+# display status
+git status
+git add -A
+git commit -m $1
+
+# default remote is github, and branch master
+# test if 'github' remote exists, also pushes to origin
+
+#
+REMOTE_ORIG=`git remote show|grep origin`
+if [ -z "$REMOTE_ORIG"]; then echo "origin remote" git push origin master; fi
+
+REMOTE_GITHUB=`git remote show|grep github`
+if [ -z "$REMOTE_GITHUB"]; then echo "github remote" git push github master; fi
