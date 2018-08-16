@@ -1,0 +1,509 @@
+
+
+
+=======
+2018/08/16 - from unread mails
+
+
+
+
+
+----
+2018/08/15
+
+Bruno Gonçalves (@bgoncalves) tweeted at 10:01 PM on Tue, Aug 14, 2018:
+[1808.03730] Mapping the efficiency of international scientific collaboration between cities worldwide https://t.co/h8Rce8w6yP
+(https://twitter.com/bgoncalves/status/1029457897896456194?s=03)
+
+Get the official Twitter app at https://twitter.com/download?s=13
+
+----
+2018/08/13
+
+abm interactions acad companies ?
+
+mon DeDeo (@SimonDeDeo) tweeted at 10:59 PM on Sun, Aug 12, 2018:
+Contra @ylecun at Facebook AI Labs, new academy-industry partnerships endanger curiosity-driven research, stifle innovation, and "harm our students directly". No surprise I think this is a fantastic piece from @beenwrekt at Berkeley, & colleagues. https://t.co/1emQuSDGRo
+(https://twitter.com/SimonDeDeo/status/1028747707173818370?s=03)
+
+Get the official Twitter app at https://twitter.com/download?s=13
+
+----
+2018/08/08
+
+Arthur Charpentier ☀ (@freakonometrics) tweeted at 3:31 AM on Wed, Aug 08, 2018:
+"the risk that self-reinforcing feedbacks could push the Earth System toward a planetarythreshold that, if crossed, could prevent stabilization of the climate at intermediate temperature rises and cause continued warming" https://t.co/Skq3NsJ3w0 https://t.co/SjR0HzeCPo
+(https://twitter.com/freakonometrics/status/1026898765616242690?s=03)
+
+Get the official Twitter app at https://twitter.com/download?s=13
+
+----
+2018/08/07
+
+gecco2019
+
+----
+2018/08/06
+
+Steven Strogatz (@stevenstrogatz) tweeted at 9:40 PM on Mon, Aug 06, 2018:
+The math of riots: a model based on reaction-diffusion equations  https://t.co/wX4ejow3bz
+(https://twitter.com/stevenstrogatz/status/1026463064957304832?s=03)
+
+Get the official Twitter app at https://twitter.com/download?s=13
+
+----
+2018/08/06
+
+Joshua Skewes (@JCSkewesDK) tweeted at 11:19 PM on Sun, Aug 05, 2018:
+/end.
+This thread is inspired by an authorship offer I received down today.
+Not subtweeting anybody.
+(https://twitter.com/JCSkewesDK/status/1026125561687666691?s=03)
+
+Get the official Twitter app at https://twitter.com/download?s=13
+
+
+----
+2018/08/05
+
+Andrea Baronchelli (@a_baronca) tweeted at 3:44 PM on Fri, Aug 03, 2018:
+"The dynamics of norm change in the cultural evolution of language" is out!
+https://t.co/3jWkWDX8xp
+
+We identify 3 classes of norm change (authority, informal institution, spontaneous change), and propose a simple evolutionary model that reproduces the empirical observations. https://t.co/APndfWsibN
+(https://twitter.com/a_baronca/status/1025286332313214977?s=03)
+
+Get the official Twitter app at https://twitter.com/download?s=13
+
+----
+2018/07/30
+
+NetScience (@net_science) tweeted at 5:56 PM on Mon, Jul 30, 2018:
+"A new and stable algorithm for economic complexity. (arXiv:1807.10276v1 [https://t.co/dkYqb9LDmu])"  https://t.co/lPSVygptKK
+(https://twitter.com/net_science/status/1023854786922201089?s=03)
+
+Get the official Twitter app at https://twitter.com/download?s=13
+
+
+
+----
+2018/07/30
+
+Brian Nosek (@BrianNosek) tweeted at 9:22 PM on Mon, Jul 30, 2018:
+New PLOS Biology paper by Toelch & Ostwald: A course for teaching open science tools and practices to improve reproducibility and transparency (https://t.co/o8140ExIgQ). All course content made available for reuse: https://t.co/0fcsZKQMUb https://t.co/SqWL8RpxVU
+(https://twitter.com/BrianNosek/status/1023906762561339392?s=03)
+
+Get the official Twitter app at https://twitter.com/download?s=13
+
+----
+2018/07/27
+
+TODO integrate transfer entropy within OML
+
+https://github.com/jlizier/jidt/wiki/SimpleJavaExamples#example-1---transfer-entropy-on-binary-data
+
+
+----
+2018/07/27
+
+Dr Lana Sinapayen (@sina_lana) tweeted at 11:57 AM on Fri, Jul 27, 2018:
+If you're interested in plant intelligence I recommend this book. Not perfect but easy read, mind blowing science. How trees maintain their friends alive even when they should die, how parents trees are important for offspring trees etc
+#alife2018
+
+https://t.co/37vJKOobRv
+(https://twitter.com/sina_lana/status/1022677227027062785?s=03)
+
+Get the official Twitter app at https://twitter.com/download?s=13
+
+
+----
+2018/07/27
+
+Dr Lana Sinapayen (@sina_lana) tweeted at 9:12 AM on Fri, Jul 27, 2018:
+Much awaited for keynote by Inman Harvey
+ALife beyond AI
+#alife2018
+
+ALife metaphors through history: clockwork, steam engines, computers
+...are silly because they confuse the tool with the object of study. https://t.co/LMf3IsXEKL
+(https://twitter.com/sina_lana/status/1022635748590120962?s=03)
+
+Get the official Twitter app at https://twitter.com/download?s=13
+
+----
+2018/07/25
+
+https://dataverse.org/blog/qdr-dataverse
+
+
+----
+2018/07/18
+
+Urban Geography Seminar Funding
+
+http://explore.tandfonline.com/page/est/urban-geography-workshop-seminar-support-award
+
+
+----
+2018/07/18
+
+GGHighlight
+
+https://yutannihilation.github.io/gghighlight/
+
+----
+2018/07/06
+
+Benchmark coco
+
+https://github.com/DEAP/deap/tree/master/deap
+
+https://github.com/deap/deap
+
+
+----
+2018/07/03
+
+Deep Learning
+
+https://deeplearning4j.org/lstm
+
+
+
+----
+2018/06/29
+
+Mason Porter (@masonporter) tweeted at 0:36 PM on Fri, Jun 29, 2018:
+Important documents in applications for faculty positions are teaching and research statements.
+
+Here are my 2006 statements for my successful application to University of Oxford.
+
+Teaching statement: https://t.co/z9C9BxCbbo
+
+Research statement: https://t.co/2DGfNeimSh
+(https://twitter.com/masonporter/status/1012645861552197632?s=03)
+
+Get the official Twitter app at https://twitter.com/download?s=13
+
+
+----
+2018/06/07
+
+ABM coevol course Crooks
+
+https://www.gisagents.org/2018/05/spatial-agent-based-models-of-human.html
+
+
+
+----
+2018/06/05
+
+Complexity Digest (@cxdig) tweeted at 6:35 PM on Tue, Jun 05, 2018:
+Niche emergence as an autocatalytic process in the evolution of ecosystems https://t.co/PrzSJhqw5y https://t.co/XJWKem4cZR
+(https://twitter.com/cxdig/status/1004039083696508938?s=03)
+
+Get the official Twitter app at https://twitter.com/download?s=13
+
+
+----
+2018/06/05
+
+Alessandro  Vespignani (@alexvespi) tweeted at 3:15 PM on Tue, Jun 05, 2018:
+This is impressive:
+Machine-learning algorithm capable of identifying the relevant degrees of freedom and executing RG steps iteratively without any prior knowledge about the system.
+
+https://t.co/x1Sop5YsbQ https://t.co/uzwVmUAdK8
+(https://twitter.com/alexvespi/status/1003988558355533825?s=03)
+
+Get the official Twitter app at https://twitter.com/download?s=13
+
+
+----
+2018/06/05
+
+https://www.college-de-france.fr/site/claire-voisin/course-2018-04-05-10h00.htm
+
+
+----
+2018/05/31
+
+Sebastian Veg (@sebastianveghk) tweeted at 9:28 AM on Thu, May 31, 2018:
+Demain à @CentreChine @EHESS_fr : présentation du livre de JP Cabestan   https://t.co/XAVTTtL0Us "Demain la Chine: dictature ou démocratie" https://t.co/mZ5KFBeIgM
+(https://twitter.com/sebastianveghk/status/1002089394256470016?s=03)
+
+Get the official Twitter app at https://twitter.com/download?s=13
+
+----
+2018/05/29
+
+http://cormas.cirad.fr/fr/outil/outil.htm
+
+https://fr.wikipedia.org/wiki/Smalltalk
+
+
+----
+2018/05/25
+
+open data
+
+https://ask-open-science.org/2/how-can-one-share-data-for-open-science
+
+http://academictorrents.com/
+
+----
+2018/05/17
+
+satellite
+
+http://ccs2018.web.auth.gr/new-methods-and-epistemologies-explore-simulation-models
+
+----
+2018/04/27
+
+https://thesiscommons.org/
+
+----
+2018/04/26
+
+R Reproductibility
+
+https://www.r-bloggers.com/introducing-the-reproducible-r-toolkit-and-the-checkpoint-package/
+
+
+----
+2018/04/24
+
+Hiroki Sayama (@HirokiSayama) tweeted at 4:41 PM on Tue, Apr 24, 2018:
+3rd Satellite Symposium on Complex Systems in Education @ccs18gr
+https://t.co/kAcptvYVhk
+
+Abstract submission deadline: June 1st, 2018
+(https://twitter.com/HirokiSayama/status/988790064909037568?s=03)
+
+Get the official Twitter app at https://twitter.com/download?s=13
+
+----
+2018/04/18
+
+git lfs
+
+https://github.com/git-lfs/git-lfs/tree/master/docs/api
+
+----
+2018/04/18
+
+Satellites CCS
+
+http://ccs2018.web.auth.gr/satellites
+
+http://ccs17.unam.mx/satellites.html
+
+https://simpolproject.eu/ccs17-satellite-complex-financial-networks-and-systemic-risk/
+
+http://urbansys2017.ifisc.uib-csic.es/program/
+
+https://ccs17.bsc.es/proceedings/
+
+https://ccs2017.wixsite.com/adhesion/blah
+
+
+----
+2018/04/16
+
+ABM Haskell
+
+https://github.com/fizruk/free-agent
+
+----
+2018/04/07
+
+bib / realestate
+
+https://www.journals.elsevier.com/computers-environment-and-urban-systems/
+
+https://arxiv.org/pdf/1804.01696.pdf
+
+https://arxiv.org/abs/1712.08647
+
+https://arxiv.org/pdf/1804.01630.pdf
+
+https://scholar.google.fr/scholar?hl=fr&as_sdt=0%2C5&q=dauphine+accessibilit%C3%A9+&btnG=
+
+https://www.insee.fr/fr/statistiques/2520034
+
+http://stat.ethz.ch/R-manual/R-devel/library/stats/html/density.html
+
+----
+2018/04/06
+
+scala signal processing
+
+https://github.com/lancelet/scalasignal/blob/master/src/main/scala/signal/FFT.scala
+
+
+----
+2018/04/05
+
+Tools
+
+https://git-scm.com/docs/git-bisect
+
+https://clojure.org/guides/getting_started
+
+https://fr.wikipedia.org/wiki/MetaPost
+
+http://asciiflow.com/
+
+https://guide.elm-lang.org/architecture/
+
+https://coq.inria.fr/a-short-introduction-to-coq
+
+https://nixos.org/nixos/about.html
+
+https://matrix.org/blog/home/
+
+https://nixos.org/nix/
+
+----
+2018/04/04
+
+urbangrowth : data
+
+http://geodivercity.parisgeo.cnrs.fr/blog/resources/draft-papers/geodivercity-working-paper-1-multilevel-comparison-of-large-urban-systems/
+
+https://earthexplorer.usgs.gov/
+
+----
+2018/04/04
+
+journal noisy EA
+
+https://peerj.com/computer-science/
+
+http://ieeeauthorcenter.ieee.org/wp-content/uploads/Transactions-instructions-only.pdf
+
+https://www.journals.elsevier.com/swarm-and-evolutionary-computation/
+
+----
+2018/03/30
+
+GA Holland
+
+https://scholar.google.fr/scholar?hl=fr&as_sdt=0%2C5&as_ylo=2014&q=John+H.+Holland+genetic+algorithms&btnG=&oq=John+H.+Holland+Genetic+Algorithms
+
+----
+2018/03/27
+
+Travis Scholten (@Travis_Sch) tweeted at 11:59 PM on Mon, Mar 26, 2018:
+A nice example of #OpenScience from CQuIC grad Xiaodong Qi (@i2000s), who has shared his PhD thesis on GitHub.
+
+#QuantumComputing #research
+
+https://t.co/vIZYImIuHp
+(https://twitter.com/Travis_Sch/status/978391056218640384?s=03)
+
+Get the official Twitter app at https://twitter.com/download?s=13
+
+
+----
+2018/03/21
+
+pablo jensen (@pablojensenlyon) tweeted at 7:24 PM on Tue, Mar 20, 2018:
+I’ll be presenting my book at the Economics-and-complexity-lunch-seminar, Maison des Sciences Économiques @SorbonneParis1 Paris, Thursday March 22th, 12:30 https://t.co/LTI33qyLqn https://t.co/daf7rIG4Cy
+(https://twitter.com/pablojensenlyon/status/976162523056607232?s=03)
+
+Get the official Twitter app at https://twitter.com/download?s=13
+
+----
+2018/03/15
+
+ISCPIF (@ISCPIF) tweeted at 1:54 PM on Thu, Mar 15, 2018:
+"Un nouveau mécanisme pour la loi de Zipf" par José Morán, le prochain séminaire systèmes complexes et SHS qui présentera un modèle épuré pur expliquer les distributions à queues épaisses dans la distribution de la taille des villes. Le 23 mars à l'EHESS. https://t.co/DYYFfPFjAy https://t.co/A2P9tRnm0m
+(https://twitter.com/ISCPIF/status/974267692831125505?s=03)
+
+Get the official Twitter app at https://twitter.com/download?s=13
+
+
+----
+2018/03/15
+
+Hadoop / Spark
+
+https://www.slideshare.net/Maziyarsh/how-to-scale-from-zero-to-billions
+
+
+----
+2018/03/15
+
+A Barrault ph. sc.
+
+https://www.youtube.com/watch?v=zjIC6jIQRKQ
+
+----
+2018/03/13
+
+http://doursat.free.fr/mew2018.html
+
+https://scholar.google.fr/scholar?hl=fr&as_sdt=0%2C5&q=algebraic+data+types&btnG=
+https://link.springer.com/chapter/10.1007/978-3-319-46481-7_7
+
+https://scholar.google.fr/scholar?hl=fr&as_sdt=0%2C5&q=noisy+fitness+self+amplifying+noise&btnG=&oq=noisy+fitness+self-amplifying+noise
+https://books.google.fr/books?hl=fr&lr=&id=keypCAAAQBAJ&oi=fnd&pg=PA1&dq=noisy+fitness+self+amplifying+noise&ots=1gbMmJ_Rra&sig=a30LO-ace5R2EgS-5_dkqDLBe80#v=onepage&q&f=false
+http://sci-hub.hk/http://rspb.royalsocietypublishing.org/content/269/1508/2423
+
+----
+2018/03/09
+
+https://www.amazon.fr/Functional-Programming-Scala-Paul-Chiusano/dp/1617290653
+
+----
+2018/03/09
+
+scala with cats
+
+----
+2018/03/09
+
+Functional programming in scala
+
+
+
+----
+2018/03/09
+
+Implicit function type
+
+http://www.scala-lang.org/blog/2016/12/07/implicit-function-types.html
+
+----
+2018/03/03
+
+Laszlo Barabasi (@barabasi) tweeted at 11:57 PM on Thu, Mar 01, 2018:
+Science of Science is out in Science!!!! Thank you @santo_fortunato, @robysinatra , @dashunwang, @UzziLeadership, @katycns, @alexvespi, @DirkHelbing, and many others for the fantastic collaboration! Paper here: https://t.co/NPHgPY2ZKE https://t.co/EME16RSAD5
+(https://twitter.com/barabasi/status/969346002833551360?s=03)
+
+Get the official Twitter app at https://twitter.com/download?s=13
+
+
+----
+2018/02/28
+
+journal : peerJ
+
+https://peerj.com/about/author-instructions/cs
+
+----
+2018/02/26
+
+Special issue EPB
+
+http://journals.sagepub.com/pb-assets/cmscontent/EPB/EPB-Urban_Big_Data_Analytics&Morphology.pdf
+
+----
+2018/02/26
+
+Sobol Sensitivity
+
+http://sci-hub.hk/https://link.springer.com/article/10.1007/s11222-017-9759-1
+
+
