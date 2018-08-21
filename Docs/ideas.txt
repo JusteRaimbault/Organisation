@@ -5,6 +5,15 @@
 ====
 2018/08/21
 
+From cybergeoNetworks : % note : ca serait amusant de faire cette étude ciblée plus détaillée sur les domaines qui utilisent Jacobs, et de quelle façon (l'intuition étant que tous les physiciens citent Jacobs sans l'avoir lu...) 
+% Pas sur... Cela dit c'est probablement le seul! (avec Glaeser peut-etre)
+
+
+
+
+====
+2018/08/21
+
 point percolation algorithms in matrix formulation ? (iterative for one step, take the stationary vector)
 
 
