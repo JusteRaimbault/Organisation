@@ -1,6 +1,29 @@
 
 
 
+
+====
+2018/08/21
+
+point percolation algorithms in matrix formulation ? (iterative for one step, take the stationary vector)
+
+
+====
+2018/08/20
+
+https://arxiv.org/pdf/1808.05053.pdf : systematic comparison of scholar, scopus, wos
+
+
+
+====
+2018/08/17
+
+rq : bonne equation ou pas juste un choix arbitraire, fitte au level superieur de stationarite : combien de donnes il faut poiur bieb le faire ?
+abm alors encore plus arbitraire ? faire de la rule discoveru in abm at any stationarity level ? revient aussi a faire lien abm / starma ?
+
+
+
+
 =======
 2018/08/16 - from unread mails
 
