@@ -1,4 +1,8 @@
-% Copyright 2007-2018 Elsevier Ltd
+% \iffalse meta-comment
+%
+% 
+%
+% Copyright 2007, 2008, 2009 Elsevier Ltd
 %
 % This file is part of the 'Elsarticle Bundle'.
 % ---------------------------------------------
@@ -13,6 +17,8 @@
 %
 % The list of all files belonging to the LaTeX 'Elsarticle Bundle' is
 % given in the file `manifest.txt'.
+%
+% \fi
 %
 % CONTENTS OF THE ELSARTICLE BUNDLE
 % ===============================
@@ -32,7 +38,7 @@ elsarticle-num.bst
   bibliographic style for numbered citation
 
 elsarticle-num-names.bst
-  bibliographic style for numbered citation + new natbib options
+  bibliographic style for numbered citation + new natibi options
 
 elsarticle-template-harv.tex
   article template for a document with author-year citation
@@ -51,13 +57,10 @@ Directory elsarticle/doc/
 The following files are graphic files needed for creating pdf output
 of the documentation from elsdoc.tex:
 
- 1pseperateaug.pdf
- 1psingleauthorgroup.pdf
- elstest-1pdoubleblind.pdf
- elstest-1p.pdf
- elstest-3pd.pdf
- elstest-3p.pdf
- elstest-5p.pdf
+ els1.pdf
+ els-1p.pdf
+ els2.pdf
+ els-3pd.pdf
  jfigs.pdf
 
 elsdoc.tex  -- LaTeX source file of documentation
@@ -74,5 +77,6 @@ compiled:
 Auxiliary packages needed to generate pdf output from elsdoc.tex:
 
  rvdtx.sty
+ enum.sty
  pdfwidgets.sty
 

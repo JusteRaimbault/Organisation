@@ -1,5 +1,5 @@
 %% 
-%% Copyright 2007-2018 Elsevier Ltd
+%% Copyright 2007, 2008, 2009 Elsevier Ltd
 %% 
 %% This file is part of the 'Elsarticle Bundle'.
 %% ---------------------------------------------
@@ -13,9 +13,7 @@
 %% 
 %% The list of all files belonging to the 'Elsarticle Bundle' is
 %% given in the file `manifest.txt'.
-%%
-%% $Id: elsdoc.tex 128 2018-06-29 05:20:50Z rishi $
-%%
+%% 
 \documentclass[a4paper,12pt]{article}
 
 \usepackage[xcolor,qtwo]{rvdtx}
@@ -23,7 +21,7 @@
 \usepackage{color}
 \usepackage{xspace}
 \usepackage{pdfwidgets}
-\usepackage{enumerate}
+\usepackage{enum}
 
 \def\ttdefault{cmtt}
 
@@ -55,8 +53,6 @@
 
 \def\figurename{Clip}
 
-\setcounter{tocdepth}{1}
-
 \begin{document}
 
 \def\testa{This is a specimen document. }
@@ -69,13 +65,14 @@
 \title{elsarticle.cls -- A better way to format your document}
 
 \author{Elsevier Ltd}
-\contact{elsarticle@stmdocs.in}
+\contact{elsarticle@river-valley.com}
 
-\version{2.1}
+\version{1.20}
 \date{\today}
 \maketitle
 
 \section{Introduction}
+%\hypertarget{introduction}{}
 
 \file{elsarticle.cls} is a thoroughly re-written document class
 for formatting \LaTeX{} submissions to Elsevier journals.
@@ -88,6 +85,7 @@ contributed \LaTeX{} packages such as \file{hyperref.sty},
 for its proper functioning:
 
 \begin{enumerate}
+\item \file{pifont.sty} for openstar in the title footnotes;
 \item \file{natbib.sty} for citation processing;
 \item \file{geometry.sty} for margin settings;
 \item \file{fleqn.clo} for left aligned equations;
@@ -95,21 +93,20 @@ for its proper functioning:
 \item \file{txfonts.sty} optional font package, if the document is to
   be formatted with Times and compatible math fonts;
 \item \file{hyperref.sty} optional packages if hyperlinking is
-  required in the document;
-%*%
-\item \file{endfloat.sty} optional packages if floats to be placed at
- end of the PDF.
+  required in the document.
+
 \end{enumerate}
 
-All the above packages (except some optional packages) are part of any
-standard \LaTeX{} installation. Therefore, the users need not be
-bothered about downloading any extra packages.  Furthermore, users are
-free to make use of \textsc{ams} math packages such as
-\file{amsmath.sty}, \file{amsthm.sty}, \file{amssymb.sty},
-\file{amsfonts.sty}, etc., if they want to.  All these packages work in
-tandem with \file{elsarticle.cls} without any problems.
+All the above packages are part of any standard \LaTeX{} installation.
+Therefore, the users need not be bothered about downloading any
+extra packages.  Furthermore, users are free to make use of \textsc{ams}
+math packages such as \file{amsmath.sty}, \file{amsthm.sty},
+\file{amssymb.sty}, \file{amsfonts.sty}, etc., if they want to.  All
+these packages work in tandem with \file{elsarticle.cls} without
+any problems.
 
 \section{Major Differences}
+%\hypertarget{majordifferences}{}
 
 Following are the major differences between \file{elsarticle.cls}
 and its predecessor package, \file{elsart.cls}:
@@ -140,13 +137,14 @@ works perfectly with \file{hyperref.sty} in combination with
 \end{enumerate}
 
 \section{Installation}
+%\hypertarget{installation}{}
 
 The package is available at author resources page at Elsevier
 (\url{http://www.elsevier.com/locate/latex}).
 It can also be found in any of the nodes of the Comprehensive
 \TeX{} Archive Network (\textsc{ctan}), one of the primary nodes
 being
-\url{http://tug.ctan.org/tex-archive/macros/latex/contrib/elsarticle/}.
+\url{http://www.ctan.org/tex-archive/macros/latex/contrib/elsevier/}.
 Please download the \file{elsarticle.dtx} which is a composite
 class with documentation and \file{elsarticle.ins} which is the
 \LaTeX{} installer file. When we compile the
@@ -163,6 +161,7 @@ upon the distribution and operating system.
 
 
 \section{Usage}\label{sec:usage}
+%\hypertarget{usage}{}
 The class should be loaded with the command:
 
 \begin{vquote}
@@ -171,33 +170,30 @@ The class should be loaded with the command:
 
 \noindent where the \verb+options+ can be the following:
 
-
 \begin{description}
 
 \item [{\tt\color{verbcolor} preprint}]  default option which format the
   document for submission to Elsevier journals.
 
-\item [{\tt\color{verbcolor} review}]  similar to the \verb+preprint+
-option, but increases the baselineskip to facilitate easier review
-process.
+\item [{\tt\color{verbcolor} review}]  similar to the \verb+preprint+ option, but
+  increases the baselineskip to facilitate easier review process.
 
-\item [{\tt\color{verbcolor} 1p}]  formats the article to the look and
-feel of the final format of model 1+ journals. This is always single
-column style.
+\item [{\tt\color{verbcolor} 1p}]  formats the article to the look and feel of the final
+  format of model 1+ journals. This is always single column style.
 
-\item [{\tt\color{verbcolor} 3p}] formats the article to the look and
-feel of the final format of model 3+ journals. If the journal is a two
-column model, use \verb+twocolumn+ option in combination.
+\item [{\tt\color{verbcolor} 3p}] formats the article to the look and feel of the final
+  format of model 3+ journals. If the journal is a two column
+model, use \verb+twocolumn+ option in combination.
 
-\item [{\tt\color{verbcolor} 5p}] formats for model 5+ journals. This
-is always of two column style.
+\item [{\tt\color{verbcolor} 5p}] formats for model 5+ journals. This is always
+  of two column style.
 
 \item [{\tt\color{verbcolor} authoryear}] author-year citation style of
-\file{natbib.sty}. If you want to add extra options of
-\file{natbib.sty}, you may use the options as comma delimited strings
-as arguments to \verb+\biboptions+ command. An example would be:
+  \file{natbib.sty}. If you want to add extra options of
+\file{natbib.sty}, you may use the options as comma delimited
+strings as arguments to \verb+\biboptions+ command. An example
+would be:
 \end{description}
-
 \begin{vquote}
  \biboptions{longnamesfirst,angle,semicolon}
 \end{vquote}
@@ -213,28 +209,8 @@ numbered citations. For example, citation [1,2,3] will become [1--3].
   this option to split the title page across pages with the correct
 placement of title and author footnotes in the first page.
 
-\item [{\tt\color{verbcolor} times}] loads \file{txfonts.sty}, if
-available in the system to use Times and compatible math fonts.
-
-%*%
-\item [{\tt\color{verbcolor} reversenotenum}] Use alphabets as
-author--affiliation linking labels and use numbers for author
-footnotes. By default, numbers will be used as author--affiliation
-linking labels and alphabets for author footnotes. 
-
-\item [{\tt\color{verbcolor} lefttitle}] To move title and
-author/affiliation block to flushleft. \verb+centertitle+ is the
-default option which produces center alignment.
-
-\item [{\tt\color{verbcolor} endfloat}] To place all floats at the end
-of the document.
-
-\item [{\tt\color{verbcolor} nonatbib}] To unload natbib.sty.
-%*%
-
-\item [{\tt\color{verbcolor} doubleblind}] To hide author name, 
-affiliation, email address etc. for double blind refereeing purpose.
-%*%
+\item [{\tt\color{verbcolor} times}] loads \file{txfonts.sty}, if available in
+  the system to use Times and compatible math fonts.
 
 \item[] All options of \file{article.cls} can be used with this
   document class.
@@ -245,71 +221,72 @@ affiliation, email address etc. for double blind refereeing purpose.
 \end{description}
 
 \section{Frontmatter}
+%\hypertarget{preamble}{}
 
 There are two types of frontmatter coding:
 \begin{enumerate}[(1)]
 \item each author is
 connected to an affiliation with a footnote marker; hence all
 authors are grouped together and affiliations follow;
-\pagebreak
 \item authors of same affiliations are grouped together and the
-relevant affiliation follows this group. 
+relevant affiliation follows this group. An example coding of the first
+type is provided below.
 \end{enumerate}
-
-An example of coding the first type is provided below.
 
 \begin{vquote}
  \title{This is a specimen title\tnoteref{t1,t2}}
- \tnotetext[t1]{This document is the results of the research
-    project funded by the National Science Foundation.}
- \tnotetext[t2]{The second title footnote which is a longer 
-    text matter to fill through the whole text width and 
-    overflow into another line in the footnotes area of the 
-    first page.}
+ \tnotetext[t1]{This document is a collaborative effort.}
+ \tnotetext[t2]{The second title footnote which is a longer
+    longer than the first one and with an intention to fill
+    in up more than one line while formatting.}
 \end{vquote}
 
 \begin{vquote}
-\author[1]{Jos Migchielsen\corref{cor1}%
-  \fnref{fn1}}
-\ead{J.Migchielsen@elsevier.com}
+ \author[rvt]{C.V.~Radhakrishnan\corref{cor1}\fnref{fn1}}
+ \ead{cvr@river-valley.com}
 
-\author[2]{CV Radhakrishnan\fnref{fn2}}
-\ead{cvr@sayahna.org}
+ \author[rvt,focal]{K.~Bazargan\fnref{fn2}}
+ \ead{kaveh@river-valley.com}
 
-\author[3]{CV Rajagopal\fnref{fn1,fn3}}
-\ead[url]{www.stmdocs.in}
+ \author[els]{S.~Pepping\corref{cor2}\fnref{fn1,fn3}}
+ \ead[url]{http://www.elsevier.com}
 \end{vquote}
 
 \begin{vquote}
  \cortext[cor1]{Corresponding author}
- \fntext[fn1]{This is the first author footnote.}
- \fntext[fn2]{Another author footnote, this is a very long 
-   footnote and it should be a really long footnote. But this 
-   footnote is not yet sufficiently long enough to make two 
-   lines of footnote text.}
- \fntext[fn3]{Yet another author footnote.}
+ \cortext[cor2]{Principal corresponding author}
+ \fntext[fn1]{This is the specimen author footnote.}
+ \fntext[fn2]{Another author footnote, but a little more 
+             longer.}
+ \fntext[fn3]{Yet another author footnote. Indeed, you can have
+    any number of author footnotes.}
 
- \address[1]{Elsevier B.V., Radarweg 29, 1043 NX Amsterdam, 
-   The Netherlands}
- \address[2]{Sayahna Foundations, JWRA 34, Jagathy, 
-   Trivandrum 695014, India}
- \address[3]{STM Document Engineering Pvt Ltd., Mepukada,
-   Malayinkil, Trivandrum 695571, India}
+ \address[rvt]{River Valley Technologies, SJP Building,
+    Cotton Hills, Trivandrum, Kerala, India 695014}
+ \address[focal]{River Valley Technologies, 9, Browns Court,
+    Kennford, Exeter, United Kingdom}
+ \address[els]{Central Application Management,
+    Elsevier, Radarweg 29, 1043 NX\\
+    Amsterdam, Netherlands}
+
 \end{vquote}
 
-The output of the above \TeX{} source is given in Clips~\ref{clip1} and
-\ref{clip2}. The header portion or title area is given in
-Clip~\ref{clip1} and the footer area is given in Clip~\ref{clip2}.
+The output of the above TeX source is given in Clips~\ref{clip1} and
+\ref{clip2}. The header portion or title area is given in Clip~\ref{clip1} and
+the footer area is given in Clip~\ref{clip2}.
 
+\vspace*{6pt}
 \def\rulecolor{blue!70}
 \src{Header of the title page.}
-\includeclip{1}{130 612 477 707}{1psingleauthorgroup.pdf}%%{elstest-1p.pdf}%single author group
+\includeclip{1}{132 571 481 690}{els1.pdf}
 \def\rulecolor{orange}
 
+%\vspace*{6pt}
 \def\rulecolor{blue!70}
 \src{Footer of the title page.}
-\includeclip{1}{93 135 499 255}{1pseperateaug.pdf}%%{elstest-1p.pdf}%single author group
+\includeclip{1}{122 129 481 237}{els1.pdf}
 \def\rulecolor{orange}
+\pagebreak
 
 Most of the commands such as \verb+\title+, \verb+\author+,
 \verb+\address+ are self explanatory.  Various components are
@@ -323,7 +300,6 @@ corresponding author); \verb=\fnref= (to link footnote text to
 the relevant author names).  \TeX{} needs two compilations to
 resolve the footnote marks in the preamble part.  
 Given below are the syntax of various note marks and note texts.
-
 
 \begin{vquote}
   \tnoteref{<label(s)>}
@@ -345,26 +321,32 @@ as their mandatory argument.
 
 The following example code provides the markup of the second type
 of author-affiliation.
+%as seen in the output given in the
+%box to the right.
+%\pinclude{\def\rulecolor{blue!80}
+%   \includeclip[width=3.25in]{1}{130 84 484 676}{els2.pdf}%
+% \def\rulecolor{orange}}
 
 \begin{vquote}
-\author{Jos Migchielsen\corref{cor1}%
-  \fnref{fn1}}
-\ead{J.Migchielsen@elsevier.com}
- \address{Elsevier B.V., Radarweg 29, 1043 NX Amsterdam, 
-          The Netherlands}
-
-\author{CV Radhakrishnan\fnref{fn2}}
-\ead{cvr@sayahna.org}
- \address{Sayahna Foundations, JWRA 34, Jagathy, 
-    Trivandrum 695014, India}
-
-\author{CV Rajagopal\fnref{fn1,fn3}}
-\ead[url]{www.stmdocs.in}
-  \address{STM Document Engineering Pvt Ltd., Mepukada,
-    Malayinkil, Trivandrum 695571, India}
+\author{C.V.~Radhakrishnan\corref{cor1}\fnref{fn1}}
+ \ead{cvr@river-valley.com}
+ \address{River Valley Technologies, SJP Building,
+   Cotton Hills, Trivandrum, Kerala, India 695014}
 \end{vquote}
 
-\vspace*{-.5pc}
+\begin{vquote}
+\author{K.~Bazargan\fnref{fn2}}
+ \ead{kaveh@river-valley.com}
+ \address{River Valley Technologies, 9, Browns Court, Kennford,
+   Exeter, UK.}
+\end{vquote}
+
+\begin{vquote}
+\author{S.~Pepping\fnref{fn1,fn3}}
+ \ead[url]{http://www.elsevier.com}
+ \address{Central Application Management,
+   Elsevier, Radarweg 43, 1043 NX Amsterdam, Netherlands}
+\end{vquote}
 
 \begin{vquote}
 \cortext[cor1]{Corresponding author}
@@ -373,26 +355,25 @@ of author-affiliation.
   footnote and it should be a really long footnote. But this 
   footnote is not yet sufficiently long enough to make two lines 
   of footnote text.}
+\fntext[fn3]{Yet another author footnote.}
 \end{vquote}
 
-The output of the above \TeX{} source is given in Clip~\ref{clip3}.
+The output of the above TeX source is given in Clip~\ref{clip3}.
 
+\vspace*{12pt}
 \def\rulecolor{blue!70}
 \src{Header of the title page..}
-\includeclip{1}{119 563 468 709}{1pseperateaug.pdf}%%{elstest-1p.pdf}%seperate author groups
-\def\rulecolor{orange}
-\pagebreak
-
-Clip~\ref{clip4} shows the output after giving \verb+doubleblind+ class option. 
-
-\def\rulecolor{blue!70}
-\src{Double blind article}
-\includeclip{1}{124 567 477 670}{elstest-1pdoubleblind.pdf}%%{elstest-1p.pdf}%single author group%%doubleblind
+\includeclip{1}{132 491 481 690}{els2.pdf}
 \def\rulecolor{orange}
 
-\vspace*{-.5pc}
+
 The frontmatter part has further environments such as abstracts and
-keywords.  These can be marked up in the following manner:
+keywords.  These can be marked up in the following
+manner:
+
+%\verb+\begin{abstract}+ \dots \verb+\end{abstract}+ and
+%\verb+\begin{keyword}+ \verb+...+ \verb+\end{keyword}+ which
+%contain the abstract and keywords respectively. 
 
 \begin{vquote}
  \begin{abstract}
@@ -401,44 +382,20 @@ keywords.  These can be marked up in the following manner:
  \end{abstract}
 \end{vquote} 
 
-\vspace*{-.5pc}
 \begin{vquote}
  \begin{keyword}
   quadruple exiton \sep polariton \sep WGM
+
+  \PACS 71.35.-y \sep 71.35.Lk \sep 71.36.+c
  \end{keyword}
 \end{vquote}
 
 \noindent Each keyword shall be separated by a \verb+\sep+ command.
-\textsc{msc} classifications shall be provided in 
-the keyword environment with the commands
-\verb+\MSC+. \verb+\MSC+ accepts an optional
+\textsc{pacs} and \textsc{msc} classifications shall be provided in 
+the keyword environment with the commands \verb+\PACS+ and
+\verb+\MSC+ respectively.  \verb+\MSC+ accepts an optional
 argument to accommodate future revisions.
 eg., \verb=\MSC[2008]=. The default is 2000.\looseness=-1
-
-\subsection{New page}
-Sometimes you may need to give a page-break and start a new page after
-title, author or abstract. Following commands can be used for this
-purpose.
-
-\begin{vquote}
-  \newpageafter{title}
-  \newpageafter{author}
-  \newpageafter{abstract}
-\end{vquote}
-
-
-\begin{itemize}
-\leftskip-2pc
-\item [] {\tt\color{verbcolor} \verb+\newpageafter{title}+} typeset the title alone on one page.
-
-\item [] {\tt\color{verbcolor} \verb+\newpageafter{author}+}  typeset the title
-and author details on one page.
-
-\item [] {\tt\color{verbcolor} \verb+\newpageafter{abstract}+}
-typeset the title,
-author details and abstract \& keywords one one page.
-
-\end{itemize}
 
 
 \section{Floats}
@@ -482,8 +439,7 @@ will be printed as an extra heading in parentheses.
 
 \begin{vquote}
   \begin{thm} 
-   For system (8), consensus can be achieved with 
-   $\|T_{\omega z}$
+   For system (8), consensus can be achieved with $\|T_{\omega z}$
    ...
      \begin{eqnarray}\label{10}
      ....
@@ -491,8 +447,8 @@ will be printed as an extra heading in parentheses.
   \end{thm}
 \end{vquote}  
 
-Clip~\ref{clip5} will show you how some text enclosed between the
-above code\goodbreak \noindent looks like:
+Clip~\ref{clip4} will show you how some text enclosed between the
+above code looks like:
 
 \vspace*{6pt}
 \def\rulecolor{blue!70}
@@ -506,7 +462,7 @@ the font shape is roman instead of italic.  Both
 \verb+\newdefinition+ and \verb+\newtheorem+ commands
 automatically define counters for the environments defined.
 
-\vspace*{6pt}
+\vspace*{12pt}
 \def\rulecolor{blue!70}
 \src{{\ttfamily\color{verbcolor}\bs newdefinition}}
 \includeclip{1}{1 1 453 105}{jfigs.pdf}
@@ -541,15 +497,26 @@ type and its attributes.
   \begin{enumerate}[a)]
     \item Another level of list with alphabetical counter.
     \item One more item before we start another.
+    \begin{enumerate}[(i)]
+     \item This item has roman numeral counter.
+     \item Another one before we close the third level.
+    \end{enumerate}
+    \item Third item in second level.
+  \end{enumerate}
+ \item All list items conclude with this step.
+ \end{enumerate}
 \end{vquote}
 
+\vspace*{12pt}
 \def\rulecolor{blue!70}
 \src{List -- Enumerate}
 \includeclip{4}{1 1 453 185}{jfigs.pdf}
 \def\rulecolor{orange}
 
+
 Further, the enhanced list environment allows one to prefix a
-string like `step' to all the item numbers.  
+string like `step' to all the item numbers.  Take a look at the
+example below:
 
 \begin{vquote}
  \begin{enumerate}[Step 1.]
@@ -564,6 +531,7 @@ string like `step' to all the item numbers.
 \includeclip{5}{1 1 313 83}{jfigs.pdf}
 \def\rulecolor{orange}
 
+\vspace*{-18pt}
 
 \section{Cross-references}
 In electronic publications, articles may be internally
@@ -612,50 +580,13 @@ problem before submission for publication.
 in different types of final format.  This is further discussed in
 section \ref{sec:final}, \nameref{sec:final}.
 
-
-\subsection*{Displayed equations and double column journals}
-
-Many Elsevier journals print their text in two columns. Since
-the preprint layout uses a larger line width than such columns,
-the formulae are too wide for the line width in print. Here is an
-example of an equation  (see equation 6) which is perfect in a
-single column preprint format:
-
-\bigskip
-\setlength\Sep{6pt}
-\src{See equation (6)}
-\def\rulecolor{blue!70}
-%\includeclip{<page>}{l b scale }{file.pdf}
-\includeclip{4}{105 500 500 700}{1psingleauthorgroup.pdf}
-\def\rulecolor{orange}
-                 	
-\noindent When this document is typeset for publication in a
-model 3+ journal with double columns, the equation will overlap
-the second column text matter if the equation is not broken at
-the appropriate location.
-
-\vspace*{6pt}
-\def\rulecolor{blue!70}
-\src{See equation (6) overprints into second column}
-\includeclip{3}{59 421 532 635}{elstest-3pd.pdf}
-\def\rulecolor{orange}
-\vspace*{6pt}
-
-\noindent The typesetter will try to break the equation which
-need not necessarily be to the liking of the author or as it
-happens, typesetter's break point may be semantically incorrect.
-Therefore, authors may check their submissions for the incidence
-of such long equations and break the equations at the correct
-places so that the final typeset copy will be as they wish.
-
 \section{Bibliography}
 
 Three bibliographic style files (\verb+*.bst+) are provided ---
 \file{elsarticle-num.bst}, \file{elsarticle-num-names.bst} and
-\file{elsarticle-harv.bst} --- the first one can be used for the
-numbered scheme, second one for numbered with new options of 
-\file{natbib.sty}. The third one is for the author year
-scheme.
+\file{elsarticle-harv.bst} --- the first one for the numbered scheme, the
+second for the numbered with new options of \file{natbib.sty} and the
+last one for the author year scheme.
 
 In \LaTeX{} literature, references are listed in the
 \verb+thebibliography+ environment.  Each reference is a
@@ -692,12 +623,40 @@ details of various options of the \file{natbib} package, please take a
 look at the \file{natbib} documentation, which is part of any standard
 \LaTeX{} installation.
 
-In addition to the above standard \verb+.bst+ files, there are 10
-journal-specific \verb+.bst+ files also available.
-Instruction for using these \verb+.bst+ files can be found at 
-\href{http://support.stmdocs.in/wiki/index.php?title=Model-wise_bibliographic_style_files}
-{http://support.stmdocs.in}
- 
+\subsection*{Displayed equations and double column journals}
+
+Many Elsevier journals print their text in two columns. Since
+the preprint layout uses a larger line width than such columns,
+the formulae are too wide for the line width in print. Here is an
+example of an equation  (see equation 6) which is perfect in a
+single column preprint format:
+
+\bigskip
+\setlength\Sep{6pt}
+\src{See equation (6)}
+\def\rulecolor{blue!70}
+\includeclip{4}{134 391 483 584}{els1.pdf}
+\def\rulecolor{orange}
+                 	
+\noindent When this document is typeset for publication in a
+model 3+ journal with double columns, the equation will overlap
+the second column text matter if the equation is not broken at
+the appropriate location.
+
+\vspace*{6pt}
+\def\rulecolor{blue!70}
+\src{See equation (6) overprints into second column}
+\includeclip{3}{61 531 532 734}{els-3pd.pdf}
+\def\rulecolor{orange}
+
+\pagebreak
+
+\noindent The typesetter will try to break the equation which
+need not necessarily be to the liking of the author or as it
+happens, typesetter's break point may be semantically incorrect.
+Therefore, authors may check their submissions for the incidence
+of such long equations and break the equations at the correct
+places so that the final typeset copy will be as they wish.
 
 \section{Final print}\label{sec:final}
 
@@ -705,8 +664,6 @@ The authors can format their submission to the page size and margins
 of their preferred journal.  \file{elsarticle} provides four
 class options for the same. But it does not mean that using these
 options you can emulate the exact page layout of the final print copy. 
-
-
 \lmrgn=3em
 \begin{description}
 \item [\texttt{1p}:] $1+$ journals with a text area of
@@ -738,6 +695,7 @@ higher models.  Therefore we will look at the
 different portions of a typical single column journal page and
 that of a double column article in the final format.
 
+\vspace*{2pc}
 
 \begin{center}
 \hypertarget{bsc}{}
@@ -745,6 +703,7 @@ that of a double column article in the final format.
 {\bf [Specimen single column article -- Click here]}
 }
 
+\vspace*{2pc}
 
 \hypertarget{bsc}{}
 \hyperlink{dc}{
@@ -752,15 +711,19 @@ that of a double column article in the final format.
 }
 \end{center}
 
+\newpage
+\vspace*{-2pc}
 \src{}\hypertarget{sc}{}
 \def\rulecolor{blue!70}
-\hyperlink{bsc}{\includeclip{1}{88 120 514 724}{elstest-1p.pdf}}
+\hyperlink{bsc}{\includeclip{1}{121 81 497 670}{els1.pdf}}
 \def\rulecolor{orange}
+
+
+\newpage
 
 \src{}\hypertarget{dc}{}
 \def\rulecolor{blue!70}
-\hyperlink{bsc}{\includeclip{1}{27 61 562 758}{elstest-5p.pdf}}
+\hyperlink{bsc}{\includeclip{1}{55 93 535 738}{els-3pd.pdf}}
 \def\rulecolor{orange}
 
 \end{document}
-

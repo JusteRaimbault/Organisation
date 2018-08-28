@@ -1,7 +1,5 @@
-%%
-%% This is file `elsarticle-num.bst' (Version 2.1),
 %% 
-%% Copyright 2007-2018 Elsevier Ltd
+%% Copyright 2007, 2008, 2009 Elsevier Ltd
 %% 
 %% This file is part of the 'Elsarticle Bundle'.
 %% ---------------------------------------------
@@ -13,11 +11,27 @@
 %% and version 1.2 or later is part of all distributions of LaTeX
 %% version 1999/12/01 or later.
 %% 
+%% The list of all files belonging to the 'Elsarticle Bundle' is
+%% given in the file `manifest.txt'.
 %% 
-%% $Id: elsarticle-num.bst 118 2018-06-29 04:58:02Z rishi $
-%% 
-%% $URL: http://lenova.river-valley.com/svn/elsarticle/trunk/elsarticle-num.bst $
+%%% Modification of BibTeX style file elsarticle-num.bst
+%%% ... by urlbst, version 0.6 (marked with "% urlbst")
+%%% See <http://purl.org/nxg/dist/urlbst>
+%%% Added webpage entry type, and url and lastchecked fields.
+%%% Added eprint support.
+%%% Added DOI support.
+%%% Added hyperref support.
+%%% Original headers follow...
+
 %%
+%% This is file `elsarticle-num.bst',
+%% generated with the docstrip utility.
+%%
+%% The original source files were:
+%%
+%% merlin.mbs  (with options: `,seq-no,nm-init,ed-au,dt-end,yr-par,yrp-x,jttl-rm,thtit-a,vnum-sp,volp-blk,jdt-p,pp-last,jnm-x,btit-rm,bt-rm,pub-date,pub-xpar,pre-edn,url,url-nl,edpar,blk-com,in-col,pp,ed,abr,ednx,ord,jabr,and-xcom,xand,em-x,nfss')
+%% After docstrip generation some manual changes were made (SP)
+
 %% ----------------------------------------
 
 ENTRY
@@ -60,7 +74,7 @@ FUNCTION {init.urlbst.variables}
   "Available from: " 'urlintro := % prefix before URL
   "http://arxiv.org/abs/" 'eprinturl := % prefix to make URL from eprint ref
   "arXiv:" 'eprintprefix := % text prefix printed before eprint ref
-  "https://doi.org/" 'doiurl := % prefix to make URL from DOI
+  "http://dx.doi.org/" 'doiurl := % prefix to make URL from DOI
   "doi:" 'doiprefix :=      % text prefix printed before DOI ref
   #1 'addeprints :=         % 0=no eprints; 1=include eprints
   #1 'adddoiresolver :=     % 0=no DOI resolver; 1=include it
@@ -1501,4 +1515,3 @@ EXECUTE {end.bib}
 %% End of customized bst file
 %%
 %% End of file `elsarticle-num.bst'.
-

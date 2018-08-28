@@ -14,20 +14,13 @@
 %% The list of all files belonging to the 'Elsarticle Bundle' is
 %% given in the file `manifest.txt'.
 %% 
-
 %% Template article for Elsevier's document class `elsarticle'
-%% with numbered style bibliographic references
-%% SP 2008/03/01
-%%
-%% 
-%%
-%% $Id: elsarticle-template-num.tex 64 2013-05-15 12:23:51Z rishi $
-%%
-%%
+%% with harvard style bibliographic references
+
 \documentclass[preprint,12pt]{elsarticle}
 
 %% Use the option review to obtain double line spacing
-%% \documentclass[authoryear,preprint,review,12pt]{elsarticle}
+%% \documentclass[preprint,review,12pt]{elsarticle}
 
 %% Use the options 1p,twocolumn; 3p; 3p,twocolumn; 5p; or 5p,twocolumn
 %% for a journal layout:
@@ -119,10 +112,15 @@
 %% \section{}
 %% \label{}
 
+%% For citations use: 
+%%       \citet{<label>} ==> Jones et al. [21]
+%%       \citep{<label>} ==> [21]
+%%
+
 %% If you have bibdatabase file and want bibtex to generate the
 %% bibitems, please use
 %%
-%%  \bibliographystyle{elsarticle-num} 
+%%  \bibliographystyle{elsarticle-num-names} 
 %%  \bibliography{<your bibdatabase>}
 
 %% else use the following coding to input the bibitems directly in the
@@ -130,13 +128,14 @@
 
 \begin{thebibliography}{00}
 
-%% \bibitem{label}
+%% \bibitem[Author(year)]{label}
 %% Text of bibliographic item
 
-\bibitem{}
+\bibitem[ ()]{}
 
 \end{thebibliography}
 \end{document}
+
 \endinput
 %%
-%% End of file `elsarticle-template-num.tex'.
+%% End of file `elsarticle-template-num-names.tex'.

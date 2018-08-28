@@ -1,5 +1,3 @@
-# $Id: makefile 130 2018-06-29 05:26:48Z rishi $
-
 file=elsdoc
 
 
@@ -35,6 +33,4 @@ diff:
 
 copy:
 	cp $(file).sty ../
-
-
 

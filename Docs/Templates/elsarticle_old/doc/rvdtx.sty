@@ -4,7 +4,7 @@
 %  
 %  Auxiliary package to format *.dtx documents.
 % 
-%  Copyright (c) 2008-2018 CV Radhakrishnan <cvr@stmdocs.in>,
+%  Copyright (c) 2008, 2009 CV Radhakrishnan <cvr@river-valley.org>,
 %                     
 %  This file may be distributed and/or modified under the conditions
 %  of the LaTeX Project Public License, either version 1.2 of this
@@ -257,8 +257,8 @@
 \def\@version{1.0}
 \def\contact#1{\gdef\@contact{#1}}
 \def\author#1{\gdef\@author{#1}}
-\def\@author{STM Document Engineering Pvt Ltd.}
-\def\@contact{\texttt{support@stmdocs.in}}
+\def\@author{River Valley Technologies}
+\def\@contact{\texttt{support@river-valley.com}}
 \def\keywords#1{\gdef\@keywords{#1}}
 \def\@keywords{\LaTeX, \xml}
 
@@ -294,7 +294,6 @@
         \hfill
         \parbox[c][2in][c]{.35\paperwidth}%
         {\normalfont\footnotesize\sffamily\color{quicklinkcolor}%
-          \advance\baselineskip-3pt%
            \vspace*{6pt} QUICK LINKS\Hrule
             \IfFileExists{tmp.out}{\input tmp.out}{}%
          }\hspace*{5mm}%
@@ -307,10 +306,15 @@
       {\normalfont\sffamily\footnotesize%
         \color{botcolor}%
         \hspace*{5mm}\parbox[c][.5in][c]{.45\paperwidth}%
-         {\raggedright \textcopyright\ 2018, Elsevier Ltd.
-          Bugs, feature requests, suggestions and comments %\\
-          shall be mailed to \href{mailto:elsarticle@stmdocs.in}
-          {$<$elsarticle@stmdocs.in$>$}. 
+         {\raggedright \textcopyright\ 2009, Elsevier Ltd.
+%           \href{http://www.river-valley.com}{%
+%            http://www.river-valley.com}\\
+%            \textsc{sjp} Building, Cotton Hills, Trivandrum
+%           695014, India\\  9, Browns Court, Kennford,
+%           Exeter, United Kingdom          
+          Bugs, feature requests, suggestions and comments\\
+          shall be mailed to \href{mailto:elsarticle@river-valley.com}
+          {$<$elsarticle@river-valley.com$>$}. 
         }\hfill%
        \parbox[c][.5in][c]{1cm}
         {\centering\sffamily\mdseries
@@ -473,4 +477,3 @@
 %%
 %% End of file 'rvdtx.sty'
 %% 
-

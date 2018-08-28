@@ -1,5 +1,5 @@
 %% 
-%% Copyright 2007-2018 Elsevier Ltd
+%% Copyright 2007, 2008, 2009 Elsevier Ltd
 %% 
 %% This file is part of the 'Elsarticle Bundle'.
 %% ---------------------------------------------
@@ -14,29 +14,23 @@
 %% The list of all files belonging to the 'Elsarticle Bundle' is
 %% given in the file `manifest.txt'.
 %% 
-
 %% Template article for Elsevier's document class `elsarticle'
-%% with numbered style bibliographic references
+%% with harvard style bibliographic references
 %% SP 2008/03/01
-%%
-%% 
-%%
-%% $Id: elsarticle-template-num.tex 64 2013-05-15 12:23:51Z rishi $
-%%
-%%
-\documentclass[preprint,12pt]{elsarticle}
+
+\documentclass[preprint,12pt,authoryear]{elsarticle}
 
 %% Use the option review to obtain double line spacing
 %% \documentclass[authoryear,preprint,review,12pt]{elsarticle}
 
 %% Use the options 1p,twocolumn; 3p; 3p,twocolumn; 5p; or 5p,twocolumn
 %% for a journal layout:
-%% \documentclass[final,1p,times]{elsarticle}
-%% \documentclass[final,1p,times,twocolumn]{elsarticle}
-%% \documentclass[final,3p,times]{elsarticle}
-%% \documentclass[final,3p,times,twocolumn]{elsarticle}
-%% \documentclass[final,5p,times]{elsarticle}
-%% \documentclass[final,5p,times,twocolumn]{elsarticle}
+%% \documentclass[final,1p,times,authoryear]{elsarticle}
+%% \documentclass[final,1p,times,twocolumn,authoryear]{elsarticle}
+%% \documentclass[final,3p,times,authoryear]{elsarticle}
+%% \documentclass[final,3p,times,twocolumn,authoryear]{elsarticle}
+%% \documentclass[final,5p,times,authoryear]{elsarticle}
+%% \documentclass[final,5p,times,twocolumn,authoryear]{elsarticle}
 
 %% For including figures, graphicx.sty has been loaded in
 %% elsarticle.cls. If you prefer to use the old commands
@@ -122,7 +116,7 @@
 %% If you have bibdatabase file and want bibtex to generate the
 %% bibitems, please use
 %%
-%%  \bibliographystyle{elsarticle-num} 
+%%  \bibliographystyle{elsarticle-harv} 
 %%  \bibliography{<your bibdatabase>}
 
 %% else use the following coding to input the bibitems directly in the
@@ -130,13 +124,14 @@
 
 \begin{thebibliography}{00}
 
-%% \bibitem{label}
+%% \bibitem[Author(year)]{label}
 %% Text of bibliographic item
 
-\bibitem{}
+\bibitem[ ()]{}
 
 \end{thebibliography}
 \end{document}
+
 \endinput
 %%
-%% End of file `elsarticle-template-num.tex'.
+%% End of file `elsarticle-template-harv.tex'.
