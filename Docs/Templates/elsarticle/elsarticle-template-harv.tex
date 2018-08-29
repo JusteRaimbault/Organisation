@@ -17,7 +17,7 @@
 %% Template article for Elsevier's document class `elsarticle'
 %% with harvard style bibliographic references
 
-\documentclass[preprint,12pt,authoryear]{elsarticle}
+%\documentclass[preprint,12pt,authoryear]{elsarticle}
 
 %% Use the option review to obtain double line spacing
 %% \documentclass[authoryear,preprint,review,12pt]{elsarticle}
@@ -29,7 +29,7 @@
 %% \documentclass[final,3p,times,authoryear]{elsarticle}
 %% \documentclass[final,3p,times,twocolumn,authoryear]{elsarticle}
 %% \documentclass[final,5p,times,authoryear]{elsarticle}
-%% \documentclass[final,5p,times,twocolumn,authoryear]{elsarticle}
+ \documentclass[final,5p,times,twocolumn,authoryear]{elsarticle}
 
 %% For including figures, graphicx.sty has been loaded in
 %% elsarticle.cls. If you prefer to use the old commands
@@ -45,7 +45,7 @@
 %% for the whole article with \linenumbers.
 %% \usepackage{lineno}
 
-\journal{Nuclear Physics B}
+\journal{Ressources, Conservation and Recycling}
 
 \begin{document}
 
@@ -78,9 +78,29 @@
 %% \address[label1]{}
 %% \address[label2]{}
 
-\author{}
+\title{A spatially-explicit agent based model for industrial symbiotic processes}
 
-\address{}
+\author[label1]{Juste Raimbault}
+\author[label2]{Joris Broere\corref{cor1}}
+\author[label3]{Marius Somveille}
+\author[label4]{Jesus Mario Serna}
+\author[label5]{Evelyn Strombom}
+\author[label6]{Ben Zhu}
+\author[label7]{Christine Moore}
+\author[label8]{Lorraine Sugar}
+
+\address[label1]{Universit{\'e} Paris 7, UMR CNRS 8504 Géographie-cités, Paris, France}
+\address[label2]{Utrecht University, Centre for Complex Systems Studies, Utrecht, the Netherlands}
+\address[label3]{University of Oxford, Edward Grey Institute, Department of Zoology, Oxford, United Kingdom}
+\address[label4]{Universit{\'e} Paris 7, Center for Research in Psychoanalysis, Medicine and Society, Paris, France}
+\address[label5]{University of Minnesota, CBS Ecology, Evolution and Behavior, Minnesota, USA}
+\address[label6]{University of Oxford, Environmental Change Institute, Oxford, United Kingdom}
+\address[label7]{Delft University of Technology, Department of Engineering Systems and Services, Delft, the Netherlands}
+\address[label8]{University of Toronto, Department of Civil Engineering, Toronto, Canada}
+
+\cortext[cor1]{Corresponding author: j.j.broere@uu.nl}
+
+
 
 \begin{abstract}
 %% Text of abstract
@@ -105,6 +125,8 @@
 \section{}
 \label{}
 
+\cite{cit}
+
 %% The Appendices part is started with the command \appendix;
 %% appendix sections are then done as normal sections
 %% \appendix
@@ -115,20 +137,20 @@
 %% If you have bibdatabase file and want bibtex to generate the
 %% bibitems, please use
 %%
-%%  \bibliographystyle{elsarticle-harv} 
-%%  \bibliography{<your bibdatabase>}
+ \bibliographystyle{elsarticle-harv} 
+  \bibliography{biblio}
 
 %% else use the following coding to input the bibitems directly in the
 %% TeX file.
 
-\begin{thebibliography}{00}
+%\begin{thebibliography}{00}
 
 %% \bibitem[Author(year)]{label}
 %% Text of bibliographic item
 
-\bibitem[ ()]{}
+%\bibitem[ ()]{}
 
-\end{thebibliography}
+%\end{thebibliography}
 \end{document}
 
 \endinput
