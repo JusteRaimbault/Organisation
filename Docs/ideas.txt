@@ -1,6 +1,17 @@
 
 
 
+
+====
+2018/08/28
+
+Liu, X., Derudder, B., & García, C. G. (2013). Exploring the co-evolution of the geographies of air transport aviation and corporate networks. Journal of Transport Geography, 30, 26-36.
+-> coevolution characterized only by correlations. Interesting on network effects, different local networl measures influence evolution of agents -> to be tested for networks of cities ?
+
+https://github.com/Robinlovelace/Validation : tips on model validation ?
+
+Network analysis : cf networkit
+
 ====
 2018/08/27
 

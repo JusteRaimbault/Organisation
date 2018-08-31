@@ -1,0 +1,4 @@
+[submodule "CV"]
+	path = CV
+	url = git@github.com:JusteRaimbault/CV.git
+
