@@ -5,6 +5,42 @@
 
 
 ====
+2018/10/01
+
+Long-run dynamics of the US patent classification system => patentsMining/diffinnov
+
+
+
+
+====
+2018/10/01
+
+idee (from mail) : scaling laws cities : homologies entre cs ?
+complexitr : th math unifiee ? emerge a la morin de sa propre construction ?
+
+
+====
+2018/09/21
+
+Chang, W. (2012). R graphics cookbook: practical recipes for visualizing data. " O'Reilly Media, Inc.". => useful ? (may be old % ggplot latest versions)
+
+
+
+====
+2018/09/21
+
+Efron, B. (1981). Nonparametric estimates of standard error: the jackknife, the bootstrap and other methods. Biometrika, 68(3), 589-599. : TODO basic stats in oml ? / revoir ; cheasheet nonparam stats
+
+
+
+====
+2018/09/21
+
+Har-Shemesh, O., Quax, R., Hoekstra, A. G., & Sloot, P. M. (2016). Information geometric analysis of phase transitions in complex patterns: the case of the Gray-Scott reaction–diffusion model. Journal of Statistical Mechanics: Theory and Experiment, 2016(4), 043301. ==> test applying these info measure to aggreg-diff model / or coupled with network ? difference with classical entropy/info ? (// try to investigate mutual info etc against classical corrs -> ppaper in itself to compare spatially ? detect phase transitions in space ?)
+
+
+
+====
 2018/09/20
 
 Quattrone, G., Greatorex, A., Quercia, D., Capra, L., & Musolesi, M. (2018). Analyzing and Predicting the Spatial Penetration of Airbnb in US Cities. EPJ Data Science.
