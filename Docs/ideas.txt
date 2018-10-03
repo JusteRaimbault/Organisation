@@ -1,5 +1,17 @@
 
 
+====
+2018/10/03
+
+Freeman, J., Baggio, J. A., Robinson, E., Byers, D. A., Gayo, E., Finley, J. B., ... & Anderies, J. M. (2018). Synchronization of energy consumption by human societies throughout the Holocene. Proceedings of the National Academy of Sciences, 201802859. : confirms arg at happy hour conf (glob very early)
+
+
+
+====
+2018/10/03
+
+https://github.com/XianliZeng/JMI : package with refined mutual info estimation
+
 
 
 
