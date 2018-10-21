@@ -1,5 +1,40 @@
 
 
+
+
+
+====
+2018/10/20
+
+
+(18/10)
+swarm pf complex entities can be simple : compelzityvdpes not incresae with levels necessarily : cities included, can be simple ?
+
+a theoory ofbthe complex must be complex hence reflexive ? aje aie. halting lepblem ?
+
+(18/10) idee meta model integrating as much transmondyn transituons as possible, whixh level of stationariyy needed etc
+(17/10) is correlated perco model better than reaction-diffusion ? compare systeamtically for different urbabn systems. => idees
+
+(bib,thread glacio,acad site,bib,site Janc.)
+(mail 13/10) bib 
+(mail 11/10) rev eco : ok deja channel
+(mail 11/10) book growth
+(mail 07/10) python abm : mesa https://forum.comses.net/t/mesa-an-agent-based-modeling-framework-in-python-3/7039 [rq : on reste bloque sur outils qui marchent ? trade-off]
+(mail 07/10) acad tw
+(mail 07/10) special issue TRC ml and complexity
+(mail 30/09) https://twitter.com/gabrielpeyre/status/1046278627757821952/video/1 algo nbody sim, approx -> application for gravity models ? bof small N
+(mail 28/09) slides Hiroki interdiscplinary being
+(mail 27/09) WAVELETS !!
+(mail 26/09) todo : stationarite imbriquee : notions maths ? infinite levels ? test on financial data [! wavelets] => ideas
+(mail 26/09) depot logiciel dans hal ! -> todo
+(mail 26/09) : bib
+(mail 26/09) : bib ; patentsmining ; slides Hiroki 2 (creativityy swarmchem : ~ alife)
+(mail 25/09) : slides Hiroki abm orga -> abm science
+(mail 24/09) : rieman oven street (already todos)
+(mail 24/09) simpuzzle https://github.com/simpuzzle/marius/blob/master/src/main/scala/fr/geocites/marius/MariusFile.scala [marius impl]
+(mail 24/09) todo paper cobariance wtructure / interactino model -> can be a supp test in urbgrowth benchmark ?
+
+
 ====
 2018/10/04
 
