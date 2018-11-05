@@ -1,6 +1,80 @@
 
 
 
+====
+2018/10/26
+
+Gutiérrez, J., & Urbano, P. (1996). Accessibility in the European Union: the impact of the trans-European road network. Journal of transport Geography, 4(1), 15-25. => for datapaper freeways
+
+
+
+
+
+====
+2018/10/20
+
+
+(18/10)
+swarm pf complex entities can be simple : compelzityvdpes not incresae with levels necessarily : cities included, can be simple ?
+
+a theoory ofbthe complex must be complex hence reflexive ? aje aie. halting lepblem ?
+
+(18/10) idee meta model integrating as much transmondyn transituons as possible, whixh level of stationariyy needed etc
+(17/10) is correlated perco model better than reaction-diffusion ? compare systeamtically for different urbabn systems. => idees
+
+(bib,thread glacio,acad site,bib,site Janc.)
+(mail 13/10) bib 
+(mail 11/10) rev eco : ok deja channel
+(mail 11/10) book growth
+(mail 07/10) python abm : mesa https://forum.comses.net/t/mesa-an-agent-based-modeling-framework-in-python-3/7039 [rq : on reste bloque sur outils qui marchent ? trade-off]
+(mail 07/10) acad tw
+(mail 07/10) special issue TRC ml and complexity
+(mail 30/09) https://twitter.com/gabrielpeyre/status/1046278627757821952/video/1 algo nbody sim, approx -> application for gravity models ? bof small N
+(mail 28/09) slides Hiroki interdiscplinary being
+(mail 27/09) WAVELETS !!
+(mail 26/09) todo : stationarite imbriquee : notions maths ? infinite levels ? test on financial data [! wavelets] => ideas
+(mail 26/09) depot logiciel dans hal ! -> todo
+(mail 26/09) : bib
+(mail 26/09) : bib ; patentsmining ; slides Hiroki 2 (creativityy swarmchem : ~ alife)
+(mail 25/09) : slides Hiroki abm orga -> abm science
+(mail 24/09) : rieman oven street (already todos)
+(mail 24/09) simpuzzle https://github.com/simpuzzle/marius/blob/master/src/main/scala/fr/geocites/marius/MariusFile.scala [marius impl]
+(mail 24/09) todo paper cobariance wtructure / interactino model -> can be a supp test in urbgrowth benchmark ?
+
+
+====
+2018/10/04
+
+https://politoscope.org/2018/09/pone2018/#toggle-id-7 => reaction a l'etude demontre son utilite meme !
+
+
+====
+2018/10/04
+
+Holden, N., Peres, Y., & Zhai, A. (2018). Gravitational allocation on the sphere. Proceedings of the National Academy of Sciences, 115(39), 9666-9671. => in 3d ; equivalent approaches in 2D ? (then appply to gravity potential for geo models ?
+
+
+====
+2018/10/04
+
+https://www.nature.com/articles/s41586-018-0542-z : A new era in the search for dark matter
+=> very interesting example of multiple competing theories in physics. could we do the same and "rule out" some ?
+
+
+
+====
+2018/10/03
+
+Freeman, J., Baggio, J. A., Robinson, E., Byers, D. A., Gayo, E., Finley, J. B., ... & Anderies, J. M. (2018). Synchronization of energy consumption by human societies throughout the Holocene. Proceedings of the National Academy of Sciences, 201802859. : confirms arg at happy hour conf (glob very early)
+
+
+
+====
+2018/10/03
+
+https://github.com/XianliZeng/JMI : package with refined mutual info estimation
+
+
 
 
 ====

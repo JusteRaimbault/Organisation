@@ -1,0 +1,16 @@
+
+- Find all entries corresponding to submodules in the index :
+git ls-files --stage | grep 160000
+
+(if not in .gitmodules, were not correctly added as submodule: e.g. just repos within the main repo. Q : why sometimes took that into account, others not (cf Memoire) : name ?)
+
+- Remove these bad entries from the index and readd as a submodule :
+git rm --cached $PATH
+(reclone if needed)
+git submodule add $URL $PATH
+
+(see https://stackoverflow.com/questions/4161022/how-to-track-untracked-content/4162672#4162672 : subtree ?)
+
+- compare with actual repos in the dir -> find . | grep -F ".git" | grep -v -F ".gitignore" | grep -v -F ".git/"
+
+
