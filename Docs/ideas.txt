@@ -2,6 +2,18 @@
 
 
 ====
+2018/11/14
+
+decomposition ds le tps des reseaux de causlaite :  plus on descend moins il y a de coevol : quid dune def ou toujours coevol infinitesimale ? (rq: jeu de l'esprit, car empiriquement mesure a une echelle minimale) -> revenir def bio : influence mutuelle - causalite circ - forcement desynchro, pose pas de pb ?
+
+
+====
+2018/11/14
+
+García-Ojalvo, J., Sancho, J. M., & Ramirez-Piscina, L. (1992). Generation of spatiotemporal colored noise. Physical Review A, 46(8), 4670. (in SpatialData) => correlated synthetic data ; link with reaction diffusion => potential application to urban sprawl model / generator ?
+
+
+====
 2018/10/26
 
 Gutiérrez, J., & Urbano, P. (1996). Accessibility in the European Union: the impact of the trans-European road network. Journal of transport Geography, 4(1), 15-25. => for datapaper freeways
