@@ -2,6 +2,13 @@
 
 
 ====
+2018/11/24
+
+Harcombe, W. R., Chacón, J. M., Adamowicz, E. M., Chubiz, L. M., & Marx, C. J. (2018). Evolution of bidirectional costly mutualism from byproduct consumption. Proceedings of the National Academy of Sciences, 115(47), 12000-12004. => mutualism with byoproducts => possibility of biomimetism for circular economy ?
+
+
+
+====
 2018/11/14
 
 decomposition ds le tps des reseaux de causlaite :  plus on descend moins il y a de coevol : quid dune def ou toujours coevol infinitesimale ? (rq: jeu de l'esprit, car empiriquement mesure a une echelle minimale) -> revenir def bio : influence mutuelle - causalite circ - forcement desynchro, pose pas de pb ?
