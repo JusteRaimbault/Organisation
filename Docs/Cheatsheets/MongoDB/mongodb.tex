@@ -1,4 +1,4 @@
-\input{../Headers/WPHeader.tex}
+\input{../../Headers/WPHeader.tex}
 
 
 \title{MongoDB Administration\bigskip
@@ -68,10 +68,10 @@ To install : depending on Java config, installation of RJava may require \texttt
 
 \texttt{mongo <- mongoDbConnect("test", "localhost", 27017)}
 
-\texttt{output <- dbGetQuery(mongo, "test_data",
+\texttt{output <- dbGetQuery(mongo, "test{\_}data",
 '{"foo": "bar"}')}
 
-\texttt{output <- dbGetQueryForKeys(mongo, "test_data",
+\texttt{output <- dbGetQueryForKeys(mongo, "test{\_}data",
 '{"foo": "bar"}', '{"foo": 1}')}
 
 \texttt{dbDisconnect(mongo)}
@@ -88,6 +88,11 @@ To install : depending on Java config, installation of RJava may require \texttt
 
 \textit{Note: upgrade to 4.0 requires first upgaqde to 3.6}
 
+
+
+\section*{Text index}
+
+db.COLLECTION.createIndex( { FIELD: "text" } )
 
 
 
