@@ -1,6 +1,22 @@
 
 
 
+
+
+
+====
+2018/12/06
+
+Assessing Daily Urban Systems: A Heterogeneous Commuting Network Approach => // Clem multi-dim def of uu ; // multilayer perco for MCRs
+
+
+====
+2018/12/05
+
+compare microsoft acad graph dataset with scholar / backup scholar crawler ?
+
+
+
 ====
 2018/11/24
 
