@@ -3,6 +3,31 @@
 
 
 
+====
+2018/12/20
+
+creuser le bayesian nonparam learning avec oml ? Lyddon, S., Walker, S., & Holmes, C. C. (2018). Nonparametric learning from Bayesian models with randomized objective functions. In Advances in Neural Information Processing Systems (pp. 2072-2082).
+
+
+
+====
+2018/12/17
+
+Tracking job and housing dynamics with smartcard data
+Jie Huang, David Levinson, Jiaoe Wang, Jiangping Zhou, Zi-jia Wang
+Proceedings of the National Academy of Sciences Dec 2018, 115 (50) 12710-12715; DOI: 10.1073/pnas.1815928115
+=> interesting for assumptions of the nedum model for example (types of cummuters) -> toy model to test the impact of these different profiles ?
+
+
+
+====
+2018/12/13
+
+innov diff / techno change -> check domainspecific bib
+
+
+
+
 
 ====
 2018/12/06
