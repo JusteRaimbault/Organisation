@@ -1,6 +1,29 @@
 
 
 
+====
+2019/01/12
+
+https://arxiv.org/pdf/1901.01386.pdf => - too much approximative assumptions to draw any policy conclusion
+ - incertutude on data ? (ex sensitivity to urban area def ?
+ - surely done in transportation economics, sg similar at least
+ - why is it labelled as "statistical physics" ?
+ - summary of work on transportation is ultra wrong and simplified (not only analytical eco and ABM on the other side)
+
+
+
+====
+2019/01/11
+
+Berliant, M., & Watanabe, A. H. (2018). A scale‐free transportation network explains the city‐size distribution. Quantitative Economics, 9(3), 1419-1451. => check endogenous nw / coupling eco - interaction model
+
+
+====
+2019/01/09
+
+Modeling stochastic processes in disease spread across a heterogeneous social system => cf MicMac model ?
+
+
 
 
 
