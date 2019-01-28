@@ -1,5 +1,13 @@
 
 
+====
+2019/01/27
+
+François, C., Gondran, N., Nicolas, J. P., & Parsons, D. (2017). Environmental assessment of urban mobility: Combining life cycle assessment with land-use and transport interaction modelling—Application to Lyon (France). Ecological Indicators, 72, 597-604. => cf projet cnrs (metropolitan scale only)
+----
+Calibrating and Applying Random-Utility-Based Multiregional Input–Output Models for Real-World Applications => cf city interaction model ?
+
+
 
 ====
 2019/01/12
