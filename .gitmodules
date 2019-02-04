@@ -2,3 +2,9 @@
 	path = CV
 	url = git@github.com:JusteRaimbault/CV.git
 
+[submodule "Models/Utils/ScholarAPI"]
+	path = Models/Utils/ScholarAPI
+	url = git@github.com:JusteRaimbault/ScholarAPI.git
+[submodule "Models/Utils/TorPool"]
+	path = Models/Utils/TorPool
+	url = git@github.com:JusteRaimbault/TorPool.git
