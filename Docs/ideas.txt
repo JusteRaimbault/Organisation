@@ -1,5 +1,21 @@
 
 
+
+
+
+
+
+
+====
+2019/02/18
+
+Horikawa, T., Aoki, S. C., Tsukamoto, M., & Kamitani, Y. (2018). Characterization of deep neural network features by decodability from human brain activity. BioRxiv, 424168. => // neural nw - brain : biomim ?
+
+
+An open source web application for distributed geospatial data exploration => List of datasets / repositories
+
+
+
 ====
 2019/01/29
 

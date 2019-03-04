@@ -1,0 +1,17 @@
+
+
+!!!! ignore often by default case insensitive
+https://stackoverflow.com/questions/52950/how-to-make-git-ignore-changes-in-case
+
+git config core.ignorecase true
+
+(ex : Data at root ; path/data ignored)
+
+
+======
+
+check ignored ???
+
+git check-ignored -v FILE 
+
+
