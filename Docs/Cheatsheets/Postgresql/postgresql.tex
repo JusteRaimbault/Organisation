@@ -1,0 +1,50 @@
+\input{../../Headers/WPHeader.tex}
+
+
+\title{Postgresql\bigskip
+}
+\author{}
+\date{}
+
+
+\maketitle
+
+\justify
+
+
+
+Manage cluster : 
+
+pg_ctlcluster [options] cluster-version cluster-name action -- [pg_ctl options]
+
+       where action = start|stop|restart|reload|promote
+       
+       
+       Files
+       
+       /etc/postgresql/cluster-version/cluster-name/pg_ctl.conf
+           This configuration file contains cluster specific options to be passed to pg_ctl(1).
+
+       /etc/postgresql/cluster-version/cluster-name/start.conf
+           This configuration file controls the start/stop behavior of the cluster. See section
+           "STARTUP CONTROL" in pg_createcluster(8) for details.
+
+
+
+- check password / user required in permission file
+- ! file mode directory : must be 700 (chmod 700 -R dir)
+
+(osmosis : tmp java dir -> other cheatsheet)
+
+
+
+
+%%%%%%%%%%%%%%%%%%%%
+%% Biblio
+%%%%%%%%%%%%%%%%%%%%
+
+%\bibliographystyle{apalike}
+%\bibliography{/Users/Juste/Documents/ComplexSystems/CityNetwork/Biblio/Bibtex/CityNetwork}
+
+
+\end{document}
