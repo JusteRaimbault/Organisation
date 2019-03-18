@@ -4,6 +4,15 @@
 
 
 
+====
+2019/03/17
+
+Rybski, D., Ros, A. G. C., & Kropp, J. P. (2013). Distance-weighted city growth. Physical Review E, 87(4), 042114. => // reaction-diff ? (way to calibrate ? ) // new paper froth in EPB (cf tw) : pas celui la -> ?
+
+
+Morphogenesis of Complex Networks:
+A Reaction Diffusion Framework
+for Spatial Graphs => sort of coevol ? or nw conditioned by reac-diff ? => check more !
 
 
 ====
