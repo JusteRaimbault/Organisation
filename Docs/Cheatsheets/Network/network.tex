@@ -1,0 +1,60 @@
+\input{/Users/Juste/Documents/ComplexSystems/CityNetwork/Docs/Headers/WPHeader.tex}
+
+
+\title{Network tips}
+
+
+%\author{\noun{Juste Raimbault}}
+
+\date{}
+
+
+\maketitle
+
+\justify
+
+\renewcommand{\abstractname}{}
+
+\begin{abstract}
+
+\end{abstract}
+
+
+
+%\section*{iptables}
+%(sudo)
+
+Delete rule : \texttt{sudo iptables -D CHAIN \$RULE_INDEX}
+
+ufw : \texttt{sudo ufw allow \$PORT/tcp}
+
+sudo ufw status verbose
+
+$\rightarrow$ ufw logs
+
+server fw vs local nw firewall ? (forbid out on non standard ports ?)
+
+
+\section*{nmap}
+
+nmap -p \$PORT \$HOST 
+
+
+\section*{netstat}
+
+list open ports : netstat -atnp
+
+
+
+
+
+
+%%%%%%%%%%%%%%%%%%%%
+%% Biblio
+%%%%%%%%%%%%%%%%%%%%
+
+\bibliographystyle{apalike}
+\bibliography{/Users/Juste/Documents/ComplexSystems/CityNetwork/Biblio/Bibtex/CityNetwork}
+
+
+\end{document}
