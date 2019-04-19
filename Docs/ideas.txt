@@ -2,6 +2,15 @@
 
 
 ====
+2019/04/17
+
+A space–time tradeoff for implementing a function
+with master equation dynamics : markov chains / master eq dyns ?
+https://www.nature.com/articles/s41467-019-09542-x
+
+
+
+====
 2019/04/05
 
 Sémécurbe, F., Tannier, C., & Roux, S. G. (2018). Applying two fractal methods to characterise the local and global deviations from scale invariance of built patterns throughout mainland France. Journal of Geographical Systems, 1-23. => fr urban form ! : unidim ?
