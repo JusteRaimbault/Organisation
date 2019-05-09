@@ -1,6 +1,87 @@
 
 
 
+
+
+====
+2019/05/08
+
+
+
+Driving the model to its limit: profile likelihood based model reduction => // calib profile ?
+
+----
+
+The Evolutionary Origins of Hierarchy => // endogenity of hierarchy (JIG)
+
+----
+
+City expansion model based on population diffusion and road growth => sort of mesocoevol model, not cited.
+
+----
+
+paper aur traffic academia : only qiant measures of success, no qualitative quality of collaboration or opportunities or ideas. can be quantified ? ~
+
+
+
+====
+2019/05/07
+
+10.1007/s11067-019-09452-x => CarSharing
+
+
+
+====
+2019/05/06
+
+BOLD5000, a public fMRI dataset while viewing 5000 visual images => bioinspired computer vision ? | numeraire reduc technique with neural data ?
+
+----
+
+Singularity cities https://journals.sagepub.com/doi/abs/10.1177/2399808319843534 : test for morphological calibration / comparison with reac. diff
+
+
+====
+2019/05/03
+
+Global Sensitivity Analysis: The Primer : reading rec. + liens OML
+
+
+====
+2019/05/02
+
+Application of Complex Networks Theory in Urban Traffic Network Researches => cite coevol but only nw and traffic ; do ont look at territory
+
+----
+
+Mapping an expanding territory: computer simulations
+in evolutionary biology => SimulationModels
+
+
+====
+2019/05/01
+
+Nature},
+        Number = {7753},
+        Pages = {477--486},
+        Title = {Machine behaviour => // ALife // Simon Sci of the Artificial
+
+---
+Scale-free resilience of real traffic jams (pnas) => project Transportation Resilience
+
+
+====
+2019/04/23
+
+10.1098/rstb.2018.0369 : morphogenesis and cognition ; tools and link with thematic concepts (knwoeledge domains)
+
+// 10.1098/rstb.2019.0040 : cogsci // alife // biomim
+
+
+Dartnell, C., & Sallantin, J. (2005, October). Assisting scientific discovery with an adaptive problem solver. In International Conference on Discovery Science (pp. 99-112). Springer, Berlin, Heidelberg. => Nobel Game / assisted sci discovery : ? copy David ? (not cited !)
+
+
+
 ====
 2019/04/17
 
