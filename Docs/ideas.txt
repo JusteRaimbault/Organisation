@@ -1,6 +1,69 @@
 
 
 
+====
+2019/05/15
+
+
+Complex Network Clustering by
+a Multi-objective Evolutionary
+Algorithm Based on Decomposition
+and Membrane Structure => // ea multi-obj // nsga3 ?
+
+----
+
+Public goods games on adaptive coevolutionary networks : link gt / coevolution (cf system of cities model with GT ? )
+
+
+
+
+====
+2019/05/13
+
+
+https://iopscience.iop.org/article/10.1088/1748-9326/ab2081 => syst study tradeoff UHI / GHG wrt synth gens / urban form
+
+
+
+
+====
+2019/05/10
+
+
+
+Generation of spatially embedded random networks to model complex transportation networks : embedding to generate spatial networks ; additional heuristic ? ~ looks bof.
+
+----
+
+1609.03223 : scandale ! (even cited once  : serious, cited as a proposal, true though) 
+
+----
+
+
+Transport and urban development, Banister // Paper Hall // Paper Clarcke : read ! (missed for the thesis)
+
+
+====
+2019/05/09
+
+
+
+ Fractal Dimension Analysis of Transient Visual Evoked Potentials: Optimisation and Applications => ! complexity if cognition ; pb with added seniors as first authors.
+
+----
+
+https://doi.org/10.1140/epjds/s13688-019-0195-7 => towards ontologically multilevel centrality measures ?
+
+----
+
+Relating urban scaling, fundamental allometry, and density scaling => // integration - scaling sensitivity ? travail a recreuser ! (plus empirique ? bof deja fait. semi-analyique, find typical signif thresholds)
+
+----
+
+Exponential random graph models for multilevel networks => Multilevel nw : real multiscale ontology. link multilayer / bipartite etc a creuser // Paul cities/organizations
+
+
+
 
 
 ====
