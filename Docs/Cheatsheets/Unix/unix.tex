@@ -46,6 +46,23 @@ sudo -e /etc/logrotate.d/rsyslog
 
 
 
+\section*{Ubuntu upgrade}
+
+https://askubuntu.com/questions/842592/apt-get-fails-on-16-04-or-18-04-installing-mongodb
+
+sudo rm /etc/apt/sources.list.d/mongodb*.list
+
+sudo apt-key adv --keyserver hkp://keyserver.ubuntu.com:80 --recv E52529D4
+
+sudo bash -c 'echo "deb http://repo.mongodb.org/apt/ubuntu xenial/mongodb-org/4.0 multiverse" > /etc/apt/sources.list.d/mongodb-org-4.0.list'
+
+update ; upgrade 
+
+=> do-release-upgrade
+
+
+
+
 
 
 %%%%%%%%%%%%%%%%%%%%
