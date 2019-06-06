@@ -1,0 +1,65 @@
+This is BibTeX, Version 0.99d (TeX Live 2015)
+Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
+The top-level auxiliary file: chapter_1.aux
+The style file: agsm.bst
+Illegal, another \bibstyle command---line 91 of file chapter_1.aux
+ : \bibstyle
+ :          {agsm}
+I'm skipping whatever remains of this command
+Database file #1: chapter_1.bib
+Warning--I'm ignoring goddard's extra "author" field
+--line 237 of file chapter_1.bib
+Warning--empty title in norris85b
+Warning--empty title in cox71
+Warning--empty title in ericksen60
+Warning--empty title in folgar84
+Warning--empty title in goddard
+Warning--empty title in hand62
+Warning--empty title in hinch72
+Warning--empty title in jeffery22
+Warning--empty title in leal73
+Warning--empty title in norris85
+Warning--empty title in phan-thien99
+Warning--empty title in roscoe52
+You've used 33 entries,
+            2905 wiz_defined-function locations,
+            827 strings with 8003 characters,
+and the built_in function-call counts, 119035 in all, are:
+= -- 19197
+> -- 1568
+< -- 0
++ -- 8995
+- -- 469
+* -- 10146
+:= -- 24253
+add.period$ -- 33
+call.type$ -- 33
+change.case$ -- 443
+chr.to.int$ -- 33
+cite$ -- 45
+duplicate$ -- 476
+empty$ -- 1069
+format.name$ -- 596
+if$ -- 21336
+int.to.chr$ -- 5
+int.to.str$ -- 0
+missing$ -- 40
+newline$ -- 102
+num.names$ -- 339
+pop$ -- 174
+preamble$ -- 1
+purify$ -- 495
+quote$ -- 0
+skip$ -- 375
+stack$ -- 0
+substring$ -- 27057
+swap$ -- 32
+text.length$ -- 462
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 118
+warning$ -- 12
+while$ -- 720
+width$ -- 0
+write$ -- 411
+(There was 1 error message)
