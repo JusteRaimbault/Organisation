@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<opml version="1.0">
+<head>
+<title>rss2email OPML export</title>
+</head>
+<body>
+<outline type="rss" text="http://www.scoop.it/t/papers/rss.xml" xmlUrl="http://www.scoop.it/t/papers/rss.xml"/>
+<outline type="rss" text="https://epjdatascience.springeropen.com/articles/most-recent/rss.xml" xmlUrl="https://epjdatascience.springeropen.com/articles/most-recent/rss.xml"/>
+<outline type="rss" text="http://arxiv.org/rss/physics.soc-ph" xmlUrl="http://arxiv.org/rss/physics.soc-ph"/>
+<outline type="rss" text="https://www.journals.elsevier.com/cities/rss/" xmlUrl="https://www.journals.elsevier.com/cities/rss/"/>
+<outline type="rss" text="https://journals.openedition.org/cybergeo/backend?format=rssdocuments" xmlUrl="https://journals.openedition.org/cybergeo/backend?format=rssdocuments"/>
+<outline type="rss" text="http://feeds.nature.com/srep/rss/current?format=xml" xmlUrl="http://feeds.nature.com/srep/rss/current?format=xml"/>
+<outline type="rss" text="https://www.journals.elsevier.com/cities/rss/" xmlUrl="https://www.journals.elsevier.com/cities/rss/"/>
+<outline type="rss" text="http://www.nytimes.com/svc/collections/v1/publish/www.nytimes.com/column/paul-krugman/rss.xml" xmlUrl="http://www.nytimes.com/svc/collections/v1/publish/www.nytimes.com/column/paul-krugman/rss.xml"/>
+<outline type="rss" text="https://krugman.blogs.nytimes.com/feed/" xmlUrl="https://krugman.blogs.nytimes.com/feed/"/>
+<outline type="rss" text="http://journals.plos.org/plosone/search/feed/atom?unformattedQuery=subject:"Human+geography"&amp;sortOrder=DATE_NEWEST_FIRST" xmlUrl="http://journals.plos.org/plosone/search/feed/atom?unformattedQuery=subject:"Human+geography"&amp;sortOrder=DATE_NEWEST_FIRST"/>
+<outline type="rss" text="http://journals.plos.org/plosone/search/feed/atom?unformattedQuery=subject:"Political+science"&amp;sortOrder=DATE_NEWEST_FIRST" xmlUrl="http://journals.plos.org/plosone/search/feed/atom?unformattedQuery=subject:"Political+science"&amp;sortOrder=DATE_NEWEST_FIRST"/>
+<outline type="rss" text="http://journals.plos.org/plosone/search/feed/atom?unformattedQuery=subject:"Geography"&amp;sortOrder=DATE_NEWEST_FIRST" xmlUrl="http://journals.plos.org/plosone/search/feed/atom?unformattedQuery=subject:"Geography"&amp;sortOrder=DATE_NEWEST_FIRST"/>
+<outline type="rss" text="http://journals.plos.org/plosone/search/feed/atom?unformattedQuery=subject:"Glaciology"&amp;sortOrder=DATE_NEWEST_FIRST" xmlUrl="http://journals.plos.org/plosone/search/feed/atom?unformattedQuery=subject:"Glaciology"&amp;sortOrder=DATE_NEWEST_FIRST"/>
+<outline type="rss" text="http://journals.plos.org/plosone/search/feed/atom?unformattedQuery=subject:"Systems+science"&amp;sortOrder=DATE_NEWEST_FIRST" xmlUrl="http://journals.plos.org/plosone/search/feed/atom?unformattedQuery=subject:"Systems+science"&amp;sortOrder=DATE_NEWEST_FIRST"/>
+<outline type="rss" text="http://journals.plos.org/plosone/search/feed/atom?unformattedQuery=subject:"Geoinformatics"&amp;sortOrder=DATE_NEWEST_FIRST" xmlUrl="http://journals.plos.org/plosone/search/feed/atom?unformattedQuery=subject:"Geoinformatics"&amp;sortOrder=DATE_NEWEST_FIRST"/>
+<outline type="rss" text="https://casmodeling.springeropen.com/articles/most-recent/rss.xml" xmlUrl="https://casmodeling.springeropen.com/articles/most-recent/rss.xml"/>
+<outline type="rss" text="http://feeds.nature.com/NatureLatestResearch?format=xml" xmlUrl="http://feeds.nature.com/NatureLatestResearch?format=xml"/>
+<outline type="rss" text="http://feeds.feedburner.com/pnas/UJrK" xmlUrl="http://feeds.feedburner.com/pnas/UJrK"/>
+<outline type="rss" text="http://export.arxiv.org/rss/q-bio" xmlUrl="http://export.arxiv.org/rss/q-bio"/>
+<outline type="rss" text="https://link.springer.com/search.rss?facet-content-type=Article" xmlUrl="https://link.springer.com/search.rss?facet-content-type=Article"/>
+<outline type="rss" text="https://link.springer.com/search.rss?facet-content-type=Article&amp;facet-journal-id=11067&amp;channel-name=Networks+and+Spatial+Economics" xmlUrl="https://link.springer.com/search.rss?facet-content-type=Article&amp;facet-journal-id=11067&amp;channel-name=Networks+and+Spatial+Economics"/>
+<outline type="rss" text="http://feeds.nature.com/nature/rss/current" xmlUrl="http://feeds.nature.com/nature/rss/current"/>
+<outline type="rss" text="http://feeds.nature.com/sdata/rss/current" xmlUrl="http://feeds.nature.com/sdata/rss/current"/>
+<outline type="rss" text="http://feeds.nature.com/palcomms/rss/current" xmlUrl="http://feeds.nature.com/palcomms/rss/current"/>
+<outline type="rss" text="http://feeds.nature.com/ncomms/rss/current" xmlUrl="http://feeds.nature.com/ncomms/rss/current"/>
+<outline type="rss" text="http://feeds.nature.com/natsustain/rss/current" xmlUrl="http://feeds.nature.com/natsustain/rss/current"/>
+<outline type="rss" text="http://arxiv.org/rss/cs.CY" xmlUrl="http://arxiv.org/rss/cs.CY"/>
+<outline type="rss" text="http://arxiv.org/rss/cs.MA" xmlUrl="http://arxiv.org/rss/cs.MA"/>
+<outline type="rss" text="http://arxiv.org/rss/q-bio" xmlUrl="http://arxiv.org/rss/q-bio"/>
+</body>
+</opml>
+
+
