@@ -2,6 +2,13 @@
 
 
 ====
+2019/08/12
+
+Chong, Z., Qin, C., & Chen, Z. (2019). Estimating the economic benefits of high-speed rail in China: A new perspective from the connectivity improvement. Journal of Transport and Land Use, 12(1). => // HSR CN and co2
+
+
+
+====
 2019/06/14
 
 Evolution, accessibility and dynamics of road networks in China from 1600 BC to 1900 AD => cool database for coevol ? (also needs historical city data !) => paper on coevol in CN, both historical and more recently with HSR and or / train ?
