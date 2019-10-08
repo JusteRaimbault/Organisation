@@ -2,6 +2,21 @@
 
 
 ====
+2019/10/07
+
+
+
+https://www.nature.com/articles/d41586-019-02912-x => Generative poetry / art-sci !
+
+--
+
+Carter, S. M., & Little, M. (2007). Justifying knowledge, justifying method, taking action: Epistemologies, methodologies, and methods in qualitative research. Qualitative health research, 17(10), 1316-1328. => // knowledge framework
+
+Kummu, M., Taka, M., & Guillaume, J. H. (2018). Gridded global datasets for gross domestic product and Human Development Index over 1990–2015. Scientific data, 5, 180004. => // GHS database: is gdp consistent ?
+
+
+
+====
 2019/08/12
 
 Chong, Z., Qin, C., & Chen, Z. (2019). Estimating the economic benefits of high-speed rail in China: A new perspective from the connectivity improvement. Journal of Transport and Land Use, 12(1). => // HSR CN and co2
