@@ -1,6 +1,22 @@
 
 
 
+
+====
+2019/10/13
+
+Wolpert, D. (2017). Constraints on physical reality arising from a formalization of knowledge. arXiv preprint arXiv:1711.03499. => link complexity of knowledge / perspectivism / knowledge framework ?
+
+Prokopenko, M., Harré, M., Lizier, J., Boschetti, F., Peppas, P., & Kauffman, S. (2019). Self-referential basis of undecidable dynamics: From the Liar paradox and the halting problem to the edge of chaos. Physics of life reviews. => Life in Life / complexities etc.
+
+
+====
+2019/10/09
+
+Dutilleul, P. (2011). Spatio-temporal heterogeneity: Concepts and analyses. Cambridge University Press. => TODO reprendre idees ergod / non stat (~ avancement avril dernier)
+
+
+
 ====
 2019/10/07
 
