@@ -1,0 +1,7 @@
+
+DIRECTORY=$1
+OUTPUT=$2
+
+find $DIRECTORY -type f -exec md5sum {} + | sort -k 2 > $OUTPUT
+
+
