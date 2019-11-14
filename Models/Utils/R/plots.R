@@ -5,9 +5,13 @@
 
 
 stdtheme= theme(axis.title = element_text(size = 22), 
-                axis.text.x = element_text(size = 15),axis.text.y = element_text(size = 15),
+                axis.text.x = element_text(size = 15),
+                axis.text.y = element_text(size = 15),
                 strip.text = element_text(size=15),
-                legend.text=element_text(size=15), legend.title=element_text(size=15))
+                legend.text=element_text(size=15),
+                legend.title=element_text(size=15),
+                title=element_text(size = 15)
+                )
 
 
 # convert parameter values into latex friendly string (for includegraphics)

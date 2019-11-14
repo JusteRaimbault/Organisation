@@ -1,6 +1,66 @@
 
 
 
+====
+2019/11/11
+
+Masucci, A. P., Arcaute, E., Hatna, E., Stanilov, K., & Batty, M. (2015). On the problem of boundaries and scaling for urban street networks. Journal of the Royal Society Interface, 12(111), 20150763.
+ => check regidic test / applicable to city pop trajectories ?
+
+
+
+
+====
+2019/11/05
+
+tube crowding data: http://crowding.data.tfl.gov.uk/  => parametrize abm model?
+
+----
+
+idea power grid spatial aspects - see http://www.penangol.fr/energie/calculs-NW.pdf
+
+
+====
+2019/10/27
+
+Cottineau, C., Hatna, E., Arcaute, E., & Batty, M. (2017). Diverse cities or the systematic paradox of urban scaling laws. Computers, environment and urban systems, 63, 80-94.
+ => (from bib) not a paradox, but signature of the spatial system // link with multi-scale models // fink transform
+
+
+
+====
+2019/10/21
+
+Alvarez, E., Franch, X., & Martí-Henneberg, J. (2013). Evolution of the territorial coverage of the railway network and its influence on population growth: The case of England and Wales, 1871–1931. Historical Methods: A Journal of Quantitative and Interdisciplinary History, 46(3), 175-191. => similar patterns nw growth ! - one dataset more ?
+
+----
+
+Myers, D. E. (1989). To be or not to be... stationary? That is the question. Mathematical Geology, 21(3), 347-362. => spatial non stat / ergod ! (plus geol, from 1989 !)
+
+----
+
+These thomas : Louail, T. (2010). Comparer les morphogénèses urbaines en Europe et aux États-Unis par la simulation à base d'agents--Approches multi-niveaux et environnements de simulation spatiale (Doctoral dissertation, Université d'Evry-Val d'Essonne). => passage important sur le multiniveau
+
+----
+
+from bib : persistent homology => useful for data point clouds analysis ? spatial aanalysis ? (features across resolutions) => ? urb form approach ? ...
+Rq interdisc : (prop vient d'un matheux : quelles questions les domaines se posent, quels outils dans d'autres, quelles questions / structures analogues, etc. ...)
+
+
+====
+2019/10/20
+
+Kujala, R., Weckström, C., Darst, R. K., Mladenović, M. N., & Saramäki, J. (2018). A collection of public transport network data sets for 25 cities. Scientific data, 5, 180089.
+ => // data paper cn networks; use for tc-hsr paper futures ?
+
+
+
+====
+2019/10/16
+
+https://arxiv.org/pdf/1910.05813.pdf => typical example of naive physicist which (inconsciously) becomes kind of interdisc toxic
+
+
 
 ====
 2019/10/13

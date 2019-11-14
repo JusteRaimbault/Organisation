@@ -1,0 +1,68 @@
+\input{../../Headers/WPHeader.tex}
+
+
+\title{Docker}
+
+
+\date{}
+
+
+\maketitle
+
+\justify
+
+\renewcommand{\abstractname}{}
+
+\begin{abstract}
+
+\end{abstract}
+
+
+
+\section*{Basic commands}
+
+Running containers 
+
+\texttt{docker ps}
+
+
+\bigskip
+
+
+Run an image in a new container in interactive mode
+
+\texttt{docker run --name \$NAME -it \$IMAGE}
+
+(rm previous container with docker rm if name not available)
+
+\bigskip
+
+
+Tag an image with a new name
+
+\texttt{docker tage source:tag target:tag}
+
+\bigskip
+
+Commit changes in a container to an image
+
+\texttt{sudo docker commit -m \$MESSAGE \$CONTAINER \$iMAGE:\$TAG}
+
+\bigskip
+
+
+Save an image to a compressed archive
+
+\texttt{docker save \$IMAGE:\$TAG | gzip > \$FILE.tgz
+
+
+
+%%%%%%%%%%%%%%%%%%%%
+%% Biblio
+%%%%%%%%%%%%%%%%%%%%
+
+%\bibliographystyle{apalike}
+%\bibliography{/Users/Juste/Documents/ComplexSystems/CityNetwork/Biblio/Bibtex/CityNetwork}
+
+
+\end{document}
