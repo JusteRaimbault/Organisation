@@ -1,6 +1,21 @@
 
 
 
+
+====
+2019/11/18
+
+DeGregori, J., & Eldredge, N. (2019). Parallel Causation in Oncogenic and Anthropogenic Degradation and Extinction. Biological Theory, 1-13. => interesting structural eq between systems (but more: ontoloical intersection): good example of analogy / bridges (concrete)
+
+====
+2019/11/14
+
+while translating complexity explained : really universality of processes and models ? or more subtle than that ? structural equivalence between ontologies, but not ontological equivalence ; to be developed => towards a more subtle view of universality and a more integrative interdisciplinarity ?  (+ include model coupling ?) 
++ list model qui sont vraiment universel. les scaling laws ? bof
+reaction-diffusion ? network models ?
+
+
+
 ====
 2019/11/11
 
