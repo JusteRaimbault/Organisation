@@ -1,0 +1,62 @@
+\input{../../Headers/WPHeader.tex}
+
+
+\title{scala sbt}
+
+
+\date{}
+
+
+\maketitle
+
+\justify
+
+\renewcommand{\abstractname}{}
+
+\begin{abstract}
+
+\end{abstract}
+
+
+
+\section*{Build file}
+
+
+Resolvers: add some locally published libs in a specific location
+
+"Local Maven Repository" at "file:"+(new java.io.File(".")).getAbsolutePath+"/lib/maven",
+ Resolver.sbtIvyRepo("file:"+(new java.io.File(".")).getAbsolutePath+"/lib/ivy")
+ Resolver.file("Local ivy", file( (new java.io.File(".")).getAbsolutePath+"/lib/ivy"))(Resolver.ivyStylePatterns)
+
+
+OSGIBundle : ! what to export
+
+  // FilteredSet,scala.collection.FilterableSet,scala.collection.EqSetFacade
+  //OsgiKeys.embeddedJars := Seq(new java.io.File("/Users/juste/.ivy2/cache/org.scala-graph/graph-core_2.12/jars/graph-core_2.12-1.12.5.jar"))
+
+Conflict issue when scala graph rewrote scalax -> specific scalagraph version published in org.openmole.library
+
+
+
+Filter files ?
+
+//excludeFilter in unmanagedSources := HiddenFileFilter || "*kodapan*"
+
+
+Build specific variables? 
+
+(vs global: ?)
+
+//ThisBuild / organization := "org.openmole.library"
+
+
+
+%%%%%%%%%%%%%%%%%%%%
+%% Biblio
+%%%%%%%%%%%%%%%%%%%%
+
+%\bibliographystyle{apalike}
+%\bibliography{/Users/Juste/Documents/ComplexSystems/CityNetwork/Biblio/Bibtex/CityNetwork}
+
+
+\end{document}

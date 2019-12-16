@@ -46,14 +46,26 @@ Tag an image with a new name
 
 Commit changes in a container to an image
 
-\texttt{sudo docker commit -m \$MESSAGE \$CONTAINER \$iMAGE:\$TAG}
+\texttt{sudo docker commit -m \$MESSAGE \$CONTAINER \$IMAGE:\$TAG}
+
+\bigskip
+
+Push changes to repository
+
+(dockerhub: docker.io)
+
+\texttt{docker login \$HOST}
+
+\texttt{docker push \$IMAGE:\$TAG}
+
+
 
 \bigskip
 
 
 Save an image to a compressed archive
 
-\texttt{docker save \$IMAGE:\$TAG | gzip > \$FILE.tgz
+\texttt{docker save \$IMAGE:\$TAG | gzip > \$FILE.tgz }
 
 
 
