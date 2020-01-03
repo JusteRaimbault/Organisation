@@ -24,6 +24,28 @@
 
 Move submodule : git mv oldpath newpath
 
+Remove submodule : git rm path
+
+init/deinit: 
+
+git submodule update --init path
+
+(same as git submodule init; git submodule update)
+
+[Q: name of actual registred path ?)
+
+deinit: (remove local checkout): git submodule deinit
+[Q: what happens with ignored files? do when nothing ignored to be sure]
+
+\section*{Cancel last commit}
+
+git reset HEAD~
+
+if pushed, need to force push 
+
+git push origin master --force
+
+
 
 \section*{Github ssh key}
 

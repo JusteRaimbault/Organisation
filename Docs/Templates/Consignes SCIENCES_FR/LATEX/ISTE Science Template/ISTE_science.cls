@@ -1,5 +1,5 @@
 % TODO
-% contrôler que les titres abrégés de chapitres, partie, etc ne dépassent pas 1 ligne
+% contrÃ´ler que les titres abrÃ©gÃ©s de chapitres, partie, etc ne dÃ©passent pas 1 ligne
 % (faire une commande \widthcheck{maxwidth}{text} )
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %
@@ -8,7 +8,7 @@
 \def\PackageVersion{1.3.pl1}
 \def\filedate{2005/11/14}
 
-%%% Prélude %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%% PrÃ©lude %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 %=== Identification Part
 
@@ -22,15 +22,15 @@
 
 %=== Initial Code Part
 
-% Définition des variables d'option et leur valeur par défaut
-% Les tests if ne comportent pas de `@' pour pouvoir être utilisé dans les documents
-% En particulier \iftreatise peut être utile
+% DÃ©finition des variables d'option et leur valeur par dÃ©faut
+% Les tests if ne comportent pas de `@' pour pouvoir Ãªtre utilisÃ© dans les documents
+% En particulier \iftreatise peut Ãªtre utile
 
-\newif\iftreatise     \treatisefalse     % Cas particulier des traités
-\newif\iffrenchlang   \frenchlangtrue    % ouvrage en français, false => in english
+\newif\iftreatise     \treatisefalse     % Cas particulier des traitÃ©s
+\newif\iffrenchlang   \frenchlangtrue    % ouvrage en franÃ§ais, false => in english
 \newif\ifcropmarks    \cropmarksfalse    % affichage du contour de page et de corps du texte
 \newif\ifallpages     \allpagesfalse     % imprime aussi les pages blanches
-\newif\ifemptyheaders \emptyheadersfalse % aucun entête de page, mais numérotation hors cadre
+\newif\ifemptyheaders \emptyheadersfalse % aucun entÃªte de page, mais numÃ©rotation hors cadre
 
 %=== Declaration of options
 
@@ -47,7 +47,7 @@ Syntax: documentclass[treatise,english,cropmarks,allpages,empty]{ISTE_Science}}}
 %=== Execution of options
 
 \ExecuteOptions{10pt}         % Defaults options
-\ProcessOptions               % Évaluation des déclarations d'options
+\ProcessOptions               % Ã‰valuation des dÃ©clarations d'options
 
 \typeout{*** current options for ISTE_Science.cls ************}
 
@@ -76,7 +76,7 @@ Syntax: documentclass[treatise,english,cropmarks,allpages,empty]{ISTE_Science}}}
 %=== Package loading
 
 \LoadClass{book}
-% Attention ! chapterbib doit être chargé avant babel !
+% Attention ! chapterbib doit Ãªtre chargÃ© avant babel !
 \iftreatise
 \RequirePackage{sectionbib}
 \fi
@@ -84,14 +84,14 @@ Syntax: documentclass[treatise,english,cropmarks,allpages,empty]{ISTE_Science}}}
 % On n'utilise plus french de B. Gaulle, mais frenchb (de babel)
 \RequirePackage[francais,english]{babel}
 
-% Attention ! avec babel, tout appel à \selectlanguage active un espacement spécial pour
+% Attention ! avec babel, tout appel Ã  \selectlanguage active un espacement spÃ©cial pour
 % les listes : nous ne nous laisserons pas faire !
 \let\ORIselectlanguage\selectlanguage
 \gdef\selectlanguage#1{\ORIselectlanguage{#1}\@mkhermes}
 
 \RequirePackage{ifthen} % pas indispendable, mais standard
 \RequirePackage{xspace}
-  % xspace est utilisé par babel pour améliorer l'utilisation de l'espace après les macros
+  % xspace est utilisÃ© par babel pour amÃ©liorer l'utilisation de l'espace aprÃ¨s les macros
   % comme \no, 1\up{er}...
 
 \RequirePackage{makeidx} 
@@ -111,13 +111,13 @@ Syntax: documentclass[treatise,english,cropmarks,allpages,empty]{ISTE_Science}}}
 %\lstset{belowskip=-\parskip}
 %=== Packages Options as variables
 
-% Les options de Babel sont donc appelées dans \AtBeginingDocument.
+% Les options de Babel sont donc appelÃ©es dans \AtBeginingDocument.
 
-%%% Fin du prélude
+%%% Fin du prÃ©lude
 
 %%% Code des Commandes %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-%%% Changement des options en cours d'ouvrage (très spécial)
+%%% Changement des options en cours d'ouvrage (trÃ¨s spÃ©cial)
 
 \newcommand{\CropMarksOn}{\gdef\@DrawPageFrame{\@PageFrame}}
 \newcommand{\CropMarksOff}{\gdef\@DrawPageFrame{\hspace*{0pt}}}
@@ -141,7 +141,7 @@ Syntax: documentclass[treatise,english,cropmarks,allpages,empty]{ISTE_Science}}}
    \normalfont\fontsize{10}{12}\selectfont} % Police du texte normal
 
 \def\FonteEnTete{%
-   \normalfont\fontsize{9}{12}\selectfont}% Police des en-tÃtes
+   \normalfont\fontsize{9}{12}\selectfont}% Police des en-tÃƒÂtes
 
 \def\FonteSousTitreChapitre{\color{darkBlue}
 \fontsize{22}{22}\bfseries\selectfont}
@@ -173,10 +173,10 @@ Syntax: documentclass[treatise,english,cropmarks,allpages,empty]{ISTE_Science}}}
 \def\FonteSectionIV{\color{Blue}%
    \fontfamily{phv}\normalsize}%
 
-% On laisse footnotesize à sa valeur usuelle de normalsize - 2 pts, soit 8 pts.
-% Ainsi FonteNoteBasPage sera la référence pour 9/11pts
-% L'appel de note doit être dans une taille relative à la police courante et non
-% dans l'absolu à 8 pts
+% On laisse footnotesize Ã  sa valeur usuelle de normalsize - 2 pts, soit 8 pts.
+% Ainsi FonteNoteBasPage sera la rÃ©fÃ©rence pour 9/11pts
+% L'appel de note doit Ãªtre dans une taille relative Ã  la police courante et non
+% dans l'absolu Ã  8 pts
 \def\FonteAppelNote{\protect\normalfont\footnotesize}
 
 \def\FonteNoteBasPage{%
@@ -193,38 +193,38 @@ Syntax: documentclass[treatise,english,cropmarks,allpages,empty]{ISTE_Science}}}
 %%% VARIABLES : de la forme VAR@Nom
 
 \def\@VARTitreComplet{} 
-% Titre complet de l'ouvrage tel qu'il se présente sur la couverture
-% identique à \@title, mais ce dernier est redéfini dans les macros de latex ou book
+% Titre complet de l'ouvrage tel qu'il se prÃ©sente sur la couverture
+% identique Ã  \@title, mais ce dernier est redÃ©fini dans les macros de latex ou book
 
 \def\VAR@TitreAbrege{%
-% Titre abrégé de l'ouvrage pour les en-tête de pages de gauche (paires)
-  Titre de l'ouvrage, à définir par \texttt{\@BS title[titre abrégé]\{titre\} }}
+% Titre abrÃ©gÃ© de l'ouvrage pour les en-tÃªte de pages de gauche (paires)
+  Titre de l'ouvrage, Ã  dÃ©finir par \texttt{\@BS title[titre abrÃ©gÃ©]\{titre\} }}
 
 \def\@VARAuteurs{}
-% Auteurs du livre ou coordinateur d'un ouvrage collectif ou éditeur scientifique...
-% Identique à \@author, mais cette dernière est effacée par latex ou book après usage
+% Auteurs du livre ou coordinateur d'un ouvrage collectif ou Ã©diteur scientifique...
+% Identique Ã  \@author, mais cette derniÃ¨re est effacÃ©e par latex ou book aprÃ¨s usage
 
 \def\@author{%
-% Auteurs du livre ou coordinateur d'un ouvrage collectif ou éditeur scientifique...
+% Auteurs du livre ou coordinateur d'un ouvrage collectif ou Ã©diteur scientifique...
    Auteur(s)\\
-   {\FonteTexte\textit{A définir par la commande \texttt{\upshape\@BS author\@ARGS}.
-    Dans le cas de plusieurs auteurs, séparer chaque auteur par 
+   {\FonteTexte\textit{A dÃ©finir par la commande \texttt{\upshape\@BS author\@ARGS}.
+    Dans le cas de plusieurs auteurs, sÃ©parer chaque auteur par 
     \texttt{\upshape\@BS andauthor}.
 }}}
 
 \def\VAR@ChapitreAbrege{%
   \FonteEnTete%
-  Titre abrégé du chapitre, à définir par \texttt{\@BS chapter[titre abrégé]\{titre\}}}
+  Titre abrÃ©gÃ© du chapitre, Ã  dÃ©finir par \texttt{\@BS chapter[titre abrÃ©gÃ©]\{titre\}}}
 
 \def\VAR@Phone{} % Des Auteurs pour le service de fabrication...
 \def\VAR@Fax{}
 \def\VAR@Email{}
 
-% Présentation --------------------------------------------------------------------------
+% PrÃ©sentation --------------------------------------------------------------------------
 
 % Polices du corps du texte
 
-% L'encodage recommandé est T1 et saisie du texte directement en latin1
+% L'encodage recommandÃ© est T1 et saisie du texte directement en latin1
   \usepackage[T1]{fontenc}
   \usepackage[latin1]{inputenc}%C. QUEINNEC
 
@@ -232,16 +232,16 @@ Syntax: documentclass[treatise,english,cropmarks,allpages,empty]{ISTE_Science}}}
 \renewcommand{\rmdefault}{ptm}  % Postscript Times New Roman
 \renewcommand{\sfdefault}{phv}  % Postscript Helvetica
 %\renewcommand{\ttdefault}{pcr} % Police Courier : un peu large
-\renewcommand{\ttdefault}{cmtt} % Police Latex tt : plus jolie et étroite que Courier
+\renewcommand{\ttdefault}{cmtt} % Police Latex tt : plus jolie et Ã©troite que Courier
                                  % mais n'existe pas dans toutes les tailles
 \renewcommand{\bfdefault}{b}    % le bold extra (bx) n'existe pas en Times
 
 \newlength{\interligne}       % Ne change pas dans ce style: quand on parle
-\setlength{\interligne}{12pt} % d'une ligne blanche, c'est ça : 4.22mm
+\setlength{\interligne}{12pt} % d'une ligne blanche, c'est Ã§a : 4.22mm
 % On peut utiliser cette commande dans le texte, par exemple
-% \setlength{\baselineskip}{1\interligne} pour revenir à l'espacement normal
-\def\@espace{\hspace*{0.5em}}  % Hermès parle parfois d'espaces (une espace)
-                                        % pour les écarts horizontaux ~= 1/2 em
+% \setlength{\baselineskip}{1\interligne} pour revenir Ã  l'espacement normal
+\def\@espace{\hspace*{0.5em}}  % HermÃ¨s parle parfois d'espaces (une espace)
+                                        % pour les Ã©carts horizontaux ~= 1/2 em
 
 % Format des pages ----------------------------------------------------------------------
 
@@ -257,7 +257,7 @@ Syntax: documentclass[treatise,english,cropmarks,allpages,empty]{ISTE_Science}}}
 
 %--- Dimensions horizontales
 
-\setlength{\hoffset}{-1in}            % à ajuster par dvips selon imprimante
+\setlength{\hoffset}{-1in}            % Ã  ajuster par dvips selon imprimante
 \setlength{\oddsidemargin}{45mm}      % pour que la marge de gauche
 \setlength{\evensidemargin}{45mm}     % soit exactement de 45mm
   % Largeur de la marge de droite pour papier:
@@ -266,79 +266,79 @@ Syntax: documentclass[treatise,english,cropmarks,allpages,empty]{ISTE_Science}}}
 
 %--- Dimensions verticales
 
-\setlength{\voffset}{-1in}       % Élimination de la marge par défaut de 1 pouce
+\setlength{\voffset}{-1in}       % Ã‰limination de la marge par dÃ©faut de 1 pouce
 
-\setlength{\topmargin}{47mm}     % distance bord sup feuille au haut de l'en-tête
-\settoheight{\headheight}{2.5mm} % hauteur de l'en-tête
-\setlength{\headsep}{7.5mm}      % marge entre corps du texte et en-tête
+\setlength{\topmargin}{47mm}     % distance bord sup feuille au haut de l'en-tÃªte
+\settoheight{\headheight}{2.5mm} % hauteur de l'en-tÃªte
+\setlength{\headsep}{7.5mm}      % marge entre corps du texte et en-tÃªte
                                  % => 57mm = 47mm + 2.5mm + 7.5mm = marge au dessus du
-                                 % texte d'une feuille A4 non massicotée
+                                 % texte d'une feuille A4 non massicotÃ©e
 
 %---------------------------------------------------------------------------------------------
-% Tracé du cadre indiquant les bords du papier une fois l'ouvrage massicoté
-% au format des ouvrages Hermès environ (160mm x 240mm) ou (155mm x 235mm)
+% TracÃ© du cadre indiquant les bords du papier une fois l'ouvrage massicotÃ©
+% au format des ouvrages HermÃ¨s environ (160mm x 240mm) ou (155mm x 235mm)
 
-% Ce tracé est obtenu par l'option \documentclass[cropmarks]{ouvrage-hermes}
-% (par défaut pas de tracé) et est commandé à partir de l'en-tête (picture).
-% L'avantage de ce système est de ne pas influencer la mise en page de Latex
+% Ce tracÃ© est obtenu par l'option \documentclass[cropmarks]{ouvrage-hermes}
+% (par dÃ©faut pas de tracÃ©) et est commandÃ© Ã  partir de l'en-tÃªte (picture).
+% L'avantage de ce systÃ¨me est de ne pas influencer la mise en page de Latex
 
 %-- Primitives internes
 
 \def\@DrawPageFrame{\hspace*{0pt}}
 
 \def\@PageFrame{%
-   % Tracé des contours de texte et de page pour la mise au point des problèmes
-   % de débordement indiqués par LaTeX
+   % TracÃ© des contours de texte et de page pour la mise au point des problÃ¨mes
+   % de dÃ©bordement indiquÃ©s par LaTeX
    \thinlines%
    \setlength{\unitlength}{1mm}%
    \begin{picture}(0,0)%
-   % Les mesures sont faites à partir du point de référence qui est posé à gauche
-   % de l'en-tête (7.5mm au dessus du corps du texte)
-   % L'ouvrage massicoté est de 160mmx240mm (ou 155mm x 235mm)
+   % Les mesures sont faites Ã  partir du point de rÃ©fÃ©rence qui est posÃ© Ã  gauche
+   % de l'en-tÃªte (7.5mm au dessus du corps du texte)
+   % L'ouvrage massicotÃ© est de 160mmx240mm (ou 155mm x 235mm)
    % Le corps du texte est inscrit dans un rectangle de 120mmx183mm
    % Les marges du corps du texte dans une feuille A4 sont de :
    %  - haute et basse de 57 mm (297-183)/2
    %  - gauche et droite de 45 mm (210-120)/2
 
-%%%% Cadre des bords du papier massicoté : cas de pages en 155x235
-% En format A4, les bandes supprimées au dessus sont de (297-235)/2=31mm
-% donc la distance du coin supérieur gauche au dessus du point de référence est égale à
-%    57-(31+7.5) = 18,5mm = distance entre point de référence et bord supérieur papier
+%%%% Cadre des bords du papier massicotÃ© : cas de pages en 155x235
+% En format A4, les bandes supprimÃ©es au dessus sont de (297-235)/2=31mm
+% donc la distance du coin supÃ©rieur gauche au dessus du point de rÃ©fÃ©rence est Ã©gale Ã 
+%    57-(31+7.5) = 18,5mm = distance entre point de rÃ©fÃ©rence et bord supÃ©rieur papier
    \put(-17.5,18.5){\line(1,0){155}}    % 18.5mm = 57 - (31 + 7.5) %
                                         % 17.5mm = (155 - 120)/2   %
    \put(-17.5,-216.5){\line(1,0){155}}  % 216.5  = 235-18.5        %
    \put(-17.5,18.5){\line(0,-1){235}}   % 235                      %
    \put(137.5,18.5){\line(0,-1){235}}   % 137.5  = 120 + 17.5mm    %
 
-%%%% Cadre des bords du papier massicoté : cas de pages en 160x240
-% En format A4, les bandes supprimées au dessus sont de (297-240)/2=28.5mm
-% donc la distance du coin supérieur gauche au dessus du point de référence est égale à
-%    57-(28.5+7.5) = 21mm = distance entre point de référence et bord supérieur papier
+%%%% Cadre des bords du papier massicotÃ© : cas de pages en 160x240
+% En format A4, les bandes supprimÃ©es au dessus sont de (297-240)/2=28.5mm
+% donc la distance du coin supÃ©rieur gauche au dessus du point de rÃ©fÃ©rence est Ã©gale Ã 
+%    57-(28.5+7.5) = 21mm = distance entre point de rÃ©fÃ©rence et bord supÃ©rieur papier
 %   \put(-20,21){\line(1,0){160}}      % 21mm = 57 - (28.5 + 7.5) %
 %                                      % 20  mm = (160 - 120)/2   %
 %   \put(-20,-219){\line(1,0){160}}    % 219  = 240-21            %
 %   \put(-20,21){\line(0,-1){240}}     % 240                      %
 %   \put(140,21){\line(0,-1){240}}   % 140  = 120 + 20mm      %
 %%%% Cadre des bords du texte
-   \put(0,-7.5){\line(1,0){120}}      % marque du bord supérieur du texte
+   \put(0,-7.5){\line(1,0){120}}      % marque du bord supÃ©rieur du texte
    \put(0,-190.5){\line(1,0){120}}    % 7.5+183 = 190.5mm: bas du texte
-   \put(0,-7.7){\line(0,-1){183}}     % côté gauche du texte
-   \put(120,-7.5){\line(0,-1){183}}   % côté droit du texte
+   \put(0,-7.7){\line(0,-1){183}}     % cÃ´tÃ© gauche du texte
+   \put(120,-7.5){\line(0,-1){183}}   % cÃ´tÃ© droit du texte
    \end{picture}}%
 
 \ifcropmarks \CropMarksOn \else \CropMarksOff \fi
 \flushbottom
 
-%--- Définition des styles de page (du point de vue des en-têtes et pieds de page)
+%--- DÃ©finition des styles de page (du point de vue des en-tÃªtes et pieds de page)
 %
 % Critique : On pourrait utiliser les noms classiques plain et empty
 %%%
 % Pas de pied de page pour les ouvrages: 
-% mais on l'utilise pour numéroter les pages en sortant du cadre massicoté
+% mais on l'utilise pour numÃ©roter les pages en sortant du cadre massicotÃ©
 
-% On redéfinit \clearpage et \doubleclearpage pour faire apparaître
-% des pages blanches sans en-tête (sauf numéro de page hors limites)
-% mais avec le cadre si l'option cropmarks est demandée
+% On redÃ©finit \clearpage et \doubleclearpage pour faire apparaÃ®tre
+% des pages blanches sans en-tÃªte (sauf numÃ©ro de page hors limites)
+% mais avec le cadre si l'option cropmarks est demandÃ©e
 
 \def\clearpage{% latex.ltx + \thispagestyle
   \ifvmode                          %
@@ -354,7 +354,7 @@ Syntax: documentclass[treatise,english,cropmarks,allpages,empty]{ISTE_Science}}}
 
 \def\cleardoublepage{% latex.ltx + 2 modifs :
     % \thispagestyle
-    % 2e page blanche seulement si l'option allpages est armée.
+    % 2e page blanche seulement si l'option allpages est armÃ©e.
     \clearpage\if@twoside \ifodd\c@page\else %
     \ifallpages %
     \hbox{}\newpage\thispagestyle{emptypage}\if@twocolumn\hbox{}\newpage\fi%
@@ -366,10 +366,10 @@ Syntax: documentclass[treatise,english,cropmarks,allpages,empty]{ISTE_Science}}}
 % Presque \ps@empty
 
 \def\ps@emptypage{%
-   % Une première page est normalement impaire, mais on définit les deux...
+   % Une premiÃ¨re page est normalement impaire, mais on dÃ©finit les deux...
    \renewcommand{\@oddhead}{\parbox{\textwidth}{\@DrawPageFrame}}%
    \renewcommand{\@evenhead}{\parbox{\textwidth}{\@DrawPageFrame}}%
-   \setlength{\footskip}{40mm} % réduire à 33mm pour USLETTER
+   \setlength{\footskip}{40mm} % rÃ©duire Ã  33mm pour USLETTER
    \renewcommand{\@evenfoot}{}%
    \renewcommand{\@oddfoot}{}}% emptypage style
 
@@ -382,7 +382,7 @@ Syntax: documentclass[treatise,english,cropmarks,allpages,empty]{ISTE_Science}}}
    \renewcommand{\@evenfoot}{}%
    \renewcommand{\@oddfoot}{}}
 
-% Équivalent de \ps@plain
+% Ã‰quivalent de \ps@plain
 
 \def\chno{\fontfamily{phv}\fontsize{22}{24}\selectfont}%ARIAL at 22pt
 
@@ -433,11 +433,11 @@ Syntax: documentclass[treatise,english,cropmarks,allpages,empty]{ISTE_Science}}}
    \gdef\@VARTitreComplet{#2}
 }
 
-%--- titre courant (ou abrégé) pour les en-têtes de pages de droite (paires)
+%--- titre courant (ou abrÃ©gÃ©) pour les en-tÃªtes de pages de droite (paires)
 
 \newsavebox{\@shtitle}
 \def\@shorttitle#1{%
-   % #1: Titre abrégé de l'ouvrage (moins de 40 caractères, pour en-tête)
+   % #1: Titre abrÃ©gÃ© de l'ouvrage (moins de 40 caractÃ¨res, pour en-tÃªte)
    % test de la largeur < 55mm
    \sbox{\@shtitle}{\FonteEnTete #1}%
     \ifthenelse{\lengthtest{\wd\@shtitle > 55mm}}{%
@@ -465,7 +465,7 @@ Syntax: documentclass[treatise,english,cropmarks,allpages,empty]{ISTE_Science}}}
 %------ Commande de sectionnement : \frontmatter,\mainmatter,\backmatter -----------------
 
 \renewcommand\frontmatter{% adaptation de book.cls
-  % Sert aussi pour initialiser des variables aprés \begin{document}
+  % Sert aussi pour initialiser des variables aprÃ©s \begin{document}
   % Utilisation obligatoire dans tout ouvrage
   \cleardoublepage %
   \@mainmatterfalse %
@@ -475,7 +475,7 @@ Syntax: documentclass[treatise,english,cropmarks,allpages,empty]{ISTE_Science}}}
 \renewcommand\mainmatter{% adaptation de book.cls
     \cleardoublepage
   \@mainmattertrue
-  %  \pagenumbering{arabic} % Remet à 0 le numéro de page
+  %  \pagenumbering{arabic} % Remet Ã  0 le numÃ©ro de page
 }
 
 \renewcommand\backmatter{%% adaptation de book.cls
@@ -484,13 +484,13 @@ Syntax: documentclass[treatise,english,cropmarks,allpages,empty]{ISTE_Science}}}
     \@endofappendices %
 }
 
-%------ Espaces verticaux pour les pages spéciales
+%------ Espaces verticaux pour les pages spÃ©ciales
 % 1pt = 25.4/72.27 mm = 0.35146 mm (point typographique)
 % 60 pt = 21.1 mm
 % 90 pt = 31.6 mm
 % 17 pt =  6   mm
-% On utilise des espaces différents pour corriger les décalages parasites
-% mais le résultat est parfait et stable
+% On utilise des espaces diffÃ©rents pour corriger les dÃ©calages parasites
+% mais le rÃ©sultat est parfait et stable
 
 \newlength{\@DessusTitrePT}\setlength{\@DessusTitrePT}{11.2mm}
 \newlength{\@DessusTitrePTS}\setlength{\@DessusTitrePTS}{21.8mm} %9.2mm+22pt+17pt
@@ -509,7 +509,7 @@ Syntax: documentclass[treatise,english,cropmarks,allpages,empty]{ISTE_Science}}}
   \setcounter{footnote}{0} % utile seulement pour les pages exceptionnelles avec footnote
   \if@openright\cleardoublepage\else\clearpage\fi%
   \thispagestyle{emptypage}    %
-  \enlargethispage{-3pt}       % correction d'un décalage inexpliqué du texte sur page titre
+  \enlargethispage{-3pt}       % correction d'un dÃ©calage inexpliquÃ© du texte sur page titre
   \if@twocolumn                %
     \onecolumn                 %
     \@tempswatrue              %
@@ -520,10 +520,10 @@ Syntax: documentclass[treatise,english,cropmarks,allpages,empty]{ISTE_Science}}}
 }
 
 \def\@part[#1]#2{% adaptation de book.cls
-   % #1 : Titre abrégé de la partie pour la table des matières
+   % #1 : Titre abrÃ©gÃ© de la partie pour la table des matiÃ¨res
    % #2 : Titre complet de la partie
    %
-   % Mise à jour du compteur de partie et de de la table des matières
+   % Mise Ã  jour du compteur de partie et de de la table des matiÃ¨res
     \vspace*{\@DessusTitrePT}           %
     \ifnum \c@secnumdepth >-2\relax     %
       \refstepcounter{part}             %
@@ -542,7 +542,7 @@ Syntax: documentclass[treatise,english,cropmarks,allpages,empty]{ISTE_Science}}}
      \@endpart}                         %
 
 \def\@spart#1{% adaptation de book.cls
-   % Affichage d'une partie sans numérotation (\part*)
+   % Affichage d'une partie sans numÃ©rotation (\part*)
     \vspace*{\@DessusTitrePTS}          %
     \begin{flushright}                  %
      \interlinepenalty \@M              %
@@ -551,7 +551,7 @@ Syntax: documentclass[treatise,english,cropmarks,allpages,empty]{ISTE_Science}}}
      \@endpart}                         %
 
 \def\@endpart{% adaptation de book.cls
-   % Terminaison de la page de partie après affichage
+   % Terminaison de la page de partie aprÃ¨s affichage
    \cleardoublepage                     %
    \if@tempswa                          %
      \twocolumn                         %
@@ -562,40 +562,40 @@ Syntax: documentclass[treatise,english,cropmarks,allpages,empty]{ISTE_Science}}}
 \renewcommand{\chapter}{% adaptation de book.cls
   \if@openright\cleardoublepage\else\clearpage\fi %
   \thispagestyle{emptypage}%                      %
-  \enlargethispage{-3pt}       % correction d'un décalage inexpliqué du texte sur page titre
+  \enlargethispage{-3pt}       % correction d'un dÃ©calage inexpliquÃ© du texte sur page titre
   \global\@topnum\z@                              %
   \@afterindentfalse                              %
   \secdef\@chapter\@schapter}                     %
 
 \def\@chapter[#1]#2{% adaptation de book.cls
-% #1 : Titre abrégé de la partie pour la table des matières
+% #1 : Titre abrÃ©gÃ© de la partie pour la table des matiÃ¨res
 % #2 : Titre complet de la partie
 %
-% Mise à jour du compteur de chapitre et de de la table des matières
+% Mise Ã  jour du compteur de chapitre et de de la table des matiÃ¨res
     \ifnum \c@secnumdepth >\m@ne                  %
-       \if@mainmatter % chapitre numéroté de la partie centrale
+       \if@mainmatter % chapitre numÃ©rotÃ© de la partie centrale
           \refstepcounter{chapter}                %
           \typeout{\@chapapp\space\thechapter.}   %
           \addcontentsline{toc}{chapter}{\@chapapp\space\thechapter.~#2}%
-       \else % chapitre non numéroté, mais dans TOC, comme Introduction, Bibliographie
-             % situé soit dans \frontmater, soit dans backmatter
+       \else % chapitre non numÃ©rotÃ©, mais dans TOC, comme Introduction, Bibliographie
+             % situÃ© soit dans \frontmater, soit dans backmatter
           \addcontentsline{toc}{chapter}{#2}%
-          \vspace*{-9pt} % correction nécéssaire
+          \vspace*{-9pt} % correction nÃ©cÃ©ssaire
        \fi %
-    \else  % demande explicite de non numérotation par la valeur de \secnumdepth
+    \else  % demande explicite de non numÃ©rotation par la valeur de \secnumdepth
           \addcontentsline{toc}{chapter}{#2}%
     \fi %
     \gdef\VAR@ChapitreAbrege{#1}  %
     \addtocontents{lof}{\protect\addvspace{11\p@}}%
     \addtocontents{lot}{\protect\addvspace{11\p@}}%
     %@@ \addtocontents{lop}{\protect\addvspace{11\p@}}% liste des programmes
-    % Affichage du titre et noms d'auteurs éventuels
+    % Affichage du titre et noms d'auteurs Ã©ventuels
     \ifthenelse{\equal{\AuthorOfChapter}{}}{}{%else %
-          \def\and{, }% on redéfinit \and à `,'
+          \def\and{, }% on redÃ©finit \and Ã  `,'
           \addtocontents{toc}{\protect\TextInToc{0}{0pt}{\AuthorOfChapter}}%
-          \@defand% on restaure la définition de \and selon la langue (et, and...)
+          \@defand% on restaure la dÃ©finition de \and selon la langue (et, and...)
         }%
-    \addtocontents{toc}{\protect\addvspace{5pt plus 1pt minus 1pt}}% avant 1ère section
+    \addtocontents{toc}{\protect\addvspace{5pt plus 1pt minus 1pt}}% avant 1Ã¨re section
     \if@twocolumn %
         \@topnewpage[\@makechapterhead{#2}]%
     \else %
@@ -655,8 +655,8 @@ Syntax: documentclass[treatise,english,cropmarks,allpages,empty]{ISTE_Science}}}
 \newsavebox\tempbox
 \newbox\mybox
 \def\@makechapterhead#1{% adaptation de book.cls
-% Affichage du titre du chapitre numéroté et ne figurant ni dans TOC, ni dans les En-têtes
-% de page. Exemples : préface, table des matières (mais avec en-tête)...
+% Affichage du titre du chapitre numÃ©rotÃ© et ne figurant ni dans TOC, ni dans les En-tÃªtes
+% de page. Exemples : prÃ©face, table des matiÃ¨res (mais avec en-tÃªte)...
   \vspace*{\@DessusTitreCN}           %
   {\parindent \z@ \iftreatise\raggedleft\else\raggedleft  \fi \normalfont \parskip \z@ %
     \ifnum \c@secnumdepth >\m@ne      %
@@ -704,8 +704,8 @@ Syntax: documentclass[treatise,english,cropmarks,allpages,empty]{ISTE_Science}}}
 
 %%%% ========== ChapterAuthor (Niveau 0) =================================================
 
-% L'utilisation de \bsc est recommandée, mais doit être utilisée avec précaution pour les
-% noms composés : risque de pbs de justification
+% L'utilisation de \bsc est recommandÃ©e, mais doit Ãªtre utilisÃ©e avec prÃ©caution pour les
+% noms composÃ©s : risque de pbs de justification
 \newcommand{\Name}[1]{\textsc{#1}}
 
 \def\AuthorOfChapter{}
@@ -713,21 +713,21 @@ Syntax: documentclass[treatise,english,cropmarks,allpages,empty]{ISTE_Science}}}
 \newcommand{\PresentationOfAuthors}[1]{\gdef\@PresentationOfAuthors{#1}}
 
 \newcommand{\ChapterAuthor}[3][]{%
-% #1 : Titre abrégé du chapitre pour la table des matières
+% #1 : Titre abrÃ©gÃ© du chapitre pour la table des matiÃ¨res
 % #2 : Titre complet du chapitre
 % #3 : Noms des Auteurs du chapitre, selon le format :
-%      Prénom1 NOM1, Prénom2 NOM2, ...\and Prénom1 NOM1
+%      PrÃ©nom1 NOM1, PrÃ©nom2 NOM2, ...\and PrÃ©nom1 NOM1
   \gdef\AuthorOfChapter{#3}
   \ifthenelse{\equal{#1}{}}{\chapter[#2]{#2}}{\chapter[#1]{#2}}
   \begingroup
      \ifthenelse{\equal{\@PresentationOfAuthors}{}}%
-      {%Présentation par défaut
+      {%PrÃ©sentation par dÃ©faut
         \iffrenchlang
-        \@sfootnotetext{Chapitre rédigé par #3.}%
+        \@sfootnotetext{Chapitre rÃ©digÃ© par #3.}%
         \else
         \@sfootnotetext{Chapter written by #3.}%
         \fi
-      }{% Sinon Présentation fournie
+      }{% Sinon PrÃ©sentation fournie
         \@sfootnotetext{\@PresentationOfAuthors #3.}
       }
   \endgroup%
@@ -735,7 +735,7 @@ Syntax: documentclass[treatise,english,cropmarks,allpages,empty]{ISTE_Science}}}
   \PresentationOfAuthors{}%
 }
 
-% Abréviations
+% AbrÃ©viations
 \let\Chapter\ChapterAuthor
 \let\Author\AuthorOfChapter
 
@@ -746,7 +746,7 @@ Syntax: documentclass[treatise,english,cropmarks,allpages,empty]{ISTE_Science}}}
 
 \def\@endofappendices{
    % Pour signaler la fin des annexes.
-   % utilisée par \backmatter, \thebibliography, \index
+   % utilisÃ©e par \backmatter, \thebibliography, \index
    \@appendixfalse
    \let\chapter\Orichapter
 }
@@ -757,7 +757,7 @@ Syntax: documentclass[treatise,english,cropmarks,allpages,empty]{ISTE_Science}}}
   \par
   \setcounter{chapter}{0}%
   \setcounter{section}{0}%
-  % Inutile de modifier tocdepth : cela ne sert que dans \tableofcontents placé
+  % Inutile de modifier tocdepth : cela ne sert que dans \tableofcontents placÃ©
   \gdef\@chapapp{\appendixname}%
   \gdef\thechapter{\@Alph\c@chapter}
   \addcontentsline{toc}{chapter}{\appendicesname}%
@@ -765,7 +765,7 @@ Syntax: documentclass[treatise,english,cropmarks,allpages,empty]{ISTE_Science}}}
   \gdef\chapter{%
      \if@openright\cleardoublepage\else\clearpage\fi
      \thispagestyle{emptypage}%
-     \enlargethispage{-3pt}       % correction d'un décalage inexpliqué du texte sur page titre
+     \enlargethispage{-3pt}       % correction d'un dÃ©calage inexpliquÃ© du texte sur page titre
      \global\@topnum\z@
      \@afterindentfalse
      \secdef\@Appendix\@sAppendix}%
@@ -793,17 +793,17 @@ Syntax: documentclass[treatise,english,cropmarks,allpages,empty]{ISTE_Science}}}
 
 %--- Traitement des sections dans les annexes
 
-% Les sections des annexes sont présentées comme dans la partie centrale, mais
-% apparaîssent différemment dans la table des matières.
-% Je redéfinis \@sect de latex.ltx pour détecter l'apparition précédente de \appendix
-% et appeler des styles de lignes de toc différentes selon le cas.
+% Les sections des annexes sont prÃ©sentÃ©es comme dans la partie centrale, mais
+% apparaÃ®ssent diffÃ©remment dans la table des matiÃ¨res.
+% Je redÃ©finis \@sect de latex.ltx pour dÃ©tecter l'apparition prÃ©cÃ©dente de \appendix
+% et appeler des styles de lignes de toc diffÃ©rentes selon le cas.
 % C'est de loin la solution la plus simple et la plus efficace.
 
 \def\@sect#1#2#3#4#5#6[#7]#8{% adaptation de la version de latex.ltx
-% Il s'agit de traiter différemment le placement dans toc selon que l'on a franchi ou non
+% Il s'agit de traiter diffÃ©remment le placement dans toc selon que l'on a franchi ou non
 % la commande \appendix. 
-% J'ajoute un point et un espace après le numéro de section dans la toc.
-% Le reste est inchangé, car il est difficile de traiter
+% J'ajoute un point et un espace aprÃ¨s le numÃ©ro de section dans la toc.
+% Le reste est inchangÃ©, car il est difficile de traiter
 % correctement en latex les espacements verticaux lorsque deux sections se suivent...
   \ifnum #2>\c@secnumdepth
     \let\@svsec\emptyheaders
@@ -819,7 +819,7 @@ Syntax: documentclass[treatise,english,cropmarks,allpages,empty]{ISTE_Science}}}
           \interlinepenalty \@M #8\@@par}%
     \endgroup
     \csname #1mark\endcsname{#7}%
-% Deux cas différents selon \appendix ou non
+% Deux cas diffÃ©rents selon \appendix ou non
    \if@appendix
       \ifnum #2=1 % format particulier pour les sections en annexe
          \addcontentsline{toc}{appendixi}{%
@@ -835,8 +835,8 @@ Syntax: documentclass[treatise,english,cropmarks,allpages,empty]{ISTE_Science}}}
              \fi
           #7}%
       \fi
-      % Pour les autres sections en annexe, les chapitres sont traités dans \
-      % et les autres sections (niveaux 3, 4, 5) ne doivent pas être cités dans toc
+      % Pour les autres sections en annexe, les chapitres sont traitÃ©s dans \
+      % et les autres sections (niveaux 3, 4, 5) ne doivent pas Ãªtre citÃ©s dans toc
    \else % traitement normal de latex.ltx
        \addcontentsline{toc}{#1}{%
           \ifnum #2>\c@secnumdepth \else
@@ -859,35 +859,35 @@ Syntax: documentclass[treatise,english,cropmarks,allpages,empty]{ISTE_Science}}}
   \fi
   \@xsect{#5}}
 
-% Intertitres (sections) niveau 1 à 4 -----------------------------------------------
+% Intertitres (sections) niveau 1 Ã  4 -----------------------------------------------
 
 % cf \Latex Companion 2.3 pp 18-31
-% Les définitions suivantes visent à donner la police particulière
-% exigée par Hermes uniquement dans les titres de section et non pas dans les
-% référence. Ainsi, 2.2. apparaîtra en gras droit dans le titre et en
-% police normale dans les références par \label ... \ref.
-% Si l'on veut la même présentation dans les références de sections,
-% il faut tout simplement incorporer la définition voulue dans celle
+% Les dÃ©finitions suivantes visent Ã  donner la police particuliÃ¨re
+% exigÃ©e par Hermes uniquement dans les titres de section et non pas dans les
+% rÃ©fÃ©rence. Ainsi, 2.2. apparaÃ®tra en gras droit dans le titre et en
+% police normale dans les rÃ©fÃ©rences par \label ... \ref.
+% Si l'on veut la mÃªme prÃ©sentation dans les rÃ©fÃ©rences de sections,
+% il faut tout simplement incorporer la dÃ©finition voulue dans celle
 % de \thesection ... \thesubsection
 
 %%%----------------------------------------------------------------------------------------
 
-% J'utilise \@startsection pour les définitions des sections des niveaux 1 à 4. (Latex Companion)
+% J'utilise \@startsection pour les dÃ©finitions des sections des niveaux 1 Ã  4. (Latex Companion)
 % Attention, il faut tenir compte de \parskip dans les dimensions de \beforeskip et \afterskip.
 
-% J'ai dû modifier \@sect de latex.ltx pour ajouter un point après le numéro de
-% dans la table des matières, car les numéros comme \thesection, \thesubsection ne doivent
-% pas comporter de point final pour les \ref{...} : voir redéfinition plus haut pour les annexes.
+% J'ai dÃ» modifier \@sect de latex.ltx pour ajouter un point aprÃ¨s le numÃ©ro de
+% dans la table des matiÃ¨res, car les numÃ©ros comme \thesection, \thesubsection ne doivent
+% pas comporter de point final pour les \ref{...} : voir redÃ©finition plus haut pour les annexes.
 
-% J'ai dû redéfinir \@xsect de latex.ltx qui traite le afterskip, pour pouvoir
-% traiter correctement le afterskip négatif de -6pt, pour avoir un afterskip effectif de 5 pt
+% J'ai dÃ» redÃ©finir \@xsect de latex.ltx qui traite le afterskip, pour pouvoir
+% traiter correctement le afterskip nÃ©gatif de -6pt, pour avoir un afterskip effectif de 5 pt
 % puisque \parskip est de 11pt.
 
 
 \def\@xsect#1{% Adaptation de latex.ltx : traitement de afterskip
-  % Accepte un afterskip négatif comme déplacement vertical
-  % Mais n'interprète plus les afterskip négatifs  comme une demande de suppression 
-  % du passage à la ligne (run-in heading).
+  % Accepte un afterskip nÃ©gatif comme dÃ©placement vertical
+  % Mais n'interprÃ¨te plus les afterskip nÃ©gatifs  comme une demande de suppression 
+  % du passage Ã  la ligne (run-in heading).
     \par \nobreak
     \vskip #1
     \vspace*{-11pt} % Bricolage ! Attention 11pt=\parskip
@@ -897,10 +897,10 @@ Syntax: documentclass[treatise,english,cropmarks,allpages,empty]{ISTE_Science}}}
 
 %%%-----------------------------------------------------------------------------------------
 
-% On numérote jusqu'à la section de niveau 4
+% On numÃ©rote jusqu'Ã  la section de niveau 4
 \setcounter{secnumdepth}{4}
 
-% Pour les titres de section sur plusieurs lignes, Hermès ne veut pas d'indentation
+% Pour les titres de section sur plusieurs lignes, HermÃ¨s ne veut pas d'indentation
 \def\@hangfrom#1{%
        \setbox\@tempboxa\hbox{{#1}}%
 %       \hangindent \wd\@tempboxa\noindent\box\@tempboxa %% ORIGINAL de latex.ltx
@@ -909,14 +909,14 @@ Syntax: documentclass[treatise,english,cropmarks,allpages,empty]{ISTE_Science}}}
 
 % Attention : les dimensions des interlignes before et after skip
 % doivent tenir compte du parskip qui est de 6pts et qui s'ajoute aux valeurs
-% indiquées
+% indiquÃ©es
 
 %--- Niveau 1: section : gras,  beforeskip = 2 lignes, afterskip = 1 ligne
 
 \renewcommand{\thesection}{\thechapter.\arabic{section}}%
 
 \renewcommand{\section}{%
-   \renewcommand{\@seccntformat}[1]{\thesection.\hspace{0.5em}}%Doit être défini ici, en interne
+   \renewcommand{\@seccntformat}[1]{\thesection.\hspace{0.5em}}%Doit Ãªtre dÃ©fini ici, en interne
    \@startsection{section}%  % nom de l'inter
    {1}%                      % niveau de l'inter
    {0pt}%                    % l'indentation du titre et du texte suivant
@@ -973,7 +973,7 @@ Syntax: documentclass[treatise,english,cropmarks,allpages,empty]{ISTE_Science}}}
 \renewcommand{\subparagraph}{%
     \@latex@error{subparagraphs forbidden in hermes-ouvrage.cls}\@ehd}
 
-% Paragraphes (ou alinéas) ----------------------------------------------------------------
+% Paragraphes (ou alinÃ©as) ----------------------------------------------------------------
 
 \setlength{\parindent}{5mm}                      % renfoncement (ou retrait ou alinea positif)
 \newlength{\@normalparskip}\setlength{\@normalparskip}{11pt plus2pt minus3pt}
@@ -992,7 +992,7 @@ Syntax: documentclass[treatise,english,cropmarks,allpages,empty]{ISTE_Science}}}
 %\displaywidowpenalty = 10000
 % Interdiction de coupures de mots en fin de page
 \brokenpenalty = 10000 
-% Table des matières ---------------------------------------------------------------
+% Table des matiÃ¨res ---------------------------------------------------------------
 
 \renewcommand\tableofcontents{{%
     \if@twocolumn
@@ -1009,8 +1009,8 @@ Syntax: documentclass[treatise,english,cropmarks,allpages,empty]{ISTE_Science}}}
     \if@restonecol\twocolumn\fi
     }}
 
-\setcounter{tocdepth}{3}   % On place normalement dans la table des matières jusqu'aux
-                           % intertitres de niveau 3 (réduire si nécessaire pour avoir
+\setcounter{tocdepth}{3}   % On place normalement dans la table des matiÃ¨res jusqu'aux
+                           % intertitres de niveau 3 (rÃ©duire si nÃ©cessaire pour avoir
                            % un nb total de pages multiple de 16 ou 32
 
 \renewcommand{\@pnumwidth}{6.35mm} % largeur de la colonne de droite pour les no pages
@@ -1018,9 +1018,9 @@ Syntax: documentclass[treatise,english,cropmarks,allpages,empty]{ISTE_Science}}}
                                 % lignes
 
 \def\TextInToc#1#2#3{%
-% #1 Niveau de l'unité de sectionnement
-% #2 indentation gauche (la marge de droite est à \@tocrmarg du bord droit du texte
-% #3 texte complet à insérer dans la table des matières, par exemple nom d'auteur
+% #1 Niveau de l'unitÃ© de sectionnement
+% #2 indentation gauche (la marge de droite est Ã  \@tocrmarg du bord droit du texte
+% #3 texte complet Ã  insÃ©rer dans la table des matiÃ¨res, par exemple nom d'auteur
   \ifnum #1>\c@tocdepth \else %
     \vskip \z@ \@plus.2\p@ %
     {\leftskip #2\relax \rightskip \@tocrmarg \parfillskip -\rightskip
@@ -1033,42 +1033,42 @@ Syntax: documentclass[treatise,english,cropmarks,allpages,empty]{ISTE_Science}}}
 }
 
 \newcommand{\AddToContents}[3]{%
-% Éventuellement, pour l'utilisateur, pour des cas spéciaux
-% #1 Niveau de l'unité de sectionnement
-% #2 indentation gauche (la marge de droite est à \@tocrmarg du bord droit du texte
-% #3 texte complet à insérer dans la table des matières, par exemple nom d'auteur
+% Ã‰ventuellement, pour l'utilisateur, pour des cas spÃ©ciaux
+% #1 Niveau de l'unitÃ© de sectionnement
+% #2 indentation gauche (la marge de droite est Ã  \@tocrmarg du bord droit du texte
+% #3 texte complet Ã  insÃ©rer dans la table des matiÃ¨res, par exemple nom d'auteur
 \addtocontents{toc}{\protect\TextInToc{#1}{#2}{#3}}}
 
-% espacement entre les points de suite en mu (math units) pardéfaut dans book : 4.5
-\renewcommand{\@dotsep}{4}  % correspond expérimentalement à un espace de 2mm entre 2 points
+% espacement entre les points de suite en mu (math units) pardÃ©faut dans book : 4.5
+\renewcommand{\@dotsep}{4}  % correspond expÃ©rimentalement Ã  un espace de 2mm entre 2 points
 
-% Lignes de sections dans la table des matiéres
+% Lignes de sections dans la table des matiÃ©res
 
-\def\@dottedfiletoc{% D'après \@dottedtoclinedans latex.ltx
-    % Nécessaire pour \l@part, \l@chap pour contrôler
-    % l'espacement entre les points de \@dotsep (\dotfill est un peu différent)
+\def\@dottedfiletoc{% D'aprÃ¨s \@dottedtoclinedans latex.ltx
+    % NÃ©cessaire pour \l@part, \l@chap pour contrÃ´ler
+    % l'espacement entre les points de \@dotsep (\dotfill est un peu diffÃ©rent)
     % points de suite (espacement de \@dotsep mu)
-                         %\fontsize{8pt}{12pt}\selectfont très fin
+                         %\fontsize{8pt}{12pt}\selectfont trÃ¨s fin
    {\FonteTexte\mdseries\leaders\hbox{$\m@th
    \mkern \@dotsep mu\hbox{.}\mkern \@dotsep
    mu$}\hfill}}
 
 \renewcommand*\l@part[2]{% Adaptation de book.cls
 % #1 texte complet de \contentsline SANS \numberline{...} de la forme :
-%    PREMIÈRE PARTIE. Titre de la partie
-% #2 numéro de page
+%    PREMIÃˆRE PARTIE. Titre de la partie
+% #2 numÃ©ro de page
   \ifnum \c@tocdepth >-2\relax
     \addpenalty{-\@highpenalty}         % Autorise un saut de page
     \addvspace{11pt plus 1pt minus 1pt} % Espace vertical au dessus
      {\leftskip 0pt\relax               % Marge gauche
-      \rightskip \@tocrmarg        % Marge droite (si plusieurs lignes, très déconseillé
-      \parfillskip -\rightskip     % justification jusqu'à marge droite
+      \rightskip \@tocrmarg        % Marge droite (si plusieurs lignes, trÃ¨s dÃ©conseillÃ©
+      \parfillskip -\rightskip     % justification jusqu'Ã  marge droite
      \parindent 0pt\relax\@afterindenttrue 
-     \interlinepenalty\@M          % pénalité moyenne de cupure de page entre les lignes
+     \interlinepenalty\@M          % pÃ©nalitÃ© moyenne de cupure de page entre les lignes
      \leavevmode                   % passe en mode horizontal
      \textbf{#1}                   % Titre en gras
      \nobreak\@dottedfiletoc       % points de suite en maigre (espacement de \@dotsep mu)
-     \nobreak\hb@xt@\@pnumwidth{\hss #2} % numéro de page cadré à droite ds boîte de \@pnumwidth
+     \nobreak\hb@xt@\@pnumwidth{\hss #2} % numÃ©ro de page cadrÃ© Ã  droite ds boÃ®te de \@pnumwidth
      \par}
      \penalty\@highpenalty         % Interdit un saut de page
   \fi
@@ -1080,28 +1080,28 @@ Syntax: documentclass[treatise,english,cropmarks,allpages,empty]{ISTE_Science}}}
 \renewcommand*\l@chapter[2]{% Adaptation de book.cls
 % #1 texte complet de \contentsline SANS \numberline{...} de la forme :
 %    Chapitre 1. Titre de chapitre
-% #2 numéro de page
+% #2 numÃ©ro de page
   \ifnum \c@tocdepth >\m@ne
     \addpenalty{-\@highpenalty}% Autorise un saut de page
     \vskip 11pt \@plus1\p@ %N au lieu de 1em
      {\leftskip \@toclmargchap \relax  % Marge gauche
-      \rightskip \@tocrmarg        % Marge droite (si plusieurs lignes, très déconseillé
-      \parfillskip -\rightskip     % justification jusqu'à marge droite
+      \rightskip \@tocrmarg        % Marge droite (si plusieurs lignes, trÃ¨s dÃ©conseillÃ©
+      \parfillskip -\rightskip     % justification jusqu'Ã  marge droite
      \parindent \@toclmargchap\relax\@afterindenttrue 
-     \interlinepenalty\@M          % pénalité moyenne de cupure de page entre les lignes
+     \interlinepenalty\@M          % pÃ©nalitÃ© moyenne de cupure de page entre les lignes
      \leavevmode                   % passe en mode horizontal
      \textbf{\color{Blue}\fontfamily{phv}\selectfont#1}                   % Titre en gras
      \nobreak\@dottedfiletoc       % points de suite en maigre
-     \nobreak\hb@xt@\@pnumwidth{\hss #2} % numéro de page cadré à droite ds boîte de \@pnumwidth
+     \nobreak\hb@xt@\@pnumwidth{\hss #2} % numÃ©ro de page cadrÃ© Ã  droite ds boÃ®te de \@pnumwidth
      \par}
      \penalty\@highpenalty         % Interdit un saut de page
   \fi
 }
 
-% Lignes de sections dans la table des matiéres
+% Lignes de sections dans la table des matiÃ©res
 
 \def\@dottedtocline#1#2#3#4#5{% Adaptation de latex.txt pour appeler \@dottedfiletoc,
-                              % une adaptation du tracé des points de suite.
+                              % une adaptation du tracÃ© des points de suite.
   \ifnum #1>\c@tocdepth \else
     \vskip \z@ \@plus.2\p@
     {\leftskip #2\relax \rightskip \@tocrmarg \parfillskip -\rightskip
@@ -1121,7 +1121,7 @@ Syntax: documentclass[treatise,english,cropmarks,allpages,empty]{ISTE_Science}}}
 \renewcommand{\l@subsection}{\@dottedtocline{2}{10mm}{8.5mm}}
 \renewcommand{\l@subsubsection}{\@dottedtocline{3}{15mm}{11mm}}
 
-% Lignes d'annexes dans la table des matiéres
+% Lignes d'annexes dans la table des matiÃ©res
 
 \def\l@appendix{\@dottedtocline{1}{5mm}{4mm}}
 \def\l@appendixi{\@dottedtocline{1}{10mm}{7mm}}
@@ -1129,14 +1129,14 @@ Syntax: documentclass[treatise,english,cropmarks,allpages,empty]{ISTE_Science}}}
 
 % Notes de bas de page -----------------------------------------------------------------
 
-% corps 9pt/11pt, numérotation décimale
-% séparées du texte par 1 ligne blanche
+% corps 9pt/11pt, numÃ©rotation dÃ©cimale
+% sÃ©parÃ©es du texte par 1 ligne blanche
 % filet maigre de 2.5 cm
 
 % Espace au dessus du filet
-\setlength{\skip\footins}{7mm} % mesuré sur Exemple fourni
+\setlength{\skip\footins}{7mm} % mesurÃ© sur Exemple fourni
 
-\global\newcount\@prevpage     % pour détecter les footnotes à cheval sur 2 pages
+\global\newcount\@prevpage     % pour dÃ©tecter les footnotes Ã  cheval sur 2 pages
 
 \long\def\@footnotetext#1{%
 \protect\global\@prevpage\c@page %NEW
@@ -1155,8 +1155,8 @@ Syntax: documentclass[treatise,english,cropmarks,allpages,empty]{ISTE_Science}}}
     \color@endgroup}}%
 
 \long\def\@sfootnotetext#1{%
-   % Pour faire une footnote sans numéro
-   % = \@footnotetext de latex.ltx avec appel à \@makesfntext
+   % Pour faire une footnote sans numÃ©ro
+   % = \@footnotetext de latex.ltx avec appel Ã  \@makesfntext
     \protect\global\@prevpage\c@page %NEW
     \insert\footins{%
     \interlinepenalty\interfootnotelinepenalty
@@ -1171,7 +1171,7 @@ Syntax: documentclass[treatise,english,cropmarks,allpages,empty]{ISTE_Science}}}
         \rule\z@\footnotesep\ignorespaces#1\@finalstrut\strutbox}%
     \color@endgroup}}%
 
-% Je n'ai pas réussi à automatiser la définition de \footnoterule lorsque c'est une continuation
+% Je n'ai pas rÃ©ussi Ã  automatiser la dÃ©finition de \footnoterule lorsque c'est une continuation
 \gdef\largefootnoterule{\par\vspace*{-3.3pt}\noindent\rule{12cm}{0.3pt}\vspace*{3pt}}
 \gdef\smallfootnoterule{\par\vspace*{-3.3pt}\noindent\rule{2.5cm}{0.3pt}\vspace*{3pt}}
 \newcommand{\LargeFnRule}{\global\let\footnoterule\largefootnoterule}
@@ -1180,28 +1180,28 @@ Syntax: documentclass[treatise,english,cropmarks,allpages,empty]{ISTE_Science}}}
 
 % Espace vertical avant chaque note (strut)
 % Si \footnotesep est < \baselineskip (11pt), cela n'a pas d'effet
-\setlength{\footnotesep}{9pt} % expérimental
+\setlength{\footnotesep}{9pt} % expÃ©rimental
 
-% Appel de note : 8pts, élevé de 3 pts au dessus de la ligne
-% Il vaut mieux utiliser des définitions relatives à la police courante
+% Appel de note : 8pts, Ã©levÃ© de 3 pts au dessus de la ligne
+% Il vaut mieux utiliser des dÃ©finitions relatives Ã  la police courante
 % que 3pt et 8 pt
 
 \def\@makefnmark{\raisebox{0.55ex}{\FonteAppelNote \@thefnmark}}
 
-\def\@Myfnmark{% Redéfinit la marque de footnote comme un nombre ordinaire
-      % french.sty redéfinit bêtement \@makefntext => donc j'utilise une autre macro.
+\def\@Myfnmark{% RedÃ©finit la marque de footnote comme un nombre ordinaire
+      % french.sty redÃ©finit bÃªtement \@makefntext => donc j'utilise une autre macro.
       \mbox{\arabic{footnote}.~}%
 }
 
 \renewcommand{\@makefntext}[1]{%
-   % Place une footnote en bas de page avec le numéro \thefootnote
-   % \@prevpage sert à détecter les notes de bas de page à cheval sur 2 pages
+   % Place une footnote en bas de page avec le numÃ©ro \thefootnote
+   % \@prevpage sert Ã  dÃ©tecter les notes de bas de page Ã  cheval sur 2 pages
    \FonteNoteBasPage %NEW
    \noindent\@Myfnmark#1 %
 }%
 
 \def\@makesfntext#1{
-   % Place une footnote sans numéro, pour les noms d'auteurs par exemple
+   % Place une footnote sans numÃ©ro, pour les noms d'auteurs par exemple
    \FonteNoteBasPage %NEW
    \noindent #1 %
 }%
@@ -1210,13 +1210,13 @@ Syntax: documentclass[treatise,english,cropmarks,allpages,empty]{ISTE_Science}}}
 
 % Objets flottants: figures, tableaux et programmes -------------------------------------
 
-% Correction du bug du style french qui redéfinit le corps des légendes par \em
-% et non \itshape (gênant si l'utilisateur redéfinit \em).
+% Correction du bug du style french qui redÃ©finit le corps des lÃ©gendes par \em
+% et non \itshape (gÃªnant si l'utilisateur redÃ©finit \em).
 
-% Le plus fiable est de redéfinir \@caption de latex.ltx qui est l'unique appel
-% à \@makecaption (En espérant que \@caption ne sera pas redéfini dans latex).
+% Le plus fiable est de redÃ©finir \@caption de latex.ltx qui est l'unique appel
+% Ã  \@makecaption (En espÃ©rant que \@caption ne sera pas redÃ©fini dans latex).
 
-\def\Center{% redéfinition de l'environnement center sans espaces verticaux supplémentaires
+\def\Center{% redÃ©finition de l'environnement center sans espaces verticaux supplÃ©mentaires
   \let\@trivlistORI\@trivlist%
   \def\@trivlist{%
   \itemsep=0pt\parsep=0pt\topsep=0pt\partopsep=0pt\parskip=0pt%
@@ -1232,7 +1232,7 @@ Syntax: documentclass[treatise,english,cropmarks,allpages,empty]{ISTE_Science}}}
 
 \long\def\@caption#1[#2]#3{{%
    \parskip \z@\par\vspace*{6pt}
-% @@ revoir la mise des légendes dans la ToC, car il faut un argument facultatif de légende
+% @@ revoir la mise des lÃ©gendes dans la ToC, car il faut un argument facultatif de lÃ©gende
 %   courte (sans coupures de lignes) pour traiter cela correctement.
 %   \addcontentsline{\csname ext@#1\endcsname}%
 %                   {#1}{\protect\numberline{\csname the#1\endcsname}{\ignorespaces #2}}%
@@ -1240,7 +1240,7 @@ Syntax: documentclass[treatise,english,cropmarks,allpages,empty]{ISTE_Science}}}
      \@parboxrestore%
      \normalsize%
      \@Mymakecaption{\csname fnum@#1\endcsname}{\ignorespaces #3}%
-     % L'espace sous la légende est obtenu par \textDfloatsep ou \textfloatsep (cf ci-dessous)
+     % L'espace sous la lÃ©gende est obtenu par \textDfloatsep ou \textfloatsep (cf ci-dessous)
    \endgroup}}
 
 \newdimen\@@vspacapt \@@vspacapt=14.2pt
@@ -1250,7 +1250,7 @@ Syntax: documentclass[treatise,english,cropmarks,allpages,empty]{ISTE_Science}}}
 \newif\if@bigcaption\@bigcaptionfalse
 
 \def\@Mymakecaption#1#2{%
-    % #1 est e.g. Figure 1 ou Tableau 1, #2 est la légende de la figure
+    % #1 est e.g. Figure 1 ou Tableau 1, #2 est la lÃ©gende de la figure
    \if@bigcaption
    \parbox[t]{12cm}{%
       \FonteTypeLegende\rule{0pt}{14.2pt}% 8 pts au dessus
@@ -1264,15 +1264,15 @@ Syntax: documentclass[treatise,english,cropmarks,allpages,empty]{ISTE_Science}}}
 
 % Tableaux et Figures ------------------------------
 
-% On définit l'environnement Table pour fixer les dimensions requises
-% et pour placer la légende où il faut.
+% On dÃ©finit l'environnement Table pour fixer les dimensions requises
+% et pour placer la lÃ©gende oÃ¹ il faut.
 \setlength{\arrayrulewidth}{0.25pt}
 \setlength{\tabcolsep}{2pt}
 \def\@@caption{}
 
 \newenvironment{Figure}[2][]{%
 % #1 : placement de la figure du type htb... comme pour figure ou table
-% #2 : la légende
+% #2 : la lÃ©gende
 \settowidth{\captionwidth}{\FonteTitreLegende #2}
 %\renewcommand{\@@caption}{#2\\(~\the\captionwidth~)}%
 \renewcommand{\@@caption}{#2}%
@@ -1284,8 +1284,8 @@ Syntax: documentclass[treatise,english,cropmarks,allpages,empty]{ISTE_Science}}}
 % Pour les utilisateurs peu familiers avec epsfig, nous fournissons ceci :
 \newcommand{\EpsFigure}[4][]{%
 % #1 : placement de la figure du type htb... comme pour figure ou table
-% #2 : la légende
-% #3 : la hauteur de la figure (par défaut, les dimensions d'origine)
+% #2 : la lÃ©gende
+% #3 : la hauteur de la figure (par dÃ©faut, les dimensions d'origine)
 % #4 : le fichier qui contient la figure en format .eps
 \begin{Figure}[#1]{#2} %
 \ifthenelse{\equal{#3}{}}{\epsfig{file=#4}}{\epsfig{height=#3,file=#4}} %
@@ -1294,7 +1294,7 @@ Syntax: documentclass[treatise,english,cropmarks,allpages,empty]{ISTE_Science}}}
 
 \newenvironment{Table}[2][]{%
 % #1 : placement de la table du type htb... comme pour figure ou table
-% #2 : la légende
+% #2 : la lÃ©gende
 \settowidth{\captionwidth}{\FonteTitreLegende #2}
 \renewcommand{\@@caption}{#2}%
 \ifdim\captionwidth > 345mm \@bigcaptiontrue \else\@bigcaptionfalse\fi
@@ -1306,50 +1306,50 @@ Syntax: documentclass[treatise,english,cropmarks,allpages,empty]{ISTE_Science}}}
 
 % Flottants -------------------------------------------------------------------------
 
-\def\topfigrule{}               % cmde de tracé 1 règle float haut et texte
-\def\botfigrule{}               % cmde de tracé 1 règle float bas et texte
+\def\topfigrule{}               % cmde de tracÃ© 1 rÃ¨gle float haut et texte
+\def\botfigrule{}               % cmde de tracÃ© 1 rÃ¨gle float bas et texte
 
-% Ajustement des paramètres des figures flottantes
+% Ajustement des paramÃ¨tres des figures flottantes
 % L'utilisateur PEUT, voire DOIT AJUSTER ces valeurs s'il rencontre
-% des problèmes de placements ! cf Latex companion
+% des problÃ¨mes de placements ! cf Latex companion
 
-\setcounter{topnumber}{2}              % déf. 2    % nb max de fig. en haut
-\setcounter{bottomnumber}{1}           % déf. 1    % nb max de fig. en bas
-\setcounter{totalnumber}{3}            % déf. 3    % nb max de fig. par page
-\renewcommand{\topfraction}{1}         % déf. 0.7  % fraction max de remplissage de la
+\setcounter{topnumber}{2}              % dÃ©f. 2    % nb max de fig. en haut
+\setcounter{bottomnumber}{1}           % dÃ©f. 1    % nb max de fig. en bas
+\setcounter{totalnumber}{3}            % dÃ©f. 3    % nb max de fig. par page
+\renewcommand{\topfraction}{1}         % dÃ©f. 0.7  % fraction max de remplissage de la
                                                    % page par la (les) figure(s) en haut
-\renewcommand{\bottomfraction}{1}      % déf. 0.3  % fraction max de remplissage de la
+\renewcommand{\bottomfraction}{1}      % dÃ©f. 0.3  % fraction max de remplissage de la
                                                    % page par la figure en bas
                                                    % en baspar fig
-\renewcommand{\textfraction}{0}        % déf. 0.2  % fract. min remplissage texte / page
-\renewcommand{\floatpagefraction}{0.8} % déf. 0.5  % remplissage floatpage
+\renewcommand{\textfraction}{0}        % dÃ©f. 0.2  % fract. min remplissage texte / page
+\renewcommand{\floatpagefraction}{0.8} % dÃ©f. 0.5  % remplissage floatpage
 
-% Dimensions des espaces verticaux élastiques autour des figures :
-% jouent un rôle important pour le placement, on a intérêt à augmenter l'élasticité
+% Dimensions des espaces verticaux Ã©lastiques autour des figures :
+% jouent un rÃ´le important pour le placement, on a intÃ©rÃªt Ã  augmenter l'Ã©lasticitÃ©
 
 %\setlength{\floatsep}{22pt plus 5pt minus 2pt}  
 \setlength{\floatsep}{22pt}  
-       % espace supplémentaire entre 2 figures
-       % par défaut: \setlength{\floatsep}{12pt plus 2pt minus 2pt}
+       % espace supplÃ©mentaire entre 2 figures
+       % par dÃ©faut: \setlength{\floatsep}{12pt plus 2pt minus 2pt}
 
 %\setlength{\textfloatsep}{22pt plus 2pt minus 4pt}
 \setlength{\textfloatsep}{22pt}
        % espace entre texte et figure pour des figures en haut ou en bas
-       % par défaut: \setlength{\textfloatsep}{20pt plus 2pt minus 4pt}
+       % par dÃ©faut: \setlength{\textfloatsep}{20pt plus 2pt minus 4pt}
 
 \newskip\intextUsep
 \setlength{\intextUsep}{\parskip} 
-       % espace supplémentaire au dessus d'une figure [h], entre figure et texte.
-       % par défaut: \setlength{\intextsep}{\floatsep}
+       % espace supplÃ©mentaire au dessus d'une figure [h], entre figure et texte.
+       % par dÃ©faut: \setlength{\intextsep}{\floatsep}
 
 \newskip\intextDsep
 \setlength{\intextDsep}{22pt plus 5pt minus 2pt} 
-       % espace supplémentaire au dessous d'une
+       % espace supplÃ©mentaire au dessous d'une
        % figure [h], entre figure et texte.
-       % par défaut: \setlength{\intextsep}{\floatsep}
+       % par dÃ©faut: \setlength{\intextsep}{\floatsep}
 
-% redéfinition de Latex.ltx pour avoir un espace vertical au dessus et
-% au dessous des figures flottantes au milieu différent (par défaut c'est le même au
+% redÃ©finition de Latex.ltx pour avoir un espace vertical au dessus et
+% au dessous des figures flottantes au milieu diffÃ©rent (par dÃ©faut c'est le mÃªme au
 % dessus et au dessous : \intextsep
 \def \@addtocurcol {% adaptation de latex.ltx
    \@insertfalse
@@ -1419,57 +1419,57 @@ Syntax: documentclass[treatise,english,cropmarks,allpages,empty]{ISTE_Science}}}
 
 % En mode standard, les modes equation, eqnarray et eqnarray*
 % fournissent bien une ligne blanche au dessus et au dessous et la numerotation
-% collée sur la marge de droite.
-% La seule adadaptation est la numérotation [n] au lieu de (n).
+% collÃ©e sur la marge de droite.
+% La seule adadaptation est la numÃ©rotation [n] au lieu de (n).
 
 \renewcommand{\@eqnnum}{\reset@font\rmfamily [\theequation]}
 
-% Définition des espaces sans l'option fleqn :
+% DÃ©finition des espaces sans l'option fleqn :
 
 \setlength{\mathindent}{10mm}           % indentation des formules
-\setlength{\arraycolsep}{5pt}           % moitié de l'espace horizontal entre les colonnes
+\setlength{\arraycolsep}{5pt}           % moitiÃ© de l'espace horizontal entre les colonnes
                                         % d'un environnement array
 \setlength{\jot}{0.5\baselineskip}      % extra espace entre les lignes de eqnarray/eqnarray*
-\setlength{\topsep}{11pt} % espace supplém. au dessus/dessous des formules.
+\setlength{\topsep}{11pt} % espace supplÃ©m. au dessus/dessous des formules.
 
-% Les valeurs suivantes ne sont pas utilisées avec l'option fleqn
-%\setlength{\abovedisplayskip}{0mm}      % espace supplémentaire au dessus des longues formules
+% Les valeurs suivantes ne sont pas utilisÃ©es avec l'option fleqn
+%\setlength{\abovedisplayskip}{0mm}      % espace supplÃ©mentaire au dessus des longues formules
 %\setlength{\abovedisplayshortskip}{0mm} % idem, formules courtes
-%\setlength{\belowdisplayskip}{0mm}      % espace supplémentaire au dessous des longues formules
+%\setlength{\belowdisplayskip}{0mm}      % espace supplÃ©mentaire au dessous des longues formules
 %\setlength{\belowdisplayshortskip}{0mm} % idem, formules courtes
 
 % Utilitaires facultatifs ---------------------------------------------------------------
 
 % Utiliser la commande \eqncont pour terminer une ligne de formule
-% sur plusieurs lignes : supprime la numérotation + espace vertical plus serré.
+% sur plusieurs lignes : supprime la numÃ©rotation + espace vertical plus serrÃ©.
 \newcommand{\EqnCont}{\nonumber \\[0\baselineskip]}
 
 %%% Retardement du pagebreak
 
-%  Pour retarder le passage automatique à la page suivante de 1 ou 2 lignes,
+%  Pour retarder le passage automatique Ã  la page suivante de 1 ou 2 lignes,
 %  utiliser le couple de commandes \delaynewpage{nb lignes} ... \forcenewpage
 %  Attention! cette technique est du bricolage, mais cependant indispensable
-%  pour une présentation optimale d'un document. (indiquée par Lamport).
-%  IL NE FAUT L'EMPLOYER QUE TOUT À LA FIN, JUSTE AVANT L'IMPRESSION FINALE.
+%  pour une prÃ©sentation optimale d'un document. (indiquÃ©e par Lamport).
+%  IL NE FAUT L'EMPLOYER QUE TOUT Ã€ LA FIN, JUSTE AVANT L'IMPRESSION FINALE.
 %  En principe ne pas retarder de plus de 2 lignes !
 
 \newcommand{\Delaynewpage}[1]{\enlargethispage{#1\baselineskip}}
-   % À utiliser sur la page à allonger, à un endroit bien visible
-   % avant le premier paragraphe ou la figure à faire tenir sur la page.
+   % Ã€ utiliser sur la page Ã  allonger, Ã  un endroit bien visible
+   % avant le premier paragraphe ou la figure Ã  faire tenir sur la page.
    % Provoque une descente des notes de bas de page s'il y en a !
 
 \newcommand{\Forcenewpage}{\pagebreak\noindent}
-   % À utiliser à l'endroit précis où la coupure doit être forcée.
-   % on peut placer cette commande en début de ligne, avec suite du texte
-   % sur la ligne suivante pour faciliter son repérage
+   % Ã€ utiliser Ã  l'endroit prÃ©cis oÃ¹ la coupure doit Ãªtre forcÃ©e.
+   % on peut placer cette commande en dÃ©but de ligne, avec suite du texte
+   % sur la ligne suivante pour faciliter son repÃ©rage
 
 % Listes ----------------------------------------------------------------------------
 
-% Espaces communs aux listes numérotées (enumerate) ou non (itemize)
-% Attention !!! Ces espacements ne peuvent être efectifs que si Babel ne les redéfinit
+% Espaces communs aux listes numÃ©rotÃ©es (enumerate) ou non (itemize)
+% Attention !!! Ces espacements ne peuvent Ãªtre efectifs que si Babel ne les redÃ©finit
 % pas dans \@trivlist, comme il tente de l'imposer. Il faut ABSOLUMENT
-% exécuter \bbl@nonfrenchlistspacing pour revenir à l'espacement Hermes,
-% en particulier après \selectlanguage qui redéfinit l'espacement de babel.
+% exÃ©cuter \bbl@nonfrenchlistspacing pour revenir Ã  l'espacement Hermes,
+% en particulier aprÃ¨s \selectlanguage qui redÃ©finit l'espacement de babel.
 
 \def\@hermesitemizespacing{%
 % espacements horizontaux
@@ -1499,14 +1499,14 @@ Syntax: documentclass[treatise,english,cropmarks,allpages,empty]{ISTE_Science}}}
     \fi\fi
     \partopsep=0pt
     \parsep=0pt
-% pénalités
+% pÃ©nalitÃ©s
    \sloppy%
-   \widowpenalty10000%ligne isolée en début de page
-   \clubpenalty10000%ligne isolée à la fin d'une page
+   \widowpenalty10000%ligne isolÃ©e en dÃ©but de page
+   \clubpenalty10000%ligne isolÃ©e Ã  la fin d'une page
 }
 
 \newcommand{\displaylistdimen}{% 
-  % Utilitaire de mise au point en cas de réapparition du problème de l'espacement de
+  % Utilitaire de mise au point en cas de rÃ©apparition du problÃ¨me de l'espacement de
   % babel : cf hermesitemize et hermesenumerate
      itemdepth: \the\@itemdepth ;\\
      topsep: \the\topsep ;\\
@@ -1516,25 +1516,25 @@ Syntax: documentclass[treatise,english,cropmarks,allpages,empty]{ISTE_Science}}}
      parsep: \the\parsep.
 }
 
-% Listes non numérotées (itemize) -----------------------------------------------------------------------
+% Listes non numÃ©rotÃ©es (itemize) -----------------------------------------------------------------------
 
-\newlength{\labelwidthi}      % largeur de la boîte contenant le retrait de 5mm + tiret moyen
+\newlength{\labelwidthi}      % largeur de la boÃ®te contenant le retrait de 5mm + tiret moyen
 \settowidth{\labelwidthi}{--} % environ 2mm, tiret moyen
 \addtolength{\labelwidthi}{5mm} % retrait + largeur du tiret moyen, environ 7mm
 
-\newlength{\itemindenti}      % décalage du texte de 1ère ligne depuis marge gauche 
+\newlength{\itemindenti}      % dÃ©calage du texte de 1Ã¨re ligne depuis marge gauche 
 \setlength{\itemindenti}{\labelwidthi} % = labelwidthi
 \addtolength{\itemindenti}{1mm}          %   + labelsep
 
-\newlength{\labelwidthii}       % largeur de la boîte contenant le retrait de 10mm + tiret court
+\newlength{\labelwidthii}       % largeur de la boÃ®te contenant le retrait de 10mm + tiret court
 \settowidth{\labelwidthii}{-}   % environ 1mm, tiret court
 \addtolength{\labelwidthii}{10mm} % retrait + largeur du tiret court, environ 11mm
 
-\newlength{\itemindentii}      % décalage du texte de 1ère ligne depuis marge gauche 
+\newlength{\itemindentii}      % dÃ©calage du texte de 1Ã¨re ligne depuis marge gauche 
 \setlength{\itemindentii}{\labelwidthii} % = labelwidthii
 \addtolength{\itemindentii}{1mm}           %   + labelsep
 
-\newenvironment{hermesitemize}{% liste à deux niveaux seulement
+\newenvironment{hermesitemize}{% liste Ã  deux niveaux seulement
  \ifnum \@itemdepth > 1 \@toodeep % ici, \@itemdepth = niveau -1 
  \else%
     \renewcommand{\labelitemi}{{\makebox[\labelwidthi][r]{--}}}%
@@ -1544,30 +1544,30 @@ Syntax: documentclass[treatise,english,cropmarks,allpages,empty]{ISTE_Science}}}
     \begin{list}%
        {\csname\@itemitem\endcsname}%
        {\def\makelabel##1{\llap{##1}}% ##1 signifie arg 1 de list et non de hermesitemize
-        % définir les espaces ici et nulle part ailleursn
+        % dÃ©finir les espaces ici et nulle part ailleursn
         \@hermesitemizespacing %
        }%\item \displaylistdimen
  \fi}{\end{list}}%
 
-% Listes numérotées ---------------------------------------------------------------------------------------
+% Listes numÃ©rotÃ©es ---------------------------------------------------------------------------------------
 
-\newlength{\enumwidthi}      % largeur de la boîte contenant le retrait de 5mm + n.
+\newlength{\enumwidthi}      % largeur de la boÃ®te contenant le retrait de 5mm + n.
 \settowidth{\enumwidthi}{5)} % environ 2mm, chiffre le plus large
 \addtolength{\enumwidthi}{5mm} % retrait + largeur du tiret moyen, environ 7mm
 
-\newlength{\enumindenti}      % décalage du texte de 1ère ligne depuis marge gauche 
+\newlength{\enumindenti}      % dÃ©calage du texte de 1Ã¨re ligne depuis marge gauche 
 \setlength{\enumindenti}{\enumwidthi} % = enumwidthi
 \addtolength{\enumindenti}{1mm}          %   + enumsep
 
-\newlength{\enumwidthii}         % largeur de la boîte contenant le retrait de 10mm + tiret court
+\newlength{\enumwidthii}         % largeur de la boÃ®te contenant le retrait de 10mm + tiret court
 \settowidth{\enumwidthii}{b)}   % environ 1mm, tiret court
 \addtolength{\enumwidthii}{10mm} % retrait + largeur du tiret court, environ 11mm
 
-\newlength{\enumindentii}      % décalage du texte de 1ère ligne depuis marge gauche 
+\newlength{\enumindentii}      % dÃ©calage du texte de 1Ã¨re ligne depuis marge gauche 
 \setlength{\enumindentii}{\enumwidthii} % = enumwidthii
 \addtolength{\enumindentii}{1mm}           %   + enumsep
 
-\newenvironment{hermesenumerate}{% enumération à un niveau
+\newenvironment{hermesenumerate}{% enumÃ©ration Ã  un niveau
  \ifnum \@itemdepth >1 \@toodeep
  \else%
       \advance\@enumdepth \@ne%
@@ -1578,7 +1578,7 @@ Syntax: documentclass[treatise,english,cropmarks,allpages,empty]{ISTE_Science}}}
          {%
           \usecounter{\@enumctr}%
           \def\makelabel##1{\llap{##1}}% ##1 signifie arg 1 de list et non de hermesenumerate
-          % définir les espaces horizontaux ici
+          % dÃ©finir les espaces horizontaux ici
           \@hermesitemizespacing%
           \ifnum \@itemdepth =1
              \setlength{\itemindent}{\enumindenti}
@@ -1591,7 +1591,7 @@ Syntax: documentclass[treatise,english,cropmarks,allpages,empty]{ISTE_Science}}}
    \fi}{\end{list}}
 
 
-% Quotations, verses... redéfinition des espaces verticaux à 6 pts
+% Quotations, verses... redÃ©finition des espaces verticaux Ã  6 pts
 
 \renewenvironment{quote}{%
 \begin{list}{%
@@ -1599,7 +1599,7 @@ Syntax: documentclass[treatise,english,cropmarks,allpages,empty]{ISTE_Science}}}
   \leftmargin=1cm\labelsep=0pt\listparindent=0pt\itemindent=0pt\labelwidth=0pt\rightmargin=0pt%
   }\item\relax}{\end{list}}
 
-% Remarques, notes, exemples, Définitions, Théorème... ----------------------------------------------------
+% Remarques, notes, exemples, DÃ©finitions, ThÃ©orÃ¨me... ----------------------------------------------------
 
 \newcommand{\GenericRemark}[2]{{%
   % #1 : type de remarque, par exemple Note, Exemple, ...
@@ -1621,8 +1621,8 @@ Syntax: documentclass[treatise,english,cropmarks,allpages,empty]{ISTE_Science}}}
     \par\noindent\textsc{\examplename}.--\ \nopagebreak[4] }{\setlength{\parskip}{\@normalparskip}}
 
 \newcommand{\GenericDefinition}[2]{{%
-  % #1 : type de definition, par exemple Définition, Théorème, ...
-  % #2 : contenu de la définition
+  % #1 : type de definition, par exemple DÃ©finition, ThÃ©orÃ¨me, ...
+  % #2 : contenu de la dÃ©finition
     \par\parindent 0pt\textsc{#1}.--\ \nopagebreak[4] {\parskip 5pt\relax\textit{#2}}}}
 
 \newcommand{\Definition}[1]{\GenericDefinition{\definitionname}{#1}}
@@ -1631,7 +1631,7 @@ Syntax: documentclass[treatise,english,cropmarks,allpages,empty]{ISTE_Science}}}
 
 % Bibliographie --------------------------------------------------------------------------
 
-% J'ai séparé la définition de thebibliography en 2 parties
+% J'ai sÃ©parÃ© la dÃ©finition de thebibliography en 2 parties
 % thebibliography ajoute le nom de section puis appelle la liste BiblioHermes
 %\let\harvarditem\bibitem
 %\iftreatise
@@ -1649,17 +1649,17 @@ Syntax: documentclass[treatise,english,cropmarks,allpages,empty]{ISTE_Science}}}
 }
 
 % BiblioHermes affiche une liste de references bibliographiques.
-% Les entrées sont normalement préparées par le style ouvrage-hermes.bst, mais
-% peuvent aussi s'écrire à la main :
-% \bibitem[ref]{cite} qui écrit comme d'habitude
+% Les entrÃ©es sont normalement prÃ©parÃ©es par le style ouvrage-hermes.bst, mais
+% peuvent aussi s'Ã©crire Ã  la main :
+% \bibitem[ref]{cite} qui Ã©crit comme d'habitude
 % la clef de citation dans le fichier .aux pour bibtex
-% \bibi[ref] qui affiche seulement l'entree, sans écrire sur .aux
-% (utilité très spéciale, pour placer plusieurs biblios dans un document).
+% \bibi[ref] qui affiche seulement l'entree, sans Ã©crire sur .aux
+% (utilitÃ© trÃ¨s spÃ©ciale, pour placer plusieurs biblios dans un document).
 
 \def\bibi[#1]{\item[\@biblabel{#1}\hfill]} % @ special
 
 \newenvironment{BiblioHermes}{%begin
-   \begin{list}{}{% Définition des paramètres de liste pour la bibliographie Hermes
+   \begin{list}{}{% DÃ©finition des paramÃ¨tres de liste pour la bibliographie Hermes
          \usecounter{enumiv}%
          \let\p@enumiv\@empty %
          \renewcommand\theenumiv{\arabic{enumiv}}%
@@ -1687,21 +1687,21 @@ Syntax: documentclass[treatise,english,cropmarks,allpages,empty]{ISTE_Science}}}
 
 % Index --------------------------------------------------------------------------------
 
-% L'index doit être produit avec makeindex et le fichier de style ouvrage-hermes.ist
-% (cf le manuel de makeindex sur votre machine pour savoir comment spécifier ce fichier
+% L'index doit Ãªtre produit avec makeindex et le fichier de style ouvrage-hermes.ist
+% (cf le manuel de makeindex sur votre machine pour savoir comment spÃ©cifier ce fichier
 % de style), par exemple :
 % makeindex -l -s ouvrage-hermes.ist mon_livre.idx % pour un index unique
 % makeindex -l -s ouvrage-hermes.ist mon_livre_chap1.idx ... mon_livre_chap2.idx 
             % pour des index par chapitres
 
-% Les macros suivantes sont pour la plupart des redéfinitions de book.cls
+% Les macros suivantes sont pour la plupart des redÃ©finitions de book.cls
 
 \renewenvironment{theindex}{%
   \if@openright\cleardoublepage\else\clearpage\fi %
     \columnseprule \z@ % 0.25pt
     \columnsep 1cm %
-    \begin{multicols}{2}[\chapter*{\indexname} %chapitre non numéroté puisque index dans backmatter
-           \enlargethispage{0pt}] %correction du décalage inexpliqué sur 1ere page
+    \begin{multicols}{2}[\chapter*{\indexname} %chapitre non numÃ©rotÃ© puisque index dans backmatter
+           \enlargethispage{0pt}] %correction du dÃ©calage inexpliquÃ© sur 1ere page
     \begin{flushleft}%
     \FonteNoteBasPage %
     \parindent\z@ %
@@ -1710,35 +1710,35 @@ Syntax: documentclass[treatise,english,cropmarks,allpages,empty]{ISTE_Science}}}
   }{\end{flushleft}\end{multicols}}
 
 %\par\hangindent x mm fixe la marge gauche des lignes de continuation
-%le décalage éventuel de chaque item est obtenu par un hspace
+%le dÃ©calage Ã©ventuel de chaque item est obtenu par un hspace
 
 \renewcommand\@idxitem{\par\hangindent 5mm} 
-   % entrée niveau 1, sans alinéa,
+   % entrÃ©e niveau 1, sans alinÃ©a,
    % avec retrait de 5mm sur ligne de continuation
 
 \renewcommand\subitem{\par\hangindent 10mm\hspace*{5mm}}
-   % entrée de niveau 2, avec alinéa de 5mm,
+   % entrÃ©e de niveau 2, avec alinÃ©a de 5mm,
    % et retrait de 10mm sur ligne de continuation
 
 \renewcommand\subsubitem{\par\hangindent 15mm \hspace*{10mm}} 
-   % entrée de niveau 3, avec alinéa de 10mm,
+   % entrÃ©e de niveau 3, avec alinÃ©a de 10mm,
    % et retrait de 15mm sur ligne de continuation
 
 \renewcommand\indexspace{}
-   % espace avant lettre de séparation
+   % espace avant lettre de sÃ©paration
 
 \def\mkidxletter#1{%
    \ifthenelse{\equal{#1}{A}}{}{\par \vskip 11\p@ \@plus3\p@ \@minus2\p@\relax}
 {\color{Blue}\fontfamily{phv}\textbf{#1}}\nopagebreak\par \vskip 5\p@\relax}
-   % place la lettre de séparation en gras, fer à gauche.
-   % suivie d'un espace vertical de 5pts (spécifique de ouvrage-hermes)
+   % place la lettre de sÃ©paration en gras, fer Ã  gauche.
+   % suivie d'un espace vertical de 5pts (spÃ©cifique de ouvrage-hermes)
 
 % Fiche pour le service de fabrication -------------------------------------------------
 \def\@@soustitre#1{{\parskip3pt\par\noindent\textbf{#1}}\par}
 
 \newcommand{\Publisher}[3]{
    % Pour construire la page d'annexe pour le service de fabrication
-   %        {#1} = numero de téléphone des auteurs
+   %        {#1} = numero de tÃ©lÃ©phone des auteurs
    %        {#2} = fax des auteurs
    %        {#3} = Email des auteurs
    \renewcommand{\VAR@Phone}{#1}
@@ -1760,7 +1760,7 @@ Syntax: documentclass[treatise,english,cropmarks,allpages,empty]{ISTE_Science}}}
       \section*{\iffrenchlang Titre du livre~: \else Book title: \fi}
          \begin{quote}\parbox{6cm}{\raggedright \@VARTitreComplet } \end{quote}
 
-      \section*{\iffrenchlang Titre abrégé~: \else Short title: \fi}
+      \section*{\iffrenchlang Titre abrÃ©gÃ©~: \else Short title: \fi}
          \begin{quote}\textit{\VAR@TitreAbrege}\end{quote}
 
       \section*{\iffrenchlang Date de cette version~: \else Date of this version: \fi}
@@ -1769,8 +1769,8 @@ Syntax: documentclass[treatise,english,cropmarks,allpages,empty]{ISTE_Science}}}
       \section*{\iffrenchlang Contact~: \else Contact: \fi}
         \vspace{6pt}
         \begin{itemize}
-             \item \iffrenchlang téléphone~: \else phone: \fi \VAR@Phone
-             \item \iffrenchlang télécopie~: \else fax: \fi   \VAR@Fax 
+             \item \iffrenchlang tÃ©lÃ©phone~: \else phone: \fi \VAR@Phone
+             \item \iffrenchlang tÃ©lÃ©copie~: \else fax: \fi   \VAR@Fax 
              \item \iffrenchlang courriel~: \else email: \fi \VAR@Email
         \end{itemize}
 
@@ -1781,41 +1781,41 @@ Syntax: documentclass[treatise,english,cropmarks,allpages,empty]{ISTE_Science}}}
               \texttt{\PackageName.cls}
         \item version~\PackageVersion, \filedate
         \item \iffrenchlang 
-                 traité (option treatise)~: 
-                 \iftreatise Oui \textit{(chapitres avec différents auteurs)}
-                 \else Non \textit{(par défaut, livre, mêmes auteurs de chapitres)} \fi
+                 traitÃ© (option treatise)~: 
+                 \iftreatise Oui \textit{(chapitres avec diffÃ©rents auteurs)}
+                 \else Non \textit{(par dÃ©faut, livre, mÃªmes auteurs de chapitres)} \fi
               \else
                  chapters with several authors (treatise option): 
                  \iftreatise Yes \else No \textit{(by default)} \fi
               \fi
         \item \iffrenchlang 
-                livre en anglais (option english)~: Non \textit{(par défaut en français)} 
+                livre en anglais (option english)~: Non \textit{(par dÃ©faut en franÃ§ais)} 
               \else 
                 book in english (english option): Yes 
               \fi
         \item \iffrenchlang 
-                 tracé des limites de page (option cropmarks)~: 
-                 \ifcropmarks Oui \else Non \textit{(par défaut)} \fi
+                 tracÃ© des limites de page (option cropmarks)~: 
+                 \ifcropmarks Oui \else Non \textit{(par dÃ©faut)} \fi
               \else
                  crop marks for trimming the pages (cropmarks option): 
                  \ifcropmarks Yes \else No \textit{(by default)} \fi
               \fi
         \item \iffrenchlang 
-                   suppression des en-têtes de page (option empty)~: 
-                   \ifemptyheaders      Oui \else   Non \textit{(par défaut)} \fi
+                   suppression des en-tÃªtes de page (option empty)~: 
+                   \ifemptyheaders      Oui \else   Non \textit{(par dÃ©faut)} \fi
                \else
                    no page headings (empty option): 
                    \ifemptyheaders      Yes \else   No \textit{(by default)} \fi
                \fi
         \item \iffrenchlang 
                    impression des pages blanches (option allpages)~: 
-                   \ifallpages  Oui \else   Non \textit{(par défaut)} \fi
+                   \ifallpages  Oui \else   Non \textit{(par dÃ©faut)} \fi
               \else
                    printing blank pages (allpages option): 
                    \ifallpages  Yes \else   No \textit{(by default)} \fi
               \fi
         \item \iffrenchlang 
-                   césures actives~: voir la coupure du mot <<~cognitive~>> dans le fichier .log
+                   cÃ©sures actives~: voir la coupure du mot <<~cognitive~>> dans le fichier .log
               \else
                    active hyphenation: see hyphenation of the word ``cognitive'' in the .log file
               \fi
@@ -1823,9 +1823,9 @@ Syntax: documentclass[treatise,english,cropmarks,allpages,empty]{ISTE_Science}}}
       \end{itemize}
       }}}% \publisher
 
-%--- Internationalisation  Macros utilisées pour le paramétrage sur le langage
-% Beaucoup de ces valeurs sont définies par babel, mais on ne sait jamais :
-% les valeurs suivantes sont utilisées par ouvrage-hermes.cls ou ouvrage-hermes.bst
+%--- Internationalisation  Macros utilisÃ©es pour le paramÃ©trage sur le langage
+% Beaucoup de ces valeurs sont dÃ©finies par babel, mais on ne sait jamais :
+% les valeurs suivantes sont utilisÃ©es par ouvrage-hermes.cls ou ouvrage-hermes.bst
 
 %--- Macros identiques en francais et english
 
@@ -1838,24 +1838,24 @@ Syntax: documentclass[treatise,english,cropmarks,allpages,empty]{ISTE_Science}}}
 \def\editorname{ed.}
 \def\Volumename{vol.~}
 \def\volumename{vol.~}
-\def\no{no} % redéfinition de frenchb (préférence de Hermès)
-\def\No{N°} % redéfinition de frenchb (préférence de Hermès)
+\def\no{no} % redÃ©finition de frenchb (prÃ©fÃ©rence de HermÃ¨s)
+\def\No{NÂ°} % redÃ©finition de frenchb (prÃ©fÃ©rence de HermÃ¨s)
 
 \def\hermesup#1{\raisebox{0.55ex}{\protect\footnotesize #1\kern+.17em}}%
 \def\hermesdown#1{\raisebox{-0.55ex}{\protect\footnotesize #1\kern+.17em}}%
 \def\fsc{\scshape}%
 
-%--- Macros différentes en francais et english
+%--- Macros diffÃ©rentes en francais et english
 \def\@defand{%
    \iffrenchlang \def\and{ et } \else \def\and{ and } \fi
 }
 \@defand
 
 \iffrenchlang
-   \def\OrdinalInWords#1{\ifcase\value{#1} \or Première\or Deuxième\or Troisième
-      \or Quatrième\or Cinquième\or Sixième\or Septième\or Huitième\or Neuvième
-      \or Dixième\or Onzième\or Douzième\or Treizième\or Quatorzième\or Quinzième
-      \or Seizième\or Dix-Septième\or Dix-Huitième\or Dix-Neuvième\or Vingtième\fi}%
+   \def\OrdinalInWords#1{\ifcase\value{#1} \or PremiÃ¨re\or DeuxiÃ¨me\or TroisiÃ¨me
+      \or QuatriÃ¨me\or CinquiÃ¨me\or SixiÃ¨me\or SeptiÃ¨me\or HuitiÃ¨me\or NeuviÃ¨me
+      \or DixiÃ¨me\or OnziÃ¨me\or DouziÃ¨me\or TreiziÃ¨me\or QuatorziÃ¨me\or QuinziÃ¨me
+      \or SeiziÃ¨me\or Dix-SeptiÃ¨me\or Dix-HuitiÃ¨me\or Dix-NeuviÃ¨me\or VingtiÃ¨me\fi}%
 \else
    \def\OrdinalInWords#1{\ifcase\value{#1} \or First\or Second\or Third
       \or Fourth\or Fifth\or Sixth\or Seventh\or Eighth\or Ninth
@@ -1868,7 +1868,7 @@ Syntax: documentclass[treatise,english,cropmarks,allpages,empty]{ISTE_Science}}}
    \AutoSpaceBeforeFDP %
    \def\@partname{partie} %
    \def\chaptername{Chapitre}%
-   \def\contentsname{Table des matières}%
+   \def\contentsname{Table des matiÃ¨res}%
    \def\listefigurename{Liste des figures}%
    \def\listetablename{Liste des tableaux}%
    \def\listeprogramname{Liste des programmes}%
@@ -1879,12 +1879,12 @@ Syntax: documentclass[treatise,english,cropmarks,allpages,empty]{ISTE_Science}}}
    \def\programname{Programme}%
    \def\progname{programme}%
    \def\HermesRefname{Bibliographie}%
-   \def\abstractname{Résumé}%
+   \def\abstractname{RÃ©sumÃ©}%
    \def\remarkname{Remarque}%
    \def\notename{Note}%
    \def\examplename{Exemple}%
-   \def\definitionname{Définition}%
-   \def\theoremname{Théorème}%
+   \def\definitionname{DÃ©finition}%
+   \def\theoremname{ThÃ©orÃ¨me}%
    \def\lemmaname{Lemme}%
    \def\acknowledgementsname{Remerciements}%
    \def\appendixname{Annexe}%
@@ -1892,25 +1892,25 @@ Syntax: documentclass[treatise,english,cropmarks,allpages,empty]{ISTE_Science}}}
    \def\indexname{Index}%
    \def\bibname{Bibliographie}%
    \def\andname{, }%
-   \def\editionname{édition}%
-   \def\technicalreportname{Rapport}% valeur par défaut du champ type
-   \def\numbername{\no}%{n°~} %\no est défini dans frenchb
-   \def\Numbername{\No}%{N°~}
+   \def\editionname{Ã©dition}%
+   \def\technicalreportname{Rapport}% valeur par dÃ©faut du champ type
+   \def\numbername{\no}%{nÂ°~} %\no est dÃ©fini dans frenchb
+   \def\Numbername{\No}%{NÂ°~}
    \def\ofname{de}%
-   \def\guilo{\og} % autre possibilité : \def\guilo{«~}
-   \def\guilf{\fg} % autre possibilité : \def\guilf{~»}
+   \def\guilo{\og} % autre possibilitÃ© : \def\guilo{Â«~}
+   \def\guilf{\fg} % autre possibilitÃ© : \def\guilf{~Â»}
    \def\Jan{janvier }%
-   \def\Feb{février }%
+   \def\Feb{fÃ©vrier }%
    \def\Mar{mars }%
    \def\Apr{avril }%
    \def\May{mai }%
    \def\Jun{juin }%
    \def\Jul{juillet }%
-   \def\Aug{août }%
+   \def\Aug{aoÃ»t }%
    \def\Sep{septembre }%
    \def\Oct{octobre }%
    \def\Nov{novembre }%
-   \def\Dec{décembre }%
+   \def\Dec{dÃ©cembre }%
 \else %
    \gdef\@partname{Part}%
    \def\chaptername{Chapter}%
@@ -1939,7 +1939,7 @@ Syntax: documentclass[treatise,english,cropmarks,allpages,empty]{ISTE_Science}}}
    \def\bibname{Bibliography}%
    \def\andname{, }%
    \def\editionname{edition}%
-   \def\technicalreportname{Report }% valeur par défaut du champ type
+   \def\technicalreportname{Report }% valeur par dÃ©faut du champ type
    \def\numbername{no.~}%
    \def\Numbername{No.~}%
    \def\ofname{of}%
@@ -1966,7 +1966,7 @@ Syntax: documentclass[treatise,english,cropmarks,allpages,empty]{ISTE_Science}}}
    \gdef\enumerate{\hermesenumerate}\gdef\endenumerate{\endhermesenumerate}%
    \let\up\hermesup%
    \let\down\hermesdown%
-   \@initialisation % dépend du langage
+   \@initialisation % dÃ©pend du langage
 }
 
 \AtBeginDocument{
@@ -2016,7 +2016,7 @@ Syntax: documentclass[treatise,english,cropmarks,allpages,empty]{ISTE_Science}}}
                 \fi}%
 \setlength\arraycolsep{1.5\p@}
 \def\tagform@#1{\maketag@@@{[\ignorespaces#1\unskip\@@italiccorr]}}
-\setlength{\topsep}{5pt plus 2pt minus 2pt} % espace supplÃˆm. au dessus/dessous des formules.
+\setlength{\topsep}{5pt plus 2pt minus 2pt} % espace supplÃƒÂˆm. au dessus/dessous des formules.
 \usepackage{amsthm}
 \newtheoremstyle{ISTE}% hnamei
 {11pt}% hSpace abovei
@@ -2076,6 +2076,6 @@ Syntax: documentclass[treatise,english,cropmarks,allpages,empty]{ISTE_Science}}}
 \end{center}}}
 %\setlength{\oddsidemargin}{48mm}      % pour que la marge de gauche
 %\setlength{\evensidemargin}{48mm}     % soit exactement de 45mm
-%\setlength{\topmargin}{38.31mm}     % distance bord sup feuille au haut de l'en-tête
+%\setlength{\topmargin}{38.31mm}     % distance bord sup feuille au haut de l'en-tÃªte
 
 %EOF ouvrage-hermes.cls

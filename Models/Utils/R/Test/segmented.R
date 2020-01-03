@@ -62,12 +62,13 @@ getBreakpoints <- function(dataframe,maxBreakpointNumber = 5,criterion="AIC"){
   modelstats = data.frame()
   while(k<=maxBreakpointNumber){
     currentpval = pscore.test(currentmodel,more.break = k>0)$p.value
-    modelstats=rbind(modelstats,c(k=k,pvalue=currentpval,AIC=AIC(currentmodel),BIC=BIC(currentmodel)))
+    daviespval = davies.test(currentmodel,alternative = "two.sided")$p.value
+    modelstats=rbind(modelstats,c(k=k,pvalue=-currentpval,daviespvalue = -daviespval ,AIC=AIC(currentmodel),BIC=BIC(currentmodel)))
     currentmodel = segmented(currentlm,seg.Z=~x,npsi=k+1)
     #show(paste0("k=",k,"; p=",currentpval," ; AIC=",currentaic))
     k = k+1
   }
-  names(modelstats)<-c("k","pvalue","AIC","BIC")
+  names(modelstats)<-c("k","pvalue","daviespvalue","AIC","BIC")
   return(modelstats[modelstats[,criterion]==min(modelstats[,criterion]),])
 }
 
@@ -91,12 +92,15 @@ estbreakpoints = c()
 for(rep in 1:100){
 synth <- piecewiseSynthetic(seq(from=1/(b+1),to=1-1/(b+1),by=1/(b+1)),sign(runif(b+1,-1,1))*runif(b+1,min = 0.5,max=2),0.05)
 #plot(synth$x,synth$y)
-currentbpoints = getBreakpoints(synth,criterion="BIC")
+currentbpoints = getBreakpoints(synth,criterion="AIC")
 show(currentbpoints)
 estbreakpoints=append(estbreakpoints,currentbpoints$k)
 }
 
 mean(estbreakpoints)
+
+# est number of breakpoints: Bayesian approach
+# Martinez-Beneito, M. A., García-Donato, G., & Salmerón, D. (2011). A Bayesian joinpoint regression model with an unknown number of break-points. The Annals of Applied Statistics, 5(3), 2150-2168.
 
 
 

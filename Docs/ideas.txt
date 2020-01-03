@@ -1,5 +1,24 @@
 
 
+====
+2019/12/19
+
+The influence of the global electric power system on terrestrial biodiversity => example of trade-off emissinos/biodiv ?
+
+----
+
+The Justinianic Plague: An inconsequential pandemic? => cf Arnoux owrk on Roman Empire! / collapses 
+
+----
+
+Replicator degrees of freedom allow publication of misleading failures to replicate => means that more than just preregistration for reprod: code, docker etc. ?
+
+----
+
+Young, J. G., St-Onge, G., Laurence, E., Murphy, C., Hébert-Dufresne, L., & Desrosiers, P. Phase transition in the recoverability of network history.
+ => path dep in network generative models => // ABMFfirms
+
+
 
 ====
 2019/11/21
