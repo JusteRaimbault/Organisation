@@ -1,3 +1,5 @@
+# to set as a global gitignore:
+# git config --global core.excludesfile $CS_HOME/Organisation/.gitignore
 .DS_Store
 .texpadtmp
 

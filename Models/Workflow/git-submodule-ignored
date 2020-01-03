@@ -1,0 +1,2 @@
+git submodule foreach --recursive 'git ignored > __igntmp__; cat __igntmp__ | grep -v "?? __igntmp__"; rm __igntmp__'
+
