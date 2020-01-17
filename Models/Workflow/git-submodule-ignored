@@ -1,2 +1,18 @@
-git submodule foreach --recursive 'git ignored > __igntmp__; cat __igntmp__ | grep -v "?? __igntmp__"; rm __igntmp__'
+
+TIMESTAMP=`date +%s`
+TMPFILE=/tmp/gitsubmoduleignored$TIMESTAMP
+
+git submodule foreach --recursive 'git ignored > __igntmp__; cat __igntmp__ | grep -v "?? __igntmp__"; rm __igntmp__' > $TMPFILE 
+
+cat $TMPFILE
+rm $TMPFILE
+
+# script options:
+# --clean : removes ignored files following a given pattern (global file ?): targets, texpad, DS_Store, .idea (good idea ?)
+# --archive : archives files following a given pattern: RHistory, ? into a specified target
+# --clean-data : removes data files for which a *.source associated file exists (and is valid ?)
+# --unbacked : list unbacked files
+# ?
+
+
 
