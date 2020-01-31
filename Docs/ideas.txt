@@ -1,5 +1,16 @@
 
 
+
+
+====
+2020/01/20
+
+paper Bonabeau Morphogne - ABM : search ABM model validation
+--
+
+arxiv:2001.04383 - link complexity / quantum phys / game theory (indecidability of long range entanglement?)
+
+
 ====
 2019/12/19
 

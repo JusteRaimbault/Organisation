@@ -21,12 +21,35 @@
 
 \section*{Basic commands}
 
-Running containers 
+\subsection*{List containers}
 
 \texttt{docker ps}
 
+Exited containers: 
 
-\bigskip
+\texttt{docker ps -a -f status=exited}
+
+
+
+\subsection*{List images}
+
+\texttt{docker images}
+
+\texttt{docker images -f dangling=true}
+
+(to remove dangling: \texttt{docker images purge})
+
+
+\subsection*{Remove}
+
+Remove image \texttt{docker rmi}
+
+Remove container \texttt{docker rm}
+
+(remove all exited containers: \texttt{docker rm \$(docker ps -a -f status=exited -q)}
+
+
+\subsection*{Run}
 
 
 Run an image in a new container in interactive mode
@@ -35,14 +58,28 @@ Run an image in a new container in interactive mode
 
 (rm previous container with docker rm if name not available)
 
-\bigskip
+Option: --rm remove the container on exit
+
+Restart an exited container
+
+\texttt{docker start \$ID}
+
+Attach to it
+
+\texttt{docker attach \$ID}
+
+Bind volumes -v HOST:CONTAINER
+$\rightarrow$ can not reverse mount? (access files in container form outside)
+
+
+\subsection*{Duplicate image}
 
 
 Tag an image with a new name
 
 \texttt{docker tage source:tag target:tag}
 
-\bigskip
+\subsection*{Commit}
 
 Commit changes in a container to an image
 
@@ -60,7 +97,7 @@ Push changes to repository
 
 
 
-\bigskip
+\subsection*{Save}
 
 
 Save an image to a compressed archive

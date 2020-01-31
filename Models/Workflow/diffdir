@@ -3,6 +3,6 @@ md5dir . ~/tmp1
 cd $2
 md5dir . ~/tmp2
 diff -u ~/tmp1 ~/tmp2
-#rm ~/tmp1
-#rm ~/tmp2
+rm ~/tmp1
+rm ~/tmp2
 

@@ -1,0 +1,13 @@
+
+if [ -z ${DATAVERSE_TOKEN+x} ]; echo "Error: Dataverse token not set";exit 0;fi
+if [ -z ${DATAVERSE_URL+x} ]; echo "Error: Dataverse url not set";exit 0;fi
+if [ "$#" -ne 4 ]; echo "Usage: dataverse-upload $FILE $DESCR $DIR $DATASET_PERSISTENTID"; fi
+
+FILENAME=$1
+DESCRIPTION=$2
+DIRECTORY=$3
+DATASET_PERSISTENTID=$4
+
+curl -H X-Dataverse-key:$DATAVERSE_TOKEN -X POST -F "file=@$FILENAME" -F 'jsonData={"description":"$DESCRIPTION","directoryLabel":"$DIRECTORY","categories":["Data"], "restrict":"false"}' "$SERVER_URL/api/datasets/:persistentId/add?persistentId=$DATASET_PERSISTENTID"
+
+
