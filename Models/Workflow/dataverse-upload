@@ -25,11 +25,14 @@ DIRECTORY=$4
 URL="$DATAVERSE_URL/api/v1/datasets/:persistentId/add?persistentId=$DATASET_PERSISTENTID"
 echo "Uploading $FILENAME to $URL"
 
+# TODO - option for several file and upload as a zip?
+
 read -p "Continue? " -n 1 -r
 echo
 if [[ $REPLY =~ ^[Yy]$ ]]
 then
-    curl --progress-bar --verbose -H X-Dataverse-key:$DATAVERSE_TOKEN -X POST -F "file=@$FILENAME" -F 'jsonData={"description":"$DESCRIPTION","directoryLabel":"$DIRECTORY","categories":["Data"], "restrict":"false"}' $URL
+	echo "curl -H X-Dataverse-key:$DATAVERSE_TOKEN -X POST -F \"file=@$FILENAME\" -F 'jsonData={\"description\":\"$DESCRIPTION\",\"directoryLabel\":\"$DIRECTORY\",\"categories\":[\"Data\"], \"restrict\":\"false\"}' \"$URL\""
+	curl -H X-Dataverse-key:$DATAVERSE_TOKEN -X POST -F "file=@$FILENAME" -F 'jsonData={"directoryLabel":"tmp","categories":["Data"], "restrict":"false"}' "$URL"
 fi
 
 read -p "Add in gitignore?" -n 1 -r
