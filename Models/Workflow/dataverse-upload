@@ -1,13 +1,64 @@
 
-if [ -z ${DATAVERSE_TOKEN+x} ]; echo "Error: Dataverse token not set";exit 0;fi
-if [ -z ${DATAVERSE_URL+x} ]; echo "Error: Dataverse url not set";exit 0;fi
-if [ "$#" -ne 4 ]; echo "Usage: dataverse-upload $FILE $DESCR $DIR $DATASET_PERSISTENTID"; fi
+
+if [ -z ${DATAVERSE_TOKEN+x} ]; then
+  echo "Error: Dataverse token not set";
+  exit 0;
+fi
+
+if [ -z ${DATAVERSE_URL+x} ]; then
+  echo "Error: Dataverse url not set";
+  exit 0;
+fi
+
+if [ "$#" -lt 2 ]; then
+  echo "Usage: dataverse-upload FILE DESCR [DIR DATASET_PERSISTENTID]";
+  exit 0;
+fi
+
+
 
 FILENAME=$1
-DESCRIPTION=$2
-DIRECTORY=$3
-DATASET_PERSISTENTID=$4
+DATASET_PERSISTENTID=$2
+DESCRIPTION=$3
+DIRECTORY=$4
 
-curl -H X-Dataverse-key:$DATAVERSE_TOKEN -X POST -F "file=@$FILENAME" -F 'jsonData={"description":"$DESCRIPTION","directoryLabel":"$DIRECTORY","categories":["Data"], "restrict":"false"}' "$SERVER_URL/api/datasets/:persistentId/add?persistentId=$DATASET_PERSISTENTID"
+URL="$DATAVERSE_URL/api/v1/datasets/:persistentId/add?persistentId=$DATASET_PERSISTENTID"
+echo "Uploading $FILENAME to $URL"
+
+read -p "Continue? " -n 1 -r
+echo
+if [[ $REPLY =~ ^[Yy]$ ]]
+then
+    curl --progress-bar --verbose -H X-Dataverse-key:$DATAVERSE_TOKEN -X POST -F "file=@$FILENAME" -F 'jsonData={"description":"$DESCRIPTION","directoryLabel":"$DIRECTORY","categories":["Data"], "restrict":"false"}' $URL
+fi
+
+read -p "Add in gitignore?" -n 1 -r
+echo    
+if [[ $REPLY =~ ^[Yy]$ ]]
+then
+    echo $FILENAME >> .gitignore
+fi
+
+read -p "Remove file?" -n 1 -r
+echo
+if [[ $REPLY =~ ^[Yy]$ ]]
+then
+    rm $FILENAME
+fi
+
+# Pb: to add source with persistent id, dataset must have been published
+# ok - can get with file id - using https://dataverse.harvard.edu/api/access/datafile/$ID
+# file id is in dataset json description
+#read -p "Add source??" -n 1 -r
+#echo    
+#if [[ $REPLY =~ ^[Yy]$ ]]
+#then
+#    # get dataset description
+#    # parsing in bash is suicide -> python?
+#    #curl -H X-Dataverse-key:$DATAVERSE_TOKEN https://dataverse.harvard.edu/api/v1/datasets/:persistentId/versions/:draft?persistentId=$DATASET_PERSISTENTID
+#fi
+
+
+
 
 
