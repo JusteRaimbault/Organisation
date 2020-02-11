@@ -27,12 +27,15 @@ echo "Uploading $FILENAME to $URL"
 
 # TODO - option for several file and upload as a zip?
 
+# TODO - add check for max file size and cut it using `split` if necessary
+
 read -p "Continue? " -n 1 -r
 echo
 if [[ $REPLY =~ ^[Yy]$ ]]
 then
 	echo "curl -H X-Dataverse-key:$DATAVERSE_TOKEN -X POST -F \"file=@$FILENAME\" -F 'jsonData={\"description\":\"$DESCRIPTION\",\"directoryLabel\":\"$DIRECTORY\",\"categories\":[\"Data\"], \"restrict\":\"false\"}' \"$URL\""
-	curl -H X-Dataverse-key:$DATAVERSE_TOKEN -X POST -F "file=@$FILENAME" -F 'jsonData={"directoryLabel":"tmp","categories":["Data"], "restrict":"false"}' "$URL"
+	#FIXME description with spaces does not work
+	curl -H X-Dataverse-key:$DATAVERSE_TOKEN -X POST -F "file=@$FILENAME" -F 'jsonData={"categories":["Data"], "restrict":"false"}' "$URL"
 fi
 
 read -p "Add in gitignore?" -n 1 -r
