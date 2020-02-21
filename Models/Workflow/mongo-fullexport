@@ -1,0 +1,40 @@
+
+# dumps a mongo database: 
+# - into bson gzipped for all databases / collections (+ local in separate file)
+# - exports dbs/collections as json zipped
+# note: done in current directory and with standard port (27017)
+
+DBNAME=$1
+
+mkdir dump
+mkdir export
+
+# dump
+#mongodump --archive=mongodb/$DBNAME.bson.tar.gz --gzip
+#mongodump -d local --archive=mongodb/$DBNAME-local.bson.tar.gz --gzip
+
+cd dump
+
+mongodump --archive=$DBNAME.bson.tar.gz --gzip
+mongodump -d local --archive=$DBNAME-local.bson.tar.gz --gzip
+
+cd ../export
+
+# export
+# mongoexport -d test -c data --pretty --jsonArray | gzip > test.data.json.gz
+# -> for each db and each collection
+
+mongo --eval "db.adminCommand( { listDatabases: 1 } )" | grep name | awk -F":" '{print $2}' | tr -d '"' | tr -d "," > dbs
+
+while read db; do
+  echo "Exporting $db"
+  mongo $db --eval "db.getCollectionNames()" | grep '\[' | tr -d '\[' | tr -d '\]' | tr -d '"' | tr -d ' ' | tr ',' '\n' > $db.cols
+  while read col; do
+     echo "    Collection: $db.$col"
+     mongoexport -d $db -c $col --pretty --jsonArray | gzip > $db.$col.json.gz
+  done <$db.cols
+done <dbs
+
+cd ..
+
+
