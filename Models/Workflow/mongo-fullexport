@@ -28,7 +28,10 @@ mongo --eval "db.adminCommand( { listDatabases: 1 } )" | grep name | awk -F":" '
 
 while read db; do
   echo "Exporting $db"
-  mongo $db --eval "db.getCollectionNames()" | grep '\[' | tr -d '\[' | tr -d '\]' | tr -d '"' | tr -d ' ' | tr ',' '\n' > $db.cols
+  # issue if array is on rows instead of one single => must go through python :/
+  # alternative: jq? https://stedolan.github.io/jq/manual/
+  #mongo $db --eval "db.getCollectionNames()" | grep '"' | tr -d '\[' | tr -d '\]' | tr -d '"' | tr -d ' ' | tr ',' '\n' > $db.cols
+  mongo --quiet $db --eval "db.getCollectionNames()" | python3 -c "import sys, json; array=json.load(sys.stdin); list(map(print,array))"
   while read col; do
      echo "    Collection: $db.$col"
      mongoexport -d $db -c $col --pretty --jsonArray | gzip > $db.$col.json.gz
