@@ -22,6 +22,8 @@ DATASET_PERSISTENTID=$2
 DESCRIPTION=$3
 DIRECTORY=$4
 
+TMPLOG="$FILENAME_"`date +%s`
+
 URL="$DATAVERSE_URL/api/v1/datasets/:persistentId/add?persistentId=$DATASET_PERSISTENTID"
 echo "Uploading $FILENAME to $URL"
 
@@ -35,8 +37,37 @@ if [[ $REPLY =~ ^[Yy]$ ]]
 then
 	echo "curl -H X-Dataverse-key:$DATAVERSE_TOKEN -X POST -F \"file=@$FILENAME\" -F 'jsonData={\"description\":\"$DESCRIPTION\",\"directoryLabel\":\"$DIRECTORY\",\"categories\":[\"Data\"], \"restrict\":\"false\"}' \"$URL\""
 	#FIXME description with spaces does not work
-	curl -H X-Dataverse-key:$DATAVERSE_TOKEN -X POST -F "file=@$FILENAME" -F 'jsonData={"categories":["Data"], "restrict":"false"}' "$URL"
+	curl -H X-Dataverse-key:$DATAVERSE_TOKEN -X POST -F "file=@$FILENAME" -F 'jsonData={"categories":["Data"], "restrict":"false"}' "$URL" > $TMPLOG
 fi
+
+
+# Pb: to add source with persistent id, dataset must have been published
+# ok - can get with file id - using https://dataverse.harvard.edu/api/access/datafile/$ID
+# file id is in dataset json description
+#read -p "Add source??" -n 1 -r
+#echo    
+#if [[ $REPLY =~ ^[Yy]$ ]]
+#then
+#    # get dataset description
+#    # parsing in bash is suicide -> python?
+#    #curl -H X-Dataverse-key:$DATAVERSE_TOKEN https://dataverse.harvard.edu/api/v1/datasets/:persistentId/versions/:draft?persistentId=$DATASET_PERSISTENTID
+#fi
+
+STATUS=`cat $TMPLOG | python3 -c "import sys, json; data=json.load(sys.stdin); print(data['status'])"`
+echo "Upload status: $STATUS"
+
+FILEID=`cat $TMPLOG | python3 -c "import sys, json; data=json.load(sys.stdin); print(data['data']['files'][0]['dataFile']['id'])"`
+echo "Data file id is $FILEID"
+
+rm $TMPLOG
+
+read -p "Add .source file?" -n 1 -r
+echo
+if [[ $REPLY =~ ^[Yy]$ ]]
+then
+    echo "$DATAVERSE_URL/api/access/datafile/$FILEID" > $FILENAME.source
+fi
+
 
 read -p "Add in gitignore?" -n 1 -r
 echo    
@@ -51,20 +82,5 @@ if [[ $REPLY =~ ^[Yy]$ ]]
 then
     rm $FILENAME
 fi
-
-# Pb: to add source with persistent id, dataset must have been published
-# ok - can get with file id - using https://dataverse.harvard.edu/api/access/datafile/$ID
-# file id is in dataset json description
-#read -p "Add source??" -n 1 -r
-#echo    
-#if [[ $REPLY =~ ^[Yy]$ ]]
-#then
-#    # get dataset description
-#    # parsing in bash is suicide -> python?
-#    #curl -H X-Dataverse-key:$DATAVERSE_TOKEN https://dataverse.harvard.edu/api/v1/datasets/:persistentId/versions/:draft?persistentId=$DATASET_PERSISTENTID
-#fi
-
-
-
 
 
