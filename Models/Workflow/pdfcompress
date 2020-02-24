@@ -1,0 +1,6 @@
+
+INPUT=$1
+OUTPUT=$2
+
+gs -sDEVICE=pdfwrite -dCompatibilityLevel=1.4 -dPDFSETTINGS=/printer -dNOPAUSE -dQUIET -dBATCH -sOutputFile=$OUTPUT $INPUT
+

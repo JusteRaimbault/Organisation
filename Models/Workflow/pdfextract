@@ -1,6 +1,9 @@
 # usage : pdfextract file.pdf target.pdf firstpage lastpage
 
-gs -sDEVICE=pdfwrite -dNOPAUSE -dBATCH -dSAFER \
-       -dFirstPage=$3 -dLastPage=$4 \
-       -sOutputFile=$2 $1
+ORIGINAL=$1
+OUTPUT=$2
+FIRST=$3
+LAST=$4
+
+gs -sDEVICE=pdfwrite -dNOPAUSE -dBATCH -dSAFER -dFirstPage=$FIRST -dLastPage=$LAST -sOutputFile=$OUTPUT $ORIGINAL
 

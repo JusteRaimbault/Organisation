@@ -134,6 +134,27 @@ sudo apt-get install -y singularity-container
 
 
 
+\section*{DNS resolution}
+
+\subsection*{Ubuntu 18.04}
+
+DNS servers in /etc/resolv.conf
+
+Generally dynamically by service: check with \texttt{systemd-resolve --status}
+
+(netplan to configure) 
+
+(previously in /etc/network/interfaces)
+
+
+\section*{Cryptography}
+
+GPG keys: gpg --list-secret-keys
+
+pass: git init, init \$GPGKEY, insert
+
+
+
 
 %%%%%%%%%%%%%%%%%%%%
 %% Biblio

@@ -3,6 +3,21 @@
 
 
 ====
+2020/02/12
+
+Törnberg, A. (2019). Abstractions on steroids: A critical realist approach to computer simulations. Journal for the Theory of Social Behaviour, 49(1), 127-143. => // model functions Varenne, positioning perspectivism ? (critical realism: ?)
+
+
+
+====
+2020/02/11
+
+
+Hausfather, Z., Drake, H. F., Abbott, T., & Schmidt, G. A. (2020). Evaluating the performance of past climate model projections. Geophysical Research Letters, 47(1), e2019GL085378.
+=> model perf = intrinsic model perf + error on forcings: do similar with urb growth model / comparing with different datasets? (what would be the equivalent of forcing?)
+
+
+====
 2020/01/20
 
 paper Bonabeau Morphogne - ABM : search ABM model validation
