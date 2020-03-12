@@ -155,6 +155,20 @@ pass: git init, init \$GPGKEY, insert
 
 
 
+\section*{Disk issues}
+
+(ubuntu)
+
+https://askubuntu.com/questions/59064/how-to-run-a-checkdisk
+
+lsblk find disk
+
+Read only badblocks:
+sudo badblocks -b 4096 -c 4096 -s /dev/sdc
+
+
+
+
 
 %%%%%%%%%%%%%%%%%%%%
 %% Biblio
