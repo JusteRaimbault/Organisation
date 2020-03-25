@@ -1,0 +1,19 @@
+
+
+FILE=$1
+
+# option: if arg is a dir, tgz
+
+MAXSIZE=5G
+
+# split
+split --verbose -b $MAXSIZE $FILE $FILE
+
+mkdir tmp
+mv $FILE tmp
+# assume $SDURL, $SDUSER and $SDPWD are set for webdav upload
+ls | grep $FILE | awk '{print "curl -T "$0" -u $SDUSER:$SDPWD -o /dev/stdout $SDURL"}' | sh
+
+mv tmp/$FILE $FILE
+rmdir tmp
+
