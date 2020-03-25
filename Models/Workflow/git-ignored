@@ -1,0 +1,2 @@
+git status --porcelain --ignored | grep -vF ".DS_Store" | grep -vF ".texpadtmp" | grep -vF ".idea"
+

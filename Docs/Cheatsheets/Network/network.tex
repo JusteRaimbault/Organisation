@@ -46,6 +46,15 @@ list open ports : netstat -atnp
 
 
 
+\section*{Webdav}
+
+To upload file to webdav (does not work recursively over dirs) using curl:
+
+curl -T $FILE -u $USR:$PWD -o /dev/stdout $URL
+
+! with FileRun, adress should be \$URL/dav.php/\%40Home/
+(does not work with subdir: pb config? ! not without dav.php, HOME etc)
+
 
 
 

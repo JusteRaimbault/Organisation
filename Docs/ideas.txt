@@ -3,6 +3,18 @@
 
 
 ====
+2020/03/23
+
+
+Sayama, H. (2008). Construction theory, self‐replication, and the halting problem. Complexity, 13(5), 16-22. => link reflexivity/ complexities etc.? Structural eq between types of compplexities / types of systems / types of theories? => category theory?
+
+----
+
+Nowack, P., Runge, J., Eyring, V., & Haigh, J. D. (2020). Causal networks for climate model evaluation and constrained projections. Nature Communications, 11(1), 1-11. => "causal fingerprint" => // coevolu and spatiotemp causalities! (roughly same idea)
+
+
+
+====
 2020/02/12
 
 Törnberg, A. (2019). Abstractions on steroids: A critical realist approach to computer simulations. Journal for the Theory of Social Behaviour, 49(1), 127-143. => // model functions Varenne, positioning perspectivism ? (critical realism: ?)

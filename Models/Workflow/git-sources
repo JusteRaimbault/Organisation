@@ -1,0 +1,6 @@
+
+
+# locate source files
+locate *.source | grep `pwd` | awk '{print "cat "$0}' | sh
+
+
