@@ -1,6 +1,31 @@
 
 
 
+====
+2020/04/15
+
+
+2004.06464 => // GT model for lead-follow in orienteering? (~ same level, relay?)
+
+====
+2020/03/30
+
+
+https://stanfordnlp.github.io/stanza/ => multilingual NLP => CN patents
+
+----
+
+10.18564/jasss.4274: review of surrogate models for ABM 
+
+----
+
+10.1073/pnas.1913014117 => // optimal scaling law spatial partitioning // deviation from Christaller (cf paper Charlotte)
+
+====
+2020/03/26
+
+
+https://arxiv.org/abs/2003.06279 => combine embedding and co-ovvucrences -> complementrairy ?
 
 ====
 2020/03/23

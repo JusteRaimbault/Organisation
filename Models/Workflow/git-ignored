@@ -1,2 +1,4 @@
 git status --porcelain --ignored | grep -vF ".DS_Store" | grep -vF ".texpadtmp" | grep -vF ".idea"
 
+# rq: on git older tha 1.7.6, use git clean -ndX
+
