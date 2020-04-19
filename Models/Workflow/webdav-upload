@@ -14,6 +14,9 @@ mv $FILE tmp
 # assume $SDURL, $SDUSER and $SDPWD are set for webdav upload
 ls | grep $FILE | awk '{print "curl -T "$0" -u $SDUSER:$SDPWD -o /dev/stdout $SDURL"}' | sh
 
+# !: to upload to a subdir, provide path but works only with a final file name
+# ! file with "%2F" in name (typically DOI) are interpreted as folder: webdav upload fails as directory does not exists: use gsub in awk: ls | awk '{target=$0; gsub("%2F","-",target);print "curl -T "$0" -u $SDUSER:$SDPWD -o /dev/stdout $SDURL$DIR/"target}'
+
 mv tmp/$FILE $FILE
 rmdir tmp
 
