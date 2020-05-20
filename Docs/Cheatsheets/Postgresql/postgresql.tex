@@ -38,6 +38,15 @@ pg_ctlcluster [options] cluster-version cluster-name action -- [pg_ctl options]
 
 
 
+\section{Mysql}
+
+% do separate doc
+
+mysqldump --all-databases --single-transaction --quick --lock-tables=false > full-backup-$(date +%F).sql -u USER -p
+
+
+
+
 
 %%%%%%%%%%%%%%%%%%%%
 %% Biblio
