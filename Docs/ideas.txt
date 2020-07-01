@@ -2,6 +2,66 @@
 
 
 ====
+2020/06/30
+
+Delineating urban areas using building density => already done: do not cite a lot of geo work? ! compare (+ bib review paper large urban areas?) ! check more work eco - Duranton
+
+
+====
+2020/06/16
+
+2006.05994 => // Nobel Game; more general?
+
+====
+2020/06/16
+
+arXiv:2006.06584 => interest vs GHSL? // quality? // The HYDE 3.1 spatially explicit database of human‐induced global land‐use change over the past 12,000 years (cf tw Elsa)
+
+
+====
+2020/06/11
+
+https://arxiv.org/abs/2006.02870: framewrok complexsystems in general or network sci? (emergence etc.?)
+
+
+====
+2020/06/11
+
+https://arxiv.org/abs/2006.02359 From Probability to Consilience: How Explanatory Values Implement Bayesian Reasoning => link with model functions / model coupling / perspectivism? // applied persp project!
+
+
+====
+2020/06/11
+
+Leyk, S., & Uhl, J. H. (2018). HISDAC-US, historical settlement data compilation for the conterminous United States over 200 years. Scientific data, 5, 180175. => precise analysis of urban form in time for US (resolution better than other pop grids?)(time span larger?)
+
+====
+2020/06/05
+
+https://scholar.google.fr/scholar?hl=fr&as_sdt=0%2C5&q=noisy+fitness+self+amplifying+noise&btnG=&oq=noisy+fitness+self-amplifying+noise => Noisy EA (does not seems to be a thing?)
+
+====
+2020/06/05
+
+ https://scholar.google.fr/scholar?hl=fr&as_sdt=0%2C5&q=non-ergodic+non-stationary+spatial+processes&btnG (from bib tosort) => repreendre notes/results Frog - th and simulation work worth trying?
+
+====
+2020/06/01
+
+
+predicatbility of game outcome: at which gold diff settled - https://scholar.google.com/scholar?hl=fr&as_sdt=0%2C5&q=win+predictor+league+of+legends&btnG=
+
+====
+2020/05/28
+
+10.1145/3321707.3321840 => multimodeling / model structure, "inverse generative social science": //OSE - tackles equifinality?
+
+----
+
+10.31222/osf.io/n7qsh => // 10 rules: Arnaud, // Varenne. ~ pretentious, not well documented (but still interesting?)
+
+
+====
 2020/05/20
 
 
