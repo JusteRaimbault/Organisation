@@ -1,0 +1,54 @@
+\input{../../Headers/WPHeader.tex}
+
+
+\title{java}
+
+
+\date{}
+
+
+\maketitle
+
+\justify
+
+\renewcommand{\abstractname}{}
+
+\begin{abstract}
+
+\end{abstract}
+
+
+\section*{SSL}
+
+PKIX error
+
+https://stackoverflow.com/questions/2893819/accept-servers-self-signed-ssl-certificate-in-java-client
+
+https://stackoverflow.com/questions/1828775/how-to-handle-invalid-ssl-certificates-with-apache-httpclient
+
+-> pb certif grille
+certif for https://dirac.france-grilles.fr/defaults/DiracServices.json, certif grid fr
+add check java version openmole
+add -Djavax.net.ssl.trustStore=/usr/lib/jvm/java-11-openjdk-amd64/lib/security/cacerts -Djavax.net.ssl.trustStorePassword=changeit -Djavax.net.debug="ssl,handshake,trustmanager"
+
+Debug: https://myarch.com/java-cert-validation-troubleshooting
+-> grep pb certif 
+(cat +n line number)
+-> certif dirac expired -> ???
+
+keytool -list -v -cacerts
+keytool -import ... (pwd changeit)
+keytool -delete ...
+
+
+
+
+%%%%%%%%%%%%%%%%%%%%
+%% Biblio
+%%%%%%%%%%%%%%%%%%%%
+
+%\bibliographystyle{apalike}
+%\bibliography{/Users/Juste/Documents/ComplexSystems/CityNetwork/Biblio/Bibtex/CityNetwork}
+
+
+\end{document}

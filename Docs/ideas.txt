@@ -1,6 +1,64 @@
 
 
 
+
+====
+2020/08/26
+
+Livre Imposture intellectuelles: complexity approaches are soappy, easily taken over? ambiguity! difficulty of rigorous transfer of concept/true interdisc (cf def morphogensis, coevol) => ~ manifest for rigorous soc sci: proper and relevant (useful) defs and transfer of concepts. reflexivity to avoid traps. always ask if makes sense and relevant.
+
+
+
+====
+2020/08/21
+
+https://www.mitpressjournals.org/toc/qss/1/3 => quanti-quali in scientometrics
+
+
+====
+2020/08/20
+
+
+Desmet, K., & Rossi-Hansberg, E. (2014). Spatial development. American Economic Review, 104(4), 1211-43. => // ABM? // Innovation diffusion!
+
+
+====
+2020/08/18
+
+
+
+https://www.nature.com/articles/s41598-020-67523-3 (citing Denise ports paper): SciRep! still accepting: editor?
+
+----
+
+Self-Organization and Artificial Life 10.1162/artl_a_00324 => // Paper morphogenesis: complexity or ALife ?
+
+----
+
+Alonso and the Scaling of Urban Profiles 10.1111/gean.12191: already in urban economics. TODO: formalize Q transportation (E. Mennicken)
+----
+2007.08832: //optim LGV; synth cities; // paper Louail. "deocnstructing":?
+
+
+====
+2020/08/17
+
+
+feedback UEA lecture: Progressive introduction to tstate of the art in the field, renowned speakers
+least: NA; more: NA; Postdoc
+--
+
+https://worldbuilding.stackexchange.com/questions/181172/how-do-you-build-an-underground-city-that-cuts-through-a-mountain-range : geo may give interesting answers?
+--
+
+https://stackoverflow.com/questions/14866362/invalid-use-of-basicclientconnmanager-connection-still-allocated: issue BiblioData, fixed?
+--
+
+https://scholar.google.com/scholar?hl=fr&as_sdt=0%2C5&q=durabilit%C3%A9+parc+regional+corse&btnG= : compromis tourisme/gr20/sust - combien de places?
+--
+
+https://wsf-8.sciforum.net/: pres paper Sust? dead deadline
+
 ====
 2020/06/30
 
