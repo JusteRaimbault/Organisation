@@ -30,6 +30,7 @@ https://stackoverflow.com/questions/1828775/how-to-handle-invalid-ssl-certificat
 certif for https://dirac.france-grilles.fr/defaults/DiracServices.json, certif grid fr
 add check java version openmole
 add -Djavax.net.ssl.trustStore=/usr/lib/jvm/java-11-openjdk-amd64/lib/security/cacerts -Djavax.net.ssl.trustStorePassword=changeit -Djavax.net.debug="ssl,handshake,trustmanager"
+(to openmole run script)
 
 Debug: https://myarch.com/java-cert-validation-troubleshooting
 -> grep pb certif 
@@ -40,6 +41,9 @@ keytool -list -v -cacerts
 keytool -import ... (pwd changeit)
 keytool -delete ...
 
+Or install java ca certificates?
+
+apt install ca-certificates-java
 
 
 

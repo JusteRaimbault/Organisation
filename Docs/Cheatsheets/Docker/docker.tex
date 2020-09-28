@@ -29,6 +29,8 @@ Exited containers:
 
 \texttt{docker ps -a -f status=exited}
 
+Copy files: docker cp
+(from stopped containers also)
 
 
 \subsection*{List images}
@@ -60,6 +62,8 @@ Run an image in a new container in interactive mode
 
 Option: --rm remove the container on exit
 
+Environment variables: --env MYVAR2=foo
+
 Restart an exited container
 
 \texttt{docker start \$ID}
@@ -80,6 +84,8 @@ Tag an image with a new name
 \texttt{docker tage source:tag target:tag}
 
 \subsection*{Commit}
+
+Diff: docker diff \$CONTAINER
 
 Commit changes in a container to an image
 
@@ -103,6 +109,14 @@ Push changes to repository
 Save an image to a compressed archive
 
 \texttt{docker save \$IMAGE:\$TAG | gzip > \$FILE.tgz }
+
+\subsection*{Clean}
+
+Remove image: docker rmi
+
+docker images prune
+
+Clean everything: docker system prune
 
 
 

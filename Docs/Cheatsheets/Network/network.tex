@@ -56,6 +56,11 @@ curl -T $FILE -u $USR:$PWD -o /dev/stdout $URL
 (does not work with subdir: pb config? ! not without dav.php, HOME etc)
 
 
+\section*{ssh}
+
+When remote host key has changed: remove offending key ssh-keygen -R $HOST
+% https://www.rc.ucl.ac.uk/docs/howto/#remote-host-identification-has-changed
+% Q: unencrypted key unvalidated: ?
 
 
 %%%%%%%%%%%%%%%%%%%%
