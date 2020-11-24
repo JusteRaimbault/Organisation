@@ -3,6 +3,31 @@
 
 
 ====
+2020/11/03
+
+Jain, M., Maurya, S., Rani, A., & Singh, V. (2018). Owl search algorithm: a novel nature-inspired heuristic paradigm for global optimization. Journal of Intelligent & Fuzzy Systems, 34(3), 1573-1582. => how many bio inspired meta heuristics?
+
+--
+
+2010.15668: // perso info aggreg tool?
+
+--
+
+2007.00124: max entropy network null model -> // max entropy spatial interaction models? ~ no?
+
+====
+2020/11/02
+
+
+Credibility of preprints: an interdisciplinary survey of researcher => importance of open repo and results!
+
+--
+
+2010.13833 => local Granger causality => applied to non-stationary causality estimation?
+
+
+
+====
 2020/09/25
 
 e Silva, F. B., Freire, S., Schiavina, M., Rosina, K., Marín-Herrera, M. A., Ziemba, L., ... & Lavalle, C. (2020). Uncovering temporal changes in Europe’s population density patterns using a data fusion approach. Nature Communications, 11(1), 1-11. => pop grid with monthly / night-day variations => potential ?

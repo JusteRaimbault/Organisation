@@ -42,6 +42,16 @@ Copy files: docker cp
 (to remove dangling: \texttt{docker images purge})
 
 
+\subsection*{Build}
+
+docker build -t \$TAG \$DIR
+
+clean build cache: docker builder prune -a
+
+(note: even with docker system prune, still using cache -> need to change RUN cmd in docker file so that latest git repo is pulled)
+-> use --no-cache
+
+
 \subsection*{Remove}
 
 Remove image \texttt{docker rmi}
@@ -63,6 +73,8 @@ Run an image in a new container in interactive mode
 Option: --rm remove the container on exit
 
 Environment variables: --env MYVAR2=foo
+
+Mount directories: -v \$SOURCE:\$TARGET
 
 Restart an exited container
 
