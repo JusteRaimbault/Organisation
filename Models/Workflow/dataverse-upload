@@ -35,10 +35,10 @@ read -p "Continue? " -n 1 -r
 echo
 if [[ $REPLY =~ ^[Yy]$ ]]
 then
-	echo "curl -H X-Dataverse-key:$DATAVERSE_TOKEN -X POST -F \"file=@$FILENAME\" -F 'jsonData={\"description\":\"$DESCRIPTION\",\"directoryLabel\":\"$DIRECTORY\",\"categories\":[\"Data\"], \"restrict\":\"false\"}' \"$URL\""
+	echo "curl -H X-Dataverse-key:$DATAVERSE_TOKEN -X POST -F \"file=@$FILENAME\" -F 'jsonData={\"description\":\"$DESCRIPTION\",\"directoryLabel\":\"$DIRECTORY\",\"categories\":[\"Data\"]}' \"$URL\""
 	#FIXME description with spaces does not work
-	curl -H X-Dataverse-key:$DATAVERSE_TOKEN -X POST -F "file=@$FILENAME" -F 'jsonData={"categories":["Data"], "restrict":"false"}' "$URL" > $TMPLOG
-	#curl -H X-Dataverse-key:$DATAVERSE_TOKEN -X POST -F "file=@$FILENAME" -F 'jsonData={"categories":["Data"]}' "$URL" > $TMPLOG
+	#curl -H X-Dataverse-key:$DATAVERSE_TOKEN -X POST -F "file=@$FILENAME" -F 'jsonData={"categories":["Data"], "restrict":"false"}' "$URL" > $TMPLOG
+	curl -H X-Dataverse-key:$DATAVERSE_TOKEN -X POST -F "file=@$FILENAME" -F 'jsonData={"categories":["Data"]}' "$URL" > $TMPLOG
 fi
 
 
@@ -54,15 +54,19 @@ fi
 #    #curl -H X-Dataverse-key:$DATAVERSE_TOKEN https://dataverse.harvard.edu/api/v1/datasets/:persistentId/versions/:draft?persistentId=$DATASET_PERSISTENTID
 #fi
 
+echo "\n"
+cat $TMPLOG
+echo "\n"
+
 STATUS=`cat $TMPLOG | python3 -c "import sys, json; resp = sys.stdin; print(resp); data=json.load(resp); print(data['status'])"`
-echo "Upload status: $STATUS"
+echo "Upload status: $STATUS\n"
 
 FILEID=`cat $TMPLOG | python3 -c "import sys, json; data=json.load(sys.stdin); print(data['data']['files'][0]['dataFile']['id'])"`
-echo "Data file id is $FILEID"
+echo "Data file id is $FILEID\n"
 
 rm $TMPLOG
 
-read -p "Add .source file?" -n 1 -r
+read -p "Add .source file?\n" -n 1 -r
 echo
 if [[ $REPLY =~ ^[Yy]$ ]]
 then
@@ -70,14 +74,14 @@ then
 fi
 
 
-read -p "Add in gitignore?" -n 1 -r
+read -p "Add in gitignore?\n" -n 1 -r
 echo    
 if [[ $REPLY =~ ^[Yy]$ ]]
 then
     echo $FILENAME >> .gitignore
 fi
 
-read -p "Remove file?" -n 1 -r
+read -p "Remove file?\n" -n 1 -r
 echo
 if [[ $REPLY =~ ^[Yy]$ ]]
 then
