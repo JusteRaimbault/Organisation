@@ -3,6 +3,12 @@
 
 
 ====
+2020/12/02
+
+
+https://www.sciencedirect.com/science/article/pii/S0191261510000020 => idea at beginning of thesis - explicit nw model with GT - competition?
+
+====
 2020/11/03
 
 Jain, M., Maurya, S., Rani, A., & Singh, V. (2018). Owl search algorithm: a novel nature-inspired heuristic paradigm for global optimization. Journal of Intelligent & Fuzzy Systems, 34(3), 1573-1582. => how many bio inspired meta heuristics?
