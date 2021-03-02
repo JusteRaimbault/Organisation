@@ -1,6 +1,89 @@
 
 
 
+====
+2021/02/23
+
+
+Diao, M., Kong, H., & Zhao, J. (2021). Impacts of transportation network companies on urban mobility. Nature Sustainability, 1-7. => idea innov TC better (project // HSR Access?) ; // ReportMasse?: unexpected effects in transportation systems
+
+--
+
+Simmons, J. W., Bourne, L. S., Curry, L., Bannister, G., Siegel, J., Miron, J. R., & Woodyard, M. I FORECASTS OF URBAN GROWTH.
+ => book Canada - transport-land-use, transport network development, urban form and growth
+
+--
+
+Glockmann, M., Li, Y., Lakes, T., Kropp, J. P., & Rybski, D. (2021). Quantitative evidence for leapfrogging in urban growth. Environment and Planning B: Urban Analytics and City Science.
+ => revisit some meso models based on this empirical approach (waiting for full paper)
+
+--
+
+Gombrich, C. (2019). An outline of Alan Wilson’s philosophy of knowledge, with special attention given to the importance of interdisciplinarity and its role in undergraduate education. Interdisciplinary Science Reviews, 44(3-4), 342-360. => Wilson's superconcept: applicable to transfer between models/theories - coupling ?
+from SI: https://www.tandfonline.com/toc/yisr20/44/3-4?nav=tocList on Wilson
+
+--
+
+Buyalskaya, A., Gallo, M., & Camerer, C. F. (2021). The golden age of social science. Proceedings of the National Academy of Sciences, 118(5). => more interdisc - data -coupling of approaches (epistem. changes - soc sciences disc should accept more quantif?) // Interdisciplinarity (classified in ComputationalSocialScience)
+
+
+====
+2021/02/22
+
+
+Pagliara, F. (2019). The dynamics of transportation networks. Interdisciplinary Science Reviews, 44(3-4), 319-327. => check for co-evolution?
+
+--
+
+Shin, J., Price, M. H., Wolpert, D. H., Shimao, H., Tracey, B., & Kohler, T. A. (2020). Scale and information-processing thresholds in Holocene social evolution. Nature communications, 11(1), 1-8.
+ => (from bib 10.1007/978-3-030-59302-5_1) more complicated model for emergence of cities including governance structure? // macro gov ?
+
+--
+
+10.1038/s41467-021-21465-0 => empirical similar results as space matters for schelling: urban topology changes segregation patterns? => towards more empirical approach to spatial initial conditions?
+
+
+
+====
+2021/02/12
+
+From pattern formation to material computation: multi-agent modelling of physarum polycephalum (in bib: Biomimetism): cited by paper ABm challenges Heppenstall; other approach ABM than Tero model?-> peruse when time
+
+
+====
+2021/02/10
+
+Montero, G., Tannier, C., & Thomas, I. (2021). Delineation of cities based on scaling properties of urban patterns: a comparison of three methods. International Journal of Geographical Information Science, 1-29. => scaling / fractals / percolation? ~ at the interface? => UrbanScaling (titghtly linked to the question of boundaries)
+
+====
+2021/01/14
+
+
+https://miti.cnrs.fr/appel-projet/modelisation-vivant-2019/ => gopro? dead today (deadline) -> hors sujet anyway ?
+
+----
+
+10.1073/pnas.2011990118 : pnas urban-rural: // global multiscale model: macro/meso => UrbanGrowth
+
+----
+
+Ortman, S. G., Lobo, J., & Smith, M. E. (2020). Cities: Complexity, theory and history. Plos one, 15(12), e0243621. => scaling th framework. // who cites Jacob? => could do bib study on that "The legacy of .."
+
+----
+
+Tatem, A. J., Guerra, C. A., Atkinson, P. M., & Hay, S. I. (2004). Momentous sprint at the 2156 Olympics?. Nature, 431(7008), 525-525. => absurd linear reg ? (cited as example of this) (bib:Sport)
+(// explore gender gap - bio - nonlin, etc?)
+
+----
+
+Doctor, J. N., Wakker, P. P., & Wang, T. V. (2020). Economists’ views on the ergodicity problem. Nature Physics, 16(12), 1168-1168. => // physics imperialism // relation between eco and other disciplines? similar geo?
+
+
+====
+2021/01/12
+
+Floryan, D., & Graham, M. D. (2021). Discovering multiscale and self-similar structure with data-driven wavelets. Proceedings of the National Academy of Sciences, 118(1). (bib in SignalProcessing) => // decomposition paper financialnw - extract multiscale struct?
+// 10.1038/s41467-020-20539-9 (2021/01/13 bib)
 
 ====
 2021/01/07
