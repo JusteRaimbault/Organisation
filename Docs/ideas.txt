@@ -1,5 +1,38 @@
 
 
+====
+2021/03/12
+
+https://www.insee.fr/fr/statistiques/5229207 => link with maps morpho and nw indicators
+
+
+====
+2021/03/09
+
+
+Münter, A., & Volgmann, K. (2020). Polycentric regions: Proposals for a new typology and terminology. Urban Studies, 0042098020931695. (in UrbanSystems) => // Governance MCR - suite Lutecia?
+
+----
+
+Jiang, N., Crooks, A., Wang, W., & Xie, Y. (2021). Simulating Urban Shrinkage in Detroit via Agent-Based Modeling. Sustainability, 13(4), 2283. (in UrbanGrowth) => // urdyn models with possibility of shrinkage (what does it change, etc.?)
+
+----
+
+ToRead: Chibbaro, S., Rondoni, L., & Vulpiani, A. (2014). Reductionism, emergence and levels of reality. Springer, Berlin. by SWISS FEDERAL INSTITUTE OF TECHNOLOGY ZURICH (ETH) on, 3(20), 17.
+(on emergence in physcis)
++ // Complexities (follow up work? with quantep?): quantum phys, etc.
+
+----
+
+Chibbaro, S., Rondoni, L., & Vulpiani, A. (2014). From Microscopic Reversibility to Macroscopic Irreversibility. In Reductionism, Emergence and Levels of Reality (pp. 71-97). Springer, Cham. (in bib physics) => // stat mech applied to social systems, unvalid? (// calcul stoch modeles Barth -> ?) // Book: -> complexity
+
+
+
+====
+2021/03/05
+
+Rowe, F., Maier, G., Arribas-Bel, D., & Rey, S. (2020). The Potential of Notebooks for Scientific Publication, Reproducibility and Dissemination. REGION, 7(3), E1-E5. (in Reproducibility): notebooks are good for integration - but not that much for reprod? - not that compatible with git; issue of changing values. - complementary?
+
 
 ====
 2021/02/23
