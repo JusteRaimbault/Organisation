@@ -1,5 +1,245 @@
 
 
+
+
+
+====
+2021/04/30
+
+GOT data tp R (in resources/GIS) https://comeetie.github.io/got/got_tp.html
+ => // FilmsMining?
+
+====
+2021/04/29
+
+
+Papiers // project - robust and todo rapidly?
+ - systematic review databases SDGs
+ - space matters ecology: which models; Saltelli style: how to sample efficiently?
+
+====
+2021/04/23
+
+
+Book E Klein:
+ - stationarity of physical laws? vs selection / evolution: evolutionary perspective? // emergence of laws at different scales: transposable?
+ - lang emergence example (// O of life): hysterisis direction of history (no clear transition) - idem phys?
+ - fractals univs?
+(cs ideas: from phys to soc sci: or the other way around: handling of greater complexity to transfer?)
+ ( // Morin on identity / change)
+ - CN lang/pensee: pas ontologique, processuelle -> ~ prespectivism - selected realism (kind of: cf idea Denise - end chapter Complexities)
+ - bib: Bitbol pour une philosophie des relations; Jullien Francois les transformations silencieuses; J Reda la physique amusante
+
+
+====
+2021/04/22
+
+
+
+Dupuy, G. (2013). Network geometry and the urban railway system: the potential benefits to geographers of harnessing inputs from “naive” outsiders. Journal of Transport Geography, 33, 85-94. (from review nw congestion - in bib Interdisciplinarity): quantify interactions between disciplines: naive approaches have particular citation patterns?
+
+----
+
+Data citation: more systematic? https://zenodo.org/record/4701079#.YH8dohNKi3I
+
+----
+
+https://journals.sagepub.com/doi/10.1177/0003122421996323 creative desctruction by reviews : // quantep in urb sci?
+
+
+====
+2021/04/20
+
+
+
+Pourquoi pas trop de complexite / role parsimonie dans modeles? epistemo incompatible, rasoir occam, inteligibilite, possibilite explo, runtime-combinatoire,pas comprenhension emergence. autres? => write something on a compromise of complexity ?
+
+----
+
+Orientering: quantify difficulty of routes, then of a map using automated route setting. supervised/crowdsourced?
+
+
+====
+2021/04/19
+
+
+
+
+----
+
+Chen, C., & Song, M. (2019). Visualizing a field of research: A methodology of systematic scientometric reviews. PloS one, 14(10), e0223994. => (bib Scim): formalizes citation network expansion (rq: published ~ same date cybergeo scim): write corr auth? cite this later?
+
+----
+
+Nijkamp, P., & Reggiani, A. (1988). Dynamic spatial interaction models: new directions. Environment and Planning A, 20(11), 1449-1460. (in bib: UrbanModeling)-> link with dynamic models for systems of cities? (role of optim/control?)
+
+----
+
+Using Agent-Based Models for Prediction in Complex and Wicked Systems, J. Gareth Polhill et al. (in bib: Complexity): role of endogeneity w.r.t. predictability
+
+----
+
+(from paper pnas climate underidentif): climate models comparison/validation etc. //physics multilevel, laws etc (E Klein): could we bring anything from our disc? disciplinary transfer has no reason to be unidirectional (or does it - depending on levels of emergence? - but other components of kd can be transfered?) ?
+
+----
+
+Thisse, J. F., Turner, M. A., & Ushchev, P. (2021). A Unified Theory of Cities. => working paper by Thisse. 
+ * rq 1: "quantitative spatial methods" already done by quant geo and others for a long time-totally ignored here and by the discipline. [idea: as for physics, quantify disc ignor?]
+ * rq 2: eq assumption: ABM instead?
+ * rq 3: "unified": against plurality of theories? epist standpoint:?
+
+====
+2021/04/16
+
+
+
+
+
+----
+
+zenodo: downloads/views => upload all papers for archiving - with code archive? (at paper commit?) : doi when not.
+
+----
+
+Fruchart, M., Hanai, R., Littlewood, P.B. et al. Non-reciprocal phase transitions. Nature 592, 363–369 (2021). https://doi.org/10.1038/s41586-021-03375-9 (in bib Physics): broad framework for self-org: // alife - artificial chem models?
+
+----
+
+https://zenodo.org/record/4665508#.YHmfiRNKjJ8 => //auto tracing orientering or treck
+=> CO: pb of learning what interesting: crowdsourced dataset?
+
+
+----
+
+GHSL => // paper ILUS - relaunch - combine with benchmark? (and improve models/indicators?)
+
+----
+
+Paper titles: representative/.which level of repr? systematic study depending on fields? how to match to abstract-full text content? ~
+
+----
+
+https://zenodo.org/record/4670015#.YHmUEhNKi3I => // GWR - multiscale structure of processes : // EnergyPrice?
+
+----
+
+Ossola, A., Meineke, E. K., & Cadenasso, M. L. (2021). Valuing the role of time in urban ecology. Frontiers in Ecology and Evolution, 9, 152. (citing pone density) => diffuse in disc? pb unbalance cit nw depending on citing disc? (how measure?)
+
+----
+
+1707.00269 => cat theory in long term literate larget (list ?) (+ Bayesian stats/signal proc?)
+
+----
+
+Wichmann, S. (2021). A world language family simulation. Physica A: Statistical Mechanics and its Applications, 572, 125913. (bib Langevol) => // relaunch project langevol: which target - spatial modeling focus?
+
+----
+
+Atkinson, P. M., & Mateu, J. (2019). A Conversation with Peter Diggle. Statistical science, 34(3), 504-521.
+ => "Don’t analyse data, analyse problems"
+ - lien geostat Matheron Bleau - cloisonnement disc stat maths - point processes vs geostst: pb communication
+ - broad view model vs method - generic fwk: stoch modeling - indep method of inference etc. [time series/spatial: just stoch model]: todo clarify
+ - acad timetable - work we
+ - passing on: things id rather do than need to do.
+
+----
+
+Bike sharing docking GISRUK => revisit vlib data large scale - infer traj (bayesian, matching also?) / benchmark algos? / cross vals days (meta params) ; lockdown effect ; transition system? ; large scale shocks? ... (many possible research questions : from data to RQ: not good - datasci style?)
+
+----
+
+Urban form and function: urban grammar project https://urbangrammarai.github.io/ => revisit old idea?
+(rq: cit previous lit? / dbsccan debate conf sept 2019 // physics ?)
+
+----
+
+Paper physics gravity model => sys review scales spatial interaction / meta-analysis? ; scim study of past lit - physics use and revisited
+
+
+
+====
+2021/04/14
+
+
+
+
+Mail quanti [quanti] Les SHS face aux « data » - AAC Contrat doctoral - FR Agorantic/Avignon - 21 avril 20/03 => quantif / knowledge framework / coevol domaines / quanti quali?
+
+----
+
+Ossola, A., Meineke, E. K., & Cadenasso, M. L. (2021). Valuing the role of time in urban ecology. Frontiers in Ecology and Evolution, 9, 152. => cites PONE density // collect. citations automatically - build self-cit network? (forward and backward) - interactive appli exploration? (filter cited, self-citing, citing)
+
+
+====
+2021/04/12
+
+
+Adams, G. S., Converse, B. A., Hales, A. H., & Klotz, L. E. (2021). People systematically overlook subtractive changes. Nature, 592(7853), 258-261. => // paper writing: not removing ideas (even if deprecated?)
+
+--
+
+mapant donnees lidar -> maps: application of deep learning to learn carto simplifications/interpretations? (by terrain, cartographer) [check pipeline mapantfr when repo?]
+
+====
+2021/04/02
+
+
+relaucnh HSR project (// enquete europe plane-train) - strong local potential, very long dist (// transsib: pther paper Futures?)
+
+----
+
+Smoothing/estimating gps pos - noise correction: ML approaches vs sugnal processing? explore? user-level/place-level/exhaustion/type of activity etc.: get raw data (possible?) and test different algo (cross val meta params: minimum given a setup?), how to define ground truth?
+[//ijgi: gps low res 26/03: bib https://www.mdpi.com/2220-9964/10/3/122)
+
+----
+
+Generative art: extract grammar ML/ similar pieces / computer assisted composition? (ex application PSE comme pour electra): Tableaux Nat?
+
+----
+
+fiscal europ? (//Giscard): multi-level fisc: multiscale models? (//place based Gaubert: plutot analytique-statique-stats): dynamical multiscale genratve models for multiscale fiscality // policies? // covid multilevel restrictions bundaris: cf mail seminar Covid-19 et Frontières Internes 26/03; check article conseil constit prof droit fiscal
+
+
+====
+2021/03/25
+
+
+Seminar ixxi: 3 visions forest scientists: // paper Fabrizio LiVigni different visions of complexity: reflexxive work for urb sci: positioning? (// possibly 3 togetehr (forest views: techno-big-data-services; chaos-uncertainty-processes; historical-path dep) in terms of practices but not in terms of vision/position. ?) => dig more reflexivity in link with self-quantep !
+
+----
+
+Lafhel, M., Cherifi, H., Renoust, B., El Hassouni, M., & Mourchid, Y. (2020, December). Movie Script Similarity Using Multilayer Network Portrait Divergence. In International Conference on Complex Networks and Their Applications (pp. 284-295). Springer, Cham.
+=> // FilmsMining - relaunch / delete sch ?
+
+----
+
+Kramar, M., & Alim, K. (2021). Encoding memory in tube diameter hierarchy of living flow network. Proceedings of the National Academy of Sciences, 118(10). => more precise model of slime mould (with memory?) => apply transport?
+
+
+====
+2021/03/16
+
+Baggio, G., Bassett, D. S., & Pasqualetti, F. (2021). Data-driven control of complex networks. Nature Communications, 12(1), 1-13. (in NetworkScience): which method exactly - which genericty and applicability?
+
+
+
+====
+2021/03/15
+
+
+Green, A. G., Elhabashy, H., Brock, K. P., Maddamsetti, R., Kohlbacher, O., & Marks, D. S. (2021). Large-scale discovery of protein interactions at residue resolution using co-evolution calculated from genomic sequences. Nature Communications, 12(1), 1-12. => method to carac coevol (raw evol scores:?) => method transfer and integration into benchmarks methods interaction nw-territs?
+
+----
+
+Bib BikeSharing (review sigsim) such as
+Lu, M., An, K., Hsu, S. C., & Zhu, R. (2019). Considering user behavior in free-floating bike sharing system design: A data-informed spatial agent-based model. Sustainable cities and society, 49, 101567.
+=> relaunch paper database vlib - stats interventions / better ABM?
+
+----
+
+https://findingspress.org/article/21262-r5r-rapid-realistic-routing-on-multimodal-transport-networks-with-r-5-in-r => // package tr network thesis: no use to publish?-much better? or focus on nw construction algor - from multiple sources etc. ?
+
+
 ====
 2021/03/12
 
