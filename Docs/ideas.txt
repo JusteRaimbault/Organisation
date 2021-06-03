@@ -2,6 +2,436 @@
 
 
 
+====
+2021/06/03
+
+
+
+
+Open access book Gottman: https://direct.mit.edu/books/book/5083/MegalopolisThe-Urbanized-Northeastern-Seaboard-of (to check)
+
+----
+
+10.1016/j.tra.2021.03.023 (in bib/Transportation): non relevance of transport models on long term / of cost benefit analysis (no observed increase of traffic speed)
+
+----
+
+10.1162/artl_a_00336 (in bib/ArtificialIntelligence): complexity of social systems - limits of AI
+
+----
+
+10.7480/abe.2021.07 (in bib/UrbanSystems) :
+ - missquote scim/misses more recent work
+ - on innov diff: check database (paper cyb), approaches (newspaper: anectdotal?)
+
+----
+
+10.1007/s12064-020-00313-7 (in bib/Autopoiesis) [preprint 2014! -> pub 2020] -> application to urban systems: def city as "individual"?
+
+----
+
+10.1073/pnas.2018155118 (in bib/UrbanSustainability) -> 3 dimensions of urban persistence: geography, institution, demography -> multidim model like simpop2 to simulate long time scales for systems of cities?
+
+====
+2021/06/02
+
+
+10.1007/s11186-011-9147-3 (in bib/ScienceSociology) -> socio component of knowledge prod: include it in knowledge framework?
+
+----
+
+include orientering maps in geoplateforme/geoportail?
+
+----
+
+IGN Geoplateform: include estimation/prediction of local emissions by type - local policies and differential improvements
+
+====
+2021/05/31
+
+
+10.1002/leap.1379 => // scicit; dataset: weighted/signed citation nw analysis
+
+----
+
+10.20944/preprints202103.0554.v1 (in bib/Complexity) -> link alife - philosophy
+
+----
+
+Cortez, P., Cerdeira, A., Almeida, F., Matos, T., & Reis, J. (2009). Modeling wine preferences by data mining from physicochemical properties. Decision support systems, 47(4), 547-553. (in bib/DataMining) -> cited 1035 times!
+
+----
+
+2103.16574 : // track time and tasks
+
+
+====
+2021/05/30
+
+Gibbs, M., Mengel, F., & Siemroth, C. (2021). Work from Home & Productivity: Evidence from Personnel & Analytics Data on IT Professionals. University of Chicago, Becker Friedman Institute for Economics Working Paper, (2021-56). (in bib/Economics) => // covid studies - commuting -> aggregated cost?
+
+
+====
+2021/05/28
+
+
+Tirico, M., Balev, S., Dutot, A., & Olivier, D. (2018, December). Morphogenesis of complex networks: A reaction diffusion framework for spatial graphs. In International Conference on Complex Networks and their Applications (pp. 769-781). Springer, Cham. => implement spatialdata; towards coevolution; contact author?
+rq conf FRCCS: 
+ - produce nws similar to real? difficult - choice of indicators - cf work Roberto advanced network patters characterisation
+ - activation-inibition in real systems? ~ ! different time scales, not true processes? -> debates of application of morhpgenesis, // pappier Bonin
+ - application to planning? how? scenarios, interventions?
+ - cross layers feedback: provides a co-evolution model!
+[few publis : // personnaly - worked a lot on similar stuff but few publis - difficult to read - visibility. recent papers: too scarce - broad in thematic, knowledge domains? [although fist paper rbd is in this field]]
+
+
+----
+
+spatial sensitivity indexx similar to saltelli's: paper to do with application in ecology
+
+----
+
+review frccs: ~ reviews project-comments audition -> import more from other disciplines, ecology mainly? (cf null model, bayesian calibration), engineering: ontologies. past efforts in other disc. (but specificities to urb sci?: precise the specificities. multidisc, spatio temp, hybrid socio-technical. (different types of complexities)
+
+====
+2021/05/27
+
+(28/05)+ empirical estimation of kolmogorov. dynamical carac of coupling (on models phase space?)
+scholar % "model coupling" "kolmogorov complexity" -> nothing : a creuser ?
+
+====
+2021/05/26
+
+
+
+https://www.nature.com/articles/s41586-021-03480-9 => isnt it well known in transport geo that close place are more visited than far places?: ?
+
+----
+
+Naming projects dir: synthesis - pitch (// too long title): too imprecise, general? or way to have a general take?
+
+----
+
+Rocha, B. T., Melo, P. C., Afonso, N., & Silva, J. D. A. (2021). Motorways, urban growth, and suburbanisation: evidence from three decades of motorway construction in Portugal. (in bib/NetworksTerritories) => instruments / causal effects highway -> integrate in methods/ effects benchmarks [rq: missed most eco lit in thesis]
+
+----
+
+https://orbis.stanford.edu/ : temporal data network? -> could do some nw/territ analysis, or nw growth modeling? data too scarce?
+
+----
+
+Huang, K., & Han, N. (2021). DSEM-SW: a data-service enhanced scientific workflow middleware for cloud computing. International Journal of Networking and Virtual Organisations, 24(2), 126-143. (in bib/WorkflowSystems) -> // Dafni - data intensive? not really. perf measure?
+
+----
+
+Resources/Proposition_de_projet_de_thèse_VF_Arnaud-migration.pdf -> research that counts / engagmt perso / cross interest, fields and resources -> model in research ethics, research direction [self thinking on res reason/ethics? -> write - to clarify projects/objects?]
+
+
+====
+2021/05/25
+
+
+Zhang, Y., Ocampo-Espindola, J. L., Kiss, I. Z., & Motter, A. E. (2021). Random heterogeneity outperforms design in network synchronization. Proceedings of the National Academy of Sciences, 118(21). (in bib/NetworkScience) -> one type of 'order from disroder'
+
+----
+
+Leonetti, M., Hörmann, E., Leuzzi, L., Parisi, G., & Ruocco, G. (2021). Optical computation of a spin glass dynamics with tunable complexity. Proceedings of the National Academy of Sciences, 118(21). (in bib/Physics): exotic type of computation: couples computer and optical device: // computation - complexity?
+
+
+====
+2021/05/19
+
+
+
+Cuberes, D., Desmet, K., & Rappaport, J. (2021). Urban growth shadows. Journal of Urban Economics, 123, 103334. (in bib/UrbanEconomics)
+-> link policentricity - emergence of MCR - tunnel effect ?
+
+----
+
+Transportation Networks and the Rise of the Knowledge Economy in 19th Century France (in bib/NwTerrits) ->
+ - straight line instrument: // benchmark methods spatiotemp causalities?
+ - geo path computation: // intgib paper
+ - // coevol chapter
+ - // patents: text mining?
+
+
+
+====
+2021/05/18
+
+
+
+10.3390/su13052735 (in bib/Resilience): // idea sys review urban resilience: similar?
+
+----
+
+10.3389/fevo.2021.650726 (in bib/ArtificialLife) : // technical artifacts / living systems -> application to urb sci? : urb sys and alife
+
+----
+
+2103.08737 => // minecraftexplo: dynamical entities?
+
+----
+
+Molinero, C., & Thurner, S. (2021). How the geometry of cities determines urban scaling laws. Journal of the Royal Society Interface, 18(176), 20200705. (in bib/UrbanScaling) => // idea non universality of underlying processes/reductionism
+
+----
+
+Seth, A. K. (2010). Measuring autonomy and emergence via Granger causality. Artificial life, 16(2), 179-196. (in bib/Complexity) => operational measure of emergence -> measure of complexity // reveisit complexities?
+
+----
+
+1910.05794 => term definition: sci consensus - or culture/country specific?
+
+----
+
+Maruf, M. N. I. (2021). Open model-based analysis of a 100% renewable and sector-coupled energy system–The case of Germany in 2050. Applied Energy, 288, 116618. (in bib/Sustainability) => // simu european grid nw - renewables fluctuations?
+
+
+====
+2021/05/17
+
+
+
+
+
+Cudworth, E., & Hobden, S. (2012). The foundations of complexity, the complexity of foundations. Philosophy of the Social Sciences, 42(2), 163-187. (from sch Arthur 2021) -> bib complexity
+
+----
+
+Arthur, W. B. (2021). Foundations of complexity economics. Nature Reviews Physics, 1-10. (in bib/Economphysics) => as Ole Peters, assumes things about economics - caricatural view without knowing recent devlpmts? - or deeper epist implications? // physics imperialism
+
+----
+
+http://www.iste.co.uk/book.php?id=1748 : book teritorial ecology -> link circeco / industrial symbiosis?
+
+----
+
+Li Vigni, F. (2021). Regimes of Evidence in Complexity Sciences. Perspectives on Science, 29(1), 62-103. (in bib/Complexity) => revisit complexities / knowledge domains in view of such sociological-empirical approaches?
+
+----
+
+Mimeur, C., & Thévenin, T. (2020). L’effet territorial des réseaux de transport en question: perspectives dans la longue durée. Flux, (4), 1-3. (in bib/NetworksTerritories) => cited bib:? ; multiple scales, objects and indicators.
+- same special issue:
+Le Néchet, F. (2020). Le Grand Contournement de Paris, trop loin et trop proche de Paris? Jeux d’échelles et diversité des dynamiques du polycentrisme du Bassin Parisien (1982-2015). Flux, (4), 26-52. => polycentrisme - coevolution ; bd autoroutes a relancer
+
+
+----
+
+Gazut, S., Martinez, J. M., Dreyfus, G., & Oussar, Y. (2008). Towards the optimal design of numerical experiments. IEEE transactions on neural networks, 19(5), 874-882. (in bib/DOE) => learning nonlinear surrogates / OSE? (sampling param space)
+
+----
+
+Hall, J. W., Tran, M., Hickford, A. J., & Nicholls, R. J. (Eds.). (2016). The Future of National Infrastructure: A System-of-Systems Approach. Cambridge: Cambridge University Press.
+=> Nismod // model integration ( -> print book?) [in bib/Engineering]
+
+----
+
+sport sci: run&bike: optimal dynamic strategy as a function of input fatigue/speed functions?
+
+----
+
+focus reserach project on land-use transport interactoins? (cf erc Zhong)
+
+----
+
+scaling: universality? not every indicator is the outcome of individuals' interaction -> specific processes for different dimensions - disciplines (// autonomy of macro laws: // emergence - reductionism: dimensionality reductionism has a link to scale reductionism?) - cf patents: innovation dynamics, firms, individuals; crime?; infrastructure?-> result of planning/governance processes. systemtaic review / mapping to show ppossible processes - concurrent and equifinality -> no true universality (but analogies?) ?
+
+
+====
+2021/05/12
+
+
+
+
+2105.03216 (in bib/Complexity) => information to implement downward causation? => already in Bedau? // transfer entropy between scales -> quantify upward/downward causation (// th project spatiotemporal entropy?) ?
+
+----
+
+10.4000/cybergeo.36770 (in bib/UrbanMorphology) => // grid bias in urb morph indics in spatialdata?
+
+----
+
+Kong, L., He, Z., Chen, Z., Luo, M., Du, Z., Zhu, F., & He, L. (2021). Spatial Distribution and Morphological Identification of Regional Urban Settlements Based on Road Intersections. ISPRS International Journal of Geo-Information, 10(4), 201. (in bib/UrbanMorphology) => // bottom up ~ percol - identif MCR - road nw ?
+
+----
+
+Di Pinto, V., Rinaldi, A. M., & Rossini, F. (2021). Learning from the Informality. Using GIS Tools to Analyze the Structure of Autopoietic Urban Systems in the “Smart Perspective”. ISPRS International Journal of Geo-Information, 10(4), 202. (in bib/UrbanSustainability) => urban autopoiesis // urb morphogenesis?
+
+====
+2021/05/11
+
+
+2005.10732 => comparison data sources scim
+
+----
+
+Sanchez, T. W. (2021). Urban Planning Academics and Twitter: Who and what?. Journal of Altmetrics, 4(1). (in bib/ScienceCommunication): add dim in quantep networks?
+
+----
+
+https://journals.sagepub.com/home/epf => paper on models/theories? - integration?
+
+----
+
+Uchiyama, Y., & Hayashi, K. (2021). Generation of Urban Morphologies Through Long-Term Evolution of Socio-Ecological Urban Systems: Regional Characteristics and Sustainable Management of Megacities. Living in the Megacity: Towards Sustainable Urban Environments, 105. (in bib/UrbanMorphology) -> non-stationarity of covariates / urb form indicators ; % mega city regions? (// endog carac?)
+
+----
+
+10.1371/journal.pone.0250662 (in bib/Academia): multiple career paths: ?
+
+----
+
+paper space for women in geo analysis => forthcoming geo analysis?
+
+----
+
+"Quant Spatial Eco": how does reveisit/reinvent quant geo?
+
+====
+2021/05/10
+
+
+https://trains-directs.fr/carte-france/ : compare data Thema? / open data: pdf ~ vectoriel?
+
+----
+
+MAG closing 31/12: collect/use before? ex: consolidate urbsci corpus?
+
+====
+2021/05/07
+
+
+
+https://www.zooniverse.org/projects/crea-mont-blanc/wild-mont-blanc/about/research -> participate? // crowdsource data in TQG?: which type of project?
+
+----
+
+10.1038/s41893-021-00707-5 => link with spatial polycentricity?
+(in bib/Sustainability)
+
+----
+
+2011.04698 => apply on abm output?
+(in bib/Physics)
+
+----
+
+10.1177/0309132520924722 => link theory-modeling: ?
+(in bib/Geography) 
+
+----
+
+10.18564/jasss.4606 : implement multimodal optim in OML?
+(in bib/AgentBasedModeling)
+
+----
+
+idea app: carbon footprint: integrate apis: gmaps, fpal, ? -> ~ integrated
+
+
+====
+2021/05/06
+
+
+
+
+
+
+review paper bridge effect: check diff-in-diff/placebo methods (effects of infrastructures?=> benchmark)
+
+----
+
+2104.13439 (in bib/ComputationalSocialScience) => apply to cities (other systems); orientering?
+
+----
+
+2103.15448 (in bib/QuantitativeEpistemology) => test new haskell gargantext ; plugin patents?
+
+
+====
+2021/05/04
+
+
+
+Cabanac, G., Oikonomidi, T., & Boutron, I. (2021). Day-to-day discovery of preprint–publication links. Scientometrics, 1-20. (in bib/Scientometrics) => use tool to consolidate bib database?
+
+----
+
+Biblio/DomainSpecific/Transportation/Print_WRE_Report_FULL.pdf : sustainability - rail (// HSR)
+Biblio/DomainSpecific/Transportation/environmental-performance-new-mobility.pdf : more broadly, decarbonation of urban mobility 
+
+----
+
+Menzori, I. D., de Sousa, I. C. N., & Gonçalves, L. M. (2021). Urban growth management and territorial governance approaches: A master plans conformance analysis. Land Use Policy, 105, 105436. (in bib/UrbanGrowth) => link governance/rule - patterns of urbgrowth
+
+----
+
+adap-org/9910002 (in bib/QuantitativeEpistemology) -> on physics imperialism! (+ ~ interesting model? ~)
+
+----
+
+Crabtree, S. A., White, D. A., Bradshaw, C. J., Saltré, F., Williams, A. N., Beaman, R. J., ... & Ulm, S. (2021). Landscape rules predict optimal superhighways for the first peopling of Sahul. Nature Human Behaviour, 1-11. (in bib/Archeology): // Tobler hiking function: // paper intgib
+
+----
+
+Various urbgrowth papers in understudied (?) countries (check UrbanGrowth bib) => systematic review - gaps in study also?
+
+----
+
+Scholar: cited by me https://scholar.google.com/scholar?scilib=4 => use for self-bib mapping?
+// https://scholar.google.fr/scholar?sciupd=2 : recommendations
+! influenced by sch suggs? kind of - influence on self-maps / future dev? ~ not necessarily
+
+----
+
+Book Urban Informatics 10.1007/978-981-15-8983-6 => ~ def Urban sci, different fields: interesting persp - // quant urban geo: ? - toread more detail // books (print?)
+
+----
+
+Paper HSR/consumption: Zhang, Y., Ma, W., Yang, H., & Wang, Q. (2021). Impact of high-speed rail on urban residents’ consumption in China—from a spatial perspective. Transport Policy, 106, 1-10. (in bib/NetworksTerritories) => SR/metaanal of empirical studies - structuring effects (methods used, type of network, land-use variables, conclusions => draw larger conclusions // wegener assumptions land-use-transport) ; do the same for nw dev (much fewer studies)
+// Rao, Y., Yang, J., Dai, D., Wu, K., & He, Q. (2021). Urban growth pattern and commuting efficiency: Empirical evidence from 100 Chinese cities. Journal of Cleaner Production, 126994. (in bib/UrbanMorphology) : idem empirical link morphology-urbv grwth / commuting-urb mobility
+(multi-scale SR - or meta-meta-anal? => when stop to include processes? snowball metanala of geo processes linked to nw and territs? - self-determining geo objects and processes?)
+
+// diff-in-diff method?
+(study: benchmark; sys review : different)
+see Ejermo, O., Hussinger, K., Kalash, B., & Schubert, T. (2021). Innovation in Malmö after the Öresund Bridge (No. 2021/4). Lund University, CIRCLE-Centre for Innovation Research.
+
+// synthetic control method
+// lagged correlation (tuned?)
+
++ network devlpmt vs large scale single infra (bridge, tunnel)
+
++ variables? -> innovation, population, landuse, etc. -> ?
+
+----
+
+Meng, M., Yang, Y., & Shang, Y. (2021). Did highways cause the urban polycentric spatial structure in the Shanghai metropolitan area?. Journal of Transport Geography, 92, 103022. (in bib/NetworksTerritories) => // benchmark methods nw-territ: IV method using old/past routes // exemple stat analysis tr network/land-use
+
+----
+
+Dossier insee gradient rural-urbain https://www.insee.fr/fr/statistiques/5039991 (in bib/UrbanMorphology) => compare classif morphological indicators?
+
+----
+
+https://www.nature.com/articles/d41586-021-01169-7 (in bib/Scientometrics) => // in quant geo with (deliberate?) ignorance of previous work // quantif this for several disciplines? (automatic discovery: studied objects? data? shared refs / ontologies? expert knowledge?)
+
+----
+
+Hino, M., & Burke, M. (2021). The effect of information about climate risk on property values. Proceedings of the National Academy of Sciences, 118(17). (in bib/Sustainability) -> flood maps: open data - // worldwide?
+
+====
+2021/05/03
+
+
+social class / voting: multidim (educ, patrimoine, maj/min): dynamical model?
+
+--
+
+blocs gres: exhaustive map foret: algo lidar/cartes + interet pour geosci?
+
+--
+
+mapping La methode: update complexity approaches? -> book?
 
 ====
 2021/04/30
