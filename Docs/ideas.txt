@@ -2,6 +2,69 @@
 
 
 
+
+====
+2021/06/08
+
+
+10.1093/oso/9780190267032.003.0008 (in bib/Governance): link polycentricity - governance? (// Lutecia)
+
+----
+
+Lerpold, L., & Sjöberg, Ö. (2020). Urban advantage? Sustainable consumption and ontological cityism across the urban hierarchy. Sustainable Consumption and Production, Volume I: Challenges and Development, 263. (in bib/urbanEconommics - no file) -> interplay inter-intra urban?
+
+----
+
+Ten Broeke, G., van Voorn, G., Ligtenberg, A., & Molenaar, J. (2021). The use of surrogate models to analyse agent-based models. Journal of Artificial Societies and Social Simulation, 24(2). => surrogate coding camp
+
+----
+
+(prev paper): model validation: knowledge a priori, bib, a posteriori: way to write: organise, structure, write, read, reorganise, etc. (and keep track of "local"(=personnal) knowledge construction - Q def knowledge - collective or local? in between? synthesis?)
+
+----
+
+Carrella, E. (2021). No Free Lunch when Estimating Simulation Parameters. Journal of Artificial Societies and Social Simulation, 24(2). (in bib/ModelValidation) -> interest of having multiple methods in OML -> more to implement (coding camp)
+
+====
+2021/06/07
+
+
+
+Model coupling lit: Voinov, A., & Cerco, C. (2010). Model integration and the role of data. Environmental Modelling & Software, 25(8), 965-969.
+Dolk, D. R., & Kottemann, J. E. (1993). Model integration and a theory of models. Decision Support Systems, 9(1), 51-63.
+Argent, R. M. (2004). An overview of model integration for environmental applications—components, frameworks and semantics. Environmental Modelling & Software, 19(3), 219-234.
+Voinov, A., & Shugart, H. H. (2013). ‘Integronsters’, integral and integrated modeling. Environmental Modelling & Software, 39, 149-158.
+=> in bib/ModelCoupling; paper frccs cameraready
+
+----
+
+Vinci, S., Egidi, G., Gay, A. L., & Salvati, L. (2021). Population Growth and Urban Management in Metropolitan Regions: the Contribution of Natural Balance and Migration to Polycentric Development in Barcelona. Applied Spatial Analysis and Policy, 1-24. (in bib/UrbanGrowth) => different contribution of migration in local regions => useful for multiscale model? (add in revision)
+
+----
+
+Martín-Martín, A., Thelwall, M., Orduna-Malea, E., & López-Cózar, E. D. (2021). Google Scholar, Microsoft Academic, Scopus, Dimensions, Web of Science, and OpenCitations’ COCI: a multidisciplinary comparison of coverage via citations. Scientometrics, 126(1), 871-906. (in bib/Scientometrics) => comparison of citation coverage: scholar reasonable source. (try open citations?)
+
+----
+
+2007.08961 (in bib/AgentBasedModeling) -> // choice platform? ; // sysreview workflow systems?
+
+----
+
+https://www.mdpi.com/2073-445X/10/3/303 (in bib/HSR) -> paper HSR; method: diff in diff (in network territs methods benchmark)
+
+----
+
+https://easychair.org/smart-program/FRCCS2021/2021-05-28.html: 16h45: work Stochkholm resilience center - ~ integrative. bib: 1. Summary Report from the Swedish part of the EU-COMPLEX project (Liljenström and Svedin) 2. A book chapter on “Agglomeration” aspects of the studied area published by IntechOpen 2018 (Authors: Svedin and Liljenström
++ check more by this team/author
+
+----
+
+Bretagnolle, A., & Pumain, D. (2010). Simulating urban networks through multiscalar space-time dynamics: Europe and the united states, 17th-20th centuries. Urban Studies, 47(13), 2819-2839. (in bib/UrbanSystems) -> recode/explore simpop2 model?
+
+----
+
+Walkowiak, S. (2016). Big Data Analytics with R. Packt Publishing Ltd. (in bib/DataMining) => R is fine for big data?
+
 ====
 2021/06/03
 
