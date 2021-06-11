@@ -4,8 +4,88 @@
 
 
 ====
+2021/06/11
+
+
+
+Climate sci: lot of work on model coupling, validation, benchmarking: explore
+
+----
+
+(sds: deep learning correcting bias climmate models): even if not outperforms, benchmmark always useful, should be published anyway (and preregistred/registred somewhere: db of mode results/implementation/application/comparison? -> systematic review of urban models?-~ crowdsourced? how to classify? collaborative work? paper and interactive application - coupled with discipline map, mmodel dependance tree, thematic maps, potential couplings, ontologies, results, objectives, model functions, etc.)
+~ asssisted systematic review-mapping (cannot exhaustively extract caracteristics/model structure autommatically)
+Pb: delineation of subjects (regional econommics, reg sci included?)
+
+
+====
+2021/06/10
+
+
+
+
+
+(resources scim - MAG replacement?) -> dynamical pages online to gather resources? would need better classif + comments (then as for cv automat - to be done)
+
+----
+
+Presenttaion SDS: bottom up urban cluster: Rq: well studied and overarching question. Part of a disciplinary culture: well known pb and questions, even if not central, man approaches and state of the art well known, see often in conf - can discuss with relevance with guys studying it (but not necessarily make a contribution). Different disciplines have different "constitutuve questions/pbs/issues"
+(Q: isolating these automatically?)
+
+----
+
+(SDS talk) https://www.stdl.ch/fr/Nos-projets/Registre-des-batiments-%253A-Detection-automatique-de-la-periode-de-construction-des-batiments-en-utilisant-les-cartes-nationales.htm
+ -> // algo vectorisation omaps? ; //projet ign "data fusion"?
+
+----
+
+insideairbnb: check? (new type of data - add dimmension for sust?) + analysis nw-territ (ex Paris real estate price)
+
+----
+
+Mediation-vulgarisation: full presentation of thesis (// EN version including appendices) -> as serie of streams? or short synthesis - both? (+ "publish en trad": ex zenodo?)
+
+----
+
+(slides SDS): on the def of coevol: the carac method first corresponds to mmeso level (niche: mimnimmal ensemble for stat relations, and consistent evol niche) - but method also appplied at the macro level: def not consistent? method flexible?
+-> which correspondance between theory, empirical, methods, model: not necessarily "bijective" (in terms of scales at least): more fuzzy? => think ore and work on this (both coevol def, and structure of knowledge)
+
+
+====
 2021/06/08
 
+
+
+Scirep: editorial policy regarding spatial data sci/sim models papers? (cf paper GIS) -> which visibility/community? - keep as target?
+
+----
+
+Schweimer, C., Geiger, B. C., Wang, M., Gogolenko, S., Mahmood, I., Jahani, A., ... & Groen, D. (2021). A route pruning algorithm for an automated geographic location graph construction. Scientific Reports, 11(1), 1-11. (in bib/GIS) => // lutecia algo for fastest shortest paths? (not really, not multimodal)
+
+----
+
+https://www.springer.com/gp/book/9789813341135 : conf urb sci and engineering: an other part of integration - have a look (chapter foodbowl in urbsust - sch recom).
+
+----
+
+Alessandretti, L., & Lehmann, S. (2021). Trip frequency is key ingredient in new law of human travel.
+Schläpfer, M., Dong, L., O’Keeffe, K., Santi, P., Szell, M., Salat, H., ... & West, G. B. (2021). The universal visitation law of human mobility. Nature, 593(7860), 522-527.
+ => weird that not known before in transport geo/mobility studies - ask Florent?; or not that precisely?
+
+----
+
+Lockerby, D. A., Patronis, A., Borg, M. K., & Reese, J. M. (2015). Asynchronous coupling of hybrid models for efficient simulation of multiscale systems. Journal of Computational Physics, 284, 261-272. (in bib/ModelCoupling, already in frccs paper): deeper work on ways to couple models? // suggestion audition ign: Nancy - traffic multiscale.
+
+----
+
+Liljenström, H., & Svedin, U. (2016). Towards a Fossil-Free Society—in the Stockholm-Mälar Region. COMPLEX EU Project 2012-2016, n: 308601. WP4 Final Scientific Report. Sigtuna: The Sigtuna Foundation, Sweden. Human Nature Series. (in bib/UrbanSustainability) -> integrative approach 
+(// Svedin, U., & Liljenström, H. (2018). A Multilevel Approach to Urban Regional Agglomerations: A Swedish Case of Transition Paths toward a “Fossil-Free Society” by 2050. Urban Agglomeration, 65. in bib/Complexity) 
+=> link to models?
+
+----
+
+Wu, H., Avner, P., Boisjoly, G., Braga, C. K., El-Geneidy, A., Huang, J., ... & Levinson, D. (2021). Urban access across the globe: an international comparison of different transport modes. npj Urban Sustainability, 1(1), 1-9. (in bib/Accessibility)(in paper: HSR) => // worlwide relation network - LU (morphology?)
+
+----
 
 10.1093/oso/9780190267032.003.0008 (in bib/Governance): link polycentricity - governance? (// Lutecia)
 
