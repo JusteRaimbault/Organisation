@@ -4,6 +4,32 @@
 
 
 ====
+2021/06/15
+
+
+
+
+portail pro planning IGN: integrate accessibility / transport project tool (~ QUANT?) -> fast update of multimode travel times?
+
+----
+
+explore/quantify (semi automated learning?) level of proof in different disciplines (sample sizes, noise in data, multiple modeling converging conclusions, link epmirical-theoretical-model) -> based on knowledge framework, quantif multi-objective level of proof? -> paths for a healthier interdisc (and limit unsci approaches? ~)
+
+----
+
+SDGs tracker ourworldindata https://sdg-tracker.org/infrastructure-industrialization
+	-> use for harmonised geo databases?
+	-> compromise between objectives / shapes of Pareto fronts? (specific methods for so much dims? - not an optim function: no NSGA3)
+
+----
+
+role of mobility/connectivity in global-local spread?-> do a kind of "null model" with 100m radius (or ~) contamination: immport proba is solely due to connectivity/proba to mix individuals. (does it have a thematic relevance?); then compare to actual epid models (ABM): way to extract effect of space? (~ space matters?)
+
+----
+
+Rq: anonymisation of code repos (for double blond reviews): pb if journal submission system does not provide integrated infrastructure. Using anon github repo is limited (limited number of accounts -> either need to delete old projects, or to have multiple papers: cross subjects deanonymise); after publication, switching to a public repo keeps anon commits: in theory with email can be linked to submissions?
+
+====
 2021/06/11
 
 
