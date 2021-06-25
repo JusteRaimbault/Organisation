@@ -2,6 +2,35 @@
 
 
 
+====
+2021/06/25
+
+
+[idea from mail geotamtam15/06 9:03 soutnenance fabirque services urbains]
+bullshit theorique, ou vraies constructions permettant de faire des liens implicites, de structurer; un peu comme des modeles? Plus de riguer/def precises des fonctions- niveau de valid des theories en sci humaines: travail hybride semi quanti?
+
+====
+2021/06/24
+
+
+
+udocker: a user oriented tool for unprivileged Linux => cites OML ! rq: not needed anymore, direct interface to exec engine / container lib
+
+----
+
+discussion chapter NWTerrits => use systematic review / AI to extract cities studied in mobility studies, infer behavior on modes for cities with no study?
+
+----
+
+bieler2021comparaison (in bib/HSR): similar multiobjective study of laternative routes, worldwide: how do different regoins perform, what ecological cost / compromise time / price /access (Pareto, or not? drivers of mode choice, extrapolated from this? // idea bib mobility ->) - worldwide
+
+====
+2021/06/22
+
+
+
+(Artex ISC?-no time) - idea generatve art / deep learning - combining street nws/art Nat.: a creuser?
+
 
 ====
 2021/06/15
