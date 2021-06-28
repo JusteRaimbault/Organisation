@@ -2,6 +2,57 @@
 
 
 
+
+====
+2021/06/28
+
+
+
+
+
+Robust def of Urban Morphology (in bib/UrbanMorphology):
+ - Fleischmann, M., Romice, O., & Porta, S. (2020). Measuring urban form: Overcoming terminological inconsistencies for a quantitative and comprehensive morphologic analysis of cities. Environment and Planning B: Urban Analytics and City Science, 2399808320910444.
+ - Fleischmann, M., Feliciotti, A., Romice, O., & Porta, S. (2020). Morphological tessellation as a way of partitioning space: Improving consistency in urban morphology at the plot scale. Computers, Environment and Urban Systems, 80, 101441.
+ - Fleischmann, M., Feliciotti, A., Romice, O., & Porta, S. (2021). Methodological Foundation of a Numerical Taxonomy of Urban Form. arXiv preprint arXiv:2104.14956.
+=> cite in UrbMorph papers? ; include in multiscale-multidim SR/def of urbmorph
+
+
+----
+
+jiang2020bandwidth (in bib/SpatialStatistics) : // GWR with cross val, similar?
+
+----
+
+majic2021there (in bib/GIS): OSM dtaa quality, correction, advanced algo ray tracing
+
+----
+
+ribeill1985aspects (in bib/NetworksTerritories): history of French railway nw; typology of lines; micro-macro
+
+----
+
+sep-neoliberalism (in bib/PoliticalScience): relevance of phylosoph concepts for evidence based comput social sci? - link, but not as sci, relation with sci? // quantep.
+
+----
+
+heinonen2021cities (in bib/UrbanSustainability): compormise local/global => paper HSR
+
+----
+
+raux2021tous (in bib/UrbanSustainability): articulation urbanisme-transport - importance du niveau des instances de regulation de l'urbanisme
+
+----
+
+merigoux2021catala (in bib/Law): formalisation - prog lang for one aspect of soc => // quant ep - meta modeling - formalisation of shs?
+
+----
+
+lei2021urban (in bib/UrbanScaling) : // sca;ingdyns, collab G Xu
+
+----
+
+lv2021detecting (in bib/UrbanMorphology): auto detect polycentric structure combining POI data and roads => // idea urb morph pop density/roads (multidim def of urban morphology)
+
 ====
 2021/06/25
 
