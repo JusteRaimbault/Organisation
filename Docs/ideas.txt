@@ -1,7 +1,244 @@
 
 
+====
+2021/09/29
 
 
+
+
+10.4000/cybergeo.37243 (in bib/UrbanMorphology) -> include these measures in world urbmorph?
+
+----
+
+10.1016/j.scs.2021.103146 (in bib/UrbanSustainability) -> kind of space matters? (context sensitivity)
+
+----
+
+rybski2021story (in bib/Academia) -> research process / knowledge production - context ?
+
+----
+
+martin2021box (in bib/Physics) -> link with box/fractal dim ; math transform / correlations?
+
+----
+
+zanin2021simplifying (in bib/TimeSeries) -> application to coevol niche: causality clustered = niche?
+
+----
+
+10.1016/j.ecolecon.2021.107153 (in bib/UrbanMorphology) -> link emission - city density/policentricity -> more detailed study with multidim urbmorph (pop density and network?)
+
+----
+
+10.1140/epjds/s13688-021-00290-x (in MobilityEpidemio) -> visu grid explo 6-7 params !: ~ ok? - example exmodelo?
+
+----
+
+10.1038/d41586-021-01992-y (in bib/Sustainability) -> need more research on SDGs!
+
+----
+
+10.1038/d41586-021-02055-y (in bib/ClimateChange) -> precision needed for global models - useful for multiscale urban models?
+
+----
+
+barbrook2021combining (in bib/Complexity) -> integration of complexity methods (coupling 2-2?), ~ sys review: interesting within broader knowledge domain context; integrative approach? ; luti-microsim as case study. [recall: do seminal nw papers?]
+
+----
+
+verbavatz202113 (in bib/Transportation) -> conclusion: share car + sshare PT = 1 ? - not spatially explicit - importance of sim / spatial models to have more robust conclusions? (once again, "validation" is not satisfying -> example of poor validation (r2 = 0.69, no benchmark)) [thought ~ pres semminar p7]
+
+----
+
+arkolakis2020european (in bib/InnovationDiffusion) -> impact of migrations on patents -> one aspect of diffusion (slower component? -> model should have multiple scales?)
+
+
+====
+2021/09/28
+
+
+
+Portugali new chapter in urban complexity -> semantic info as attractors: original concept but not applicable/grounded? to what extent theories must be close to data/practice/stylised facts - classify according to level of coupling?
+ - which components? - knowledge domains? or based on sci soc - empirical components of sci?
+ - how to quantify coupling? - papers as not the single prod ; cant be totally unsupervised
+
+
+
+====
+2021/09/23
+
+
+10.1038/s41586-021-03695-w (in bib/ClimateChange) -> range across 2 pop databases (GHSL and HRSL:?) -> robustness across databases
+
+----
+
+10.1073/pnas.2022472118 (in bib/UrbanScaling) -> network mimcro model - urban scaling?
+
+====
+2021/09/22
+
+
+
+10.1073/pnas.2106489118 (in bib/Sustainability) -> borader and more integrated than multi-modeling?
+
+----
+
+10.1073/pnas.2020327118 (in bib/Metabolism) -> applicatoin to detailed pedestrian models? or too precise?
+
+----
+
+10.1073/pnas.2023343118 (in bib/Sustainability) -> hybrid approaches in urban science between model-based and design based (more RCT-like research? natural experiments?)
+
+
+====
+2021/09/21
+
+
+
+2107.04023 (in bib/UrbanSustainability) -> reproduce building morpho worldwide with better data?
+
+----
+
+peters2019comment (in bib/Econophysics) -> at what point makes sense to falsify old stuff? (compromise explo/falsif is weighted in time/discipline/influence?)
+
+----
+
+elliott2019network (in bib/GameTheory) -> application to new version of Lutecia model?
+
+
+====
+2021/09/20
+
+
+
+MORIN_2007 (in bib/Complexity): Morin // complexities ?
+
+----
+
+SDG tracker: for long term project cities-SDG https://sdg-tracker.org/infrastructure-industrialization
+
+
+
+====
+2021/09/14
+
+
+10.1016/j.jtrangeo.2018.03.002 (in bib/SpatialStatistics): // hdr Feuillet: combination gwr/multilevel (//EnergyPrice) -> check?
+
+
+====
+2021/09/10
+
+
+
+10.1177/0308518X211027172 (in bib/UrbanMobility): // h24 idea - dynamical segreg?
+
+----
+
+heil2021reproducibility (in bib/Reproducibility): (from tw-Tom Russel): course reprod? ; data, model, code: multiple domains of reprod // domain knowledge (Q: how to be reproducible in the theoretical?)?
+
+----
+
+chakrabortyadvancing (in bib/SyntheticData): (EWGT 2021 3rd keynote) synth data engineering ; sort of digital twin
+
+----
+
+chen2021polycentric (in bib/UrbanEconomics): concept of green efficiency ; polycentric agglo measured by scaling exp -> ?
+
+----
+
+10.1371/journal.pone.0252869 (in bib/UrbanDataScience): // paper adresses Fabien (not exactly same) ; application to zh? (similar with cun, shi etc, existing?)
+
+
+====
+2021/09/09
+
+
+
+mignot:halshs-03316741 (in bib/Demmography) -> pb reproductibility / ideology in soc sci ?
+
+----
+
+yu2021calibration (in bib/UrbanGrowth) -> calib contrained CA using ABC -> repli in OML (test for ABC?)
+
+
+====
+2021/09/01
+
+
+Estimate boulders nummber: - useful for preservation? - difficult and interesting - application to mapping (?~), sport auto org (route setting orientering?)
+
+----
+
+urbgrowth: revoir modeles gibrat extended as Kalman filters (noise, observed, correlations etc.)
+
+----
+
+protocols.io -> // paper roadmap explo - standard oml explo: deposit protocol before experiments?
+
+
+====
+2021/08/20
+
+10.4000/cybergeo.37430 : // paper link patrimoine?: relaunch
+
+
+====
+2021/07/08
+
+
+
+
+! Retraction paper moralising gods - Sheshat database low quality? https://www.nature.com/articles/s41586-021-03655-4 matters arising ; retraction https://www.nature.com/articles/s41586-021-03656-3
+
+
+----
+
+Pan, H., Page, J., Cong, C., Barthel, S., & Kalantari, Z. (2021). How ecosystems services drive urban growth: Integrating nature-based solutions. Anthropocene, 35, 100297. (in bib/UrbanSustainability) -> 
+link LULC / ecosystem services (+ journal Anthropocene: interesting ?)
+
+----
+
+10.2307/resrep21871 (in bib/UrbanSustainability) -> report on sust - compact / transit -> nwterrits?
+
+----
+
+Wu, C., Smith, D., & Wang, M. (2021). Simulating the urban spatial structure with spatial interaction: A case study of urban polycentricity under different scenarios. Computers, Environment and Urban Systems, 89, 101677. (in bib/UrbanMorphology) -> indicators of urban polycentricity? - impl in spatialdata?
+
+----
+
+nevejan2021city (in bib/UrbanSustainability) -> link research policy; stakeholders
+
+
+====
+2021/07/02
+
+
+
+reveisit rules on sefl plag: recycles methdos or model descr? https://www.sciencemag.org/news/2021/06/when-self-plagiarism-ok-new-guidelines-offer-researchers-rules-recycling-text
+(in bib/ScienceCommunication)
+
+----
+
+10.1038/s41467-021-24305-3 (in bib/Sustainability) => dev direct to sust in some regions / for cities? -> cf arg lecture rgs on China cities? (skip a step? - not really, not the same regime?)
+
+----
+
+10.1038/s41586-021-03666-1 (in bib/ComputationalSocialScience): role algo - self fulfilling on soc; role of social theories?
+
+----
+
+soc sci bullshit (food/dommination): quant approach to investigate?
+
+----
+
+10.1038/s41586-021-03659-0 (in bib/CommputationalSocialScience): // model function (explanation-prediction): integrative modeling has several functions?
+
+====
+2021/06/29
+
+
+10.1002/asi.24533 (in bib/DigitalHumanities) -> // C Roth - taxonomy; highly interdisc field? -> similar urb sci?
 
 ====
 2021/06/28
