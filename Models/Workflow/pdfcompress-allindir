@@ -1,0 +1,2 @@
+ ls | grep pdf | awk '{print "mv "$0" "$0"_ ; pdfcompress "$0"_ "$0"; rm "$0"_"}' | sh
+

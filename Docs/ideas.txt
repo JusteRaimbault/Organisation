@@ -1,5 +1,222 @@
 
 
+
+
+
+====
+2021/12/13
+
+
+
+
+https://paolocrosetto.wordpress.com/2021/04/12/is-mdpi-a-predatory-publisher/ (in resources) -> check scim analysis and data
+
+
+----
+
+verstegen2022pattern (in bib/UrbanGrowth) -> POM calib of ca urbgrowth models: // mmeso calib - mmorpho params instead of mmse (already done!) ; // paper benchmark? ~ quite different (not calib)
+
+----
+
+sung2021training,matena2021merging (in bib/MachineLearning) -> for deep learning training, sparse param update (with max Fisher info), and model averaging -> // idea pse-pca - update / 1 pse run along some dims - similar here?
+
+
+
+====
+2021/12/10
+
+
+
+
+huang2021simulating (in bib/UrbanGrowth): LandUsePolicy: //paper profiles LUTI (cit same journal)?
+
+----
+
+agoub2021exploring (in bib/UrbanMorphology): // Roberto depp learning?
+
+----
+
+liu2021machine (in bib/ModelValidation): // surrogate models - steering in OML?
+
+----
+
+hellervik2021networks (in bib/UrbanNetworks): // urban dynamics spatial interaction models?
+
+----
+
+batty2021linear (in bib/UrbanModeling) :// statioanrity of urb eq ; // eprice eq cv ?
+
+
+
+====
+2021/12/09
+
+
+
+
+Desmet, K., Nagy, D. K., & Rossi-Hansberg, E. (2018). The geography of development. Journal of Political Economy, 126(3), 903-983. (in bib/UrbanEconomics): // seminar osus life death great british cities (// J Jacobs) - quant urb eco, world scale model; Nagy (//Porcher - ack in paper):
+https://scholar.google.com/citations?user=Co0GSSsAAAAJ&hl=fr&oi=ao
+
+
+
+====
+2021/11/26
+
+
+
+
+working on quantep / knowledge fwk: integrates interdisc references / theories: what about weigfhts: relative importance/role, social/disciplinar importance (citations, researchers) - influence: ? - cannot intagrate anything equally?
+
+
+====
+2021/11/24
+
+
+
+working paper Mike (ECTQG): symmetric pattern : stationnarité, send density paper ?
+
+----
+
+Finding without Searching: Using Rule-based AI
+for notifications on relevant Scientific Publications (in bib/Scim) https://rob.by/en/Search/Pubs/index.html
+-> similar to many ideas in quantep. corpus explorer, reflexivity
+  -> census of such initiatives - survey paper? - private vs open
+
+----
+
+// idea PT access map in FR (train Rodez)
+https://twitter.com/RSanderson96/status/1455539178272395271
+
+
+
+====
+2021/11/19
+
+
+
+Weekly stream lit review? 
+
+----
+
+Papier vlib : data, transition new system, events
+
+----
+
+(beginnings in AI - 2012?) computer vision/ML for clean streets - optimise cleaning
+
+----
+
+philo generale (Kant: nature of knowledge), philo sci: which validity when not evidence based? (linked to relevant sci disciplines) - and when older context (cf Marx eco: out of date?); Morin is integrated and kind of evidence based. Notion of a scientific philo? // knowledge domains?
+
+====
+2021/11/17
+
+
+10.1098/rspb.2010.1917 ; 10.1098/rsif.2010.0110 (inbib/LanguageEvolution): // langevol: already done (similar)?
+
+
+====
+2021/11/12
+
+
+
+masnadi2021carbon (in bib/EnergyPrice) : // Sustainability (+non-lin shocks: demand planes?)
+
+====
+2021/11/08
+
+
+
+10.1016/j.jtrangeo.2018.05.017 ( in bib/HSR) : // papier HSR: update bib
+
+----
+
+10.1111/oik.02170 (in bib/Reproducilbity): // models benchmark - multi modeling?
+
+----
+
+10.1038/d41586-021-02895-8 (in bib/Scientometrics) -> index 107Mio papers: try? - not possible currently: 38T expanded!
+
+----
+
+10.1038/s41586-021-04026-9 (in bib/Morphogenesis) -> induced reproducible morphogenesis (for human neurons): add in morpho paper - synthbio? or higher level?
+
+----
+
+10.1038/s41586-021-03804-9 (in bib/Life): // course OofL: presence of cities: self org socio-tech artifacts as proof? Y? (society <=> biology? Defs?) - properties of these systems - what to look first at? (Zipf, form/function, ?) -> include in "Cities as they could be" paper: what to study in a replication of the system should inform us on the original system
+
+----
+
+[bib cn mummies west]: archelolgy: simpoplocal: emergence of systems of cities: phase trans, non stat - intrinsic to a singoe model, or change of structure? benchmmark such models - compare hypothesis? // book abm archeo
+
+====
+2021/11/02
+
+
+study pt access (train, bus) at national scale - no car, walking: unreachable places?
+
+
+====
+2021/10/21
+
+
+
+rogov2018urban (in bib/Resilience) -> multilevel approach to resilience -> // multiscale models of urban dynamics?
+
+----
+
+koroso2021urbanization (in bib/UrbanGrowth) -> SDG 13 - urban sustainability
+
+----
+
+Tuholskee2024792118 (in bib/UrbanSustainability) -> // broad immpact of CC in cities // project
+
+----
+
+Hauerte2105252118 (in bib/ComputationalSocialScience) -> role of space in evolutionary dynamics (more diversity) -> // niches
+
+
+====
+2021/10/11
+
+
+Chapter evolth: definition of theory -> pragmatic view: heterogeneous components, social/organizational aspects of sci. ! However no clear / strict def of theory: // knowledge dommains idem? theoretical construction: articulation of ideas/propositions/? - need to clarify - rework knowledge domains, link with empirical analysis? - to clarify
+
+
+
+====
+2021/10/04
+
+
+
+
+
+Comment book Damasio: smart cities, urban socio, anthropo, geo?
+
+----
+
+li2016integrated (in bib/NteworksTerritories) -> coevol with investment model? - already cited in thesis?
+
+----
+
+li2019crowded (in bib/NetworksTerritories) -> 4 components co-evol: pb with time scales? - method: ODE - eq points. too simple? def of coevol?
+
+====
+2021/09/30
+
+
+
+
+10.1016/j.jtrangeo.2021.103159 (in bib/NetworkGrowth) -> nw growth in polycentric MCR -> commpare with Lutecia ; link gov - nwgrowth?
+
+----
+
+carlos2021incorporation (in bib/TimeSeries) -> high freq version of spatiotemp causality ~ ? (more rigorous test) -> adapt to benchmark network effects methods paper?
+
+----
+
+10.1073/pnas.2102798118 (in bib/Governance) -> integration sci / policies ; co-evolution sci-eco-techno // project multiscale gov
+
 ====
 2021/09/29
 
