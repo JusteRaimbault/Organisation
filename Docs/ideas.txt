@@ -2,12 +2,88 @@
 
 
 
+====
+2022/01/04
+
+
+
+
+chaudry2022implications (in bib/Sustainability): model coupling ; PowerGrid?
+
+----
+
+10.1016/j.ecolind.2016.03.054 (in bib/UrbanComplexity): // urbansystems lab, review SDGs tradeoffs? ; urban form-function ; reslience, sust ; CAS ; Journal: ecol indicators? (// ecol modeling)
+
+----
+
+motieyan2021mixed (in bib/LandUseChange): mixed LU - benefits?
+
+----
+
+li2021global (in bib/UrbanGrowth): check hindercast - idem to param old configs multiscale model?
+
+----
+
+pumain2021modelling (in bib/UrbanComplexity): // doublon somewhere else?
+
+====
+2022/01/03
+
+
+
+daunt2021role (in bib/LandUseChange): structural eqs: explore/test on systemms of cities?
+
+----
+
+mazzamurro2021assessing (in bib/UrbanMmorphology): innov diff / disruption - link ro mmorpho measure at cuntry scale (entropy of landuse): link macromeso?
+
+----
+
+sole2004information (in bib/InformationTheory): link complexity / info (// complexities)
+
+----
+
+bergermann2021orientations (in bib/Transportation): link pt network // mmultiplex nws // centralities // urban form (orientations)
+
+----
+
+10.1073/pnas.2118893118 (in bib/Statistics): - taylor law - zipf law? (// prev idea?)
+
+----
+
+covid: successive regimes (virus and socioeco): test for nonstat estimation algos (multiscale)?
+
+----
+
+three body pb: application of GAs: diversity search ?
+
+
+====
+2021/12/26
+
+
+
+2109.09553 (in bib/SpatialNetworks) -> simplif formula for BC ; when do such proxies are useful in urban (realistic) settings?
+
+----
+
+2110.01866 (in bib/sociophysics) -> short / missing main for cities? // city growth compendium chapter
+
+
+
 
 ====
 2021/12/13
 
 
 
+10.1073/pnas.2108031118 (in bib/Statistics): large deviation-threshold scaling: // urban scaling?
+
+----
+
+https://colinraffel.com/blog/a-call-to-build-models-like-we-build-open-source-software.html -> same for sim models, explo and validation - doc and modularity, mmmultimmodel, benchmark, etc.
+
+----
 
 https://paolocrosetto.wordpress.com/2021/04/12/is-mdpi-a-predatory-publisher/ (in resources) -> check scim analysis and data
 
