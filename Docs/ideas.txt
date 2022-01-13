@@ -3,6 +3,75 @@
 
 
 
+
+====
+2022/01/13
+
+
+
+batty2021entropy (in bib/UrbanComplexity) -> // SpatioTempEntropy ?
+
+----
+
+xu2021emergence (in bib/UrbanGrowth): validation criteria easy [or similar to Gravitatoinal growth papers?] - no ref to previous/related lit! -> physicist paper! (still include model in benchmark? ~ -> bib paper)
+
+
+====
+2022/01/12
+
+
+
+
+griffith2021torelli (in bib/Mathematics): ? (applicable in nw ssci?)
+
+----
+
+strano2021agglomeration (in bib/UrbanMorphology) -> typology/sim: similar density morphogenesis; include in spatialdata/benchamrks; for ilus paper: real calib, multiple models, more precise typology? (and better data?)
+
+----
+
+Ludeschere1922872118 (in bib/ClimateSciences): nw sci improve pred in some cases: captures strongly large scale non linear phenommena (through system structure?) -> sort of multiscale if combined with nummerical models ; // do similar in urb systems models? nw sci large scale, local comput modeling? -> justif for multiscale model? -> add to bib
+
+----
+
+Macye2102144118 (in bib/ComputationalSocialScience): classif phase transitions -> generic to ABM analysis?
+
+----
+
+pigliucci20131 (in bib/Epistemology): // classif of sci - idea more mmultidim (dimensions/criteria endogenous to disciplines? - projections - evolving?) // applied persp? -> write sommething on this linked with quant analysis (of validations? of knowledge domains? fo scientificity?)
+
+====
+2022/01/11
+
+
+bausch2021concept (in bib/Neuroscience): // implications for AI - // fluid concepts Hofsdtader Mitchell?
+
+====
+2022/01/10
+
+
+
+
+(idea from mail 11/12) Sci com / mediation / vulga : commpte tw plus actif - consider comme work (clean polluted tl progressively ?): share bib, thoughts, projects, interact
+
+----
+
+(idea from mail 11/12) Idea: soc sci robustness/subjectivity: cf ex pol sci def demmocracy, western cebtered - neoliberal? less sci if only one social fwk (although many defs caracs) + intertwined in politics (but this former aspect makes it more robust in an other dim: lien soc - trade-off between validation/ robustness dimensions?)
+ // applied perspectivism?
+
+----
+
+li2021spatial (in bib/NetworksTerritories): // LU-transport china - paper?
+
+----
+
+vreugdenhil2021incomplete (in bib/EnergyPrice): spatial equilibrium:? (non stat in EPrice paper: scale?) - subject different (oil drilling, moving under regulations)
+
+----
+
+nicoletti2021mutual (in bib/SPatialStatistics): // spacematters (envt/intrinsic dynamics): generic, or specific to this case? explore. (long term: benchmark of Spatial SA methods?)
+
+
 ====
 2022/01/07
 
