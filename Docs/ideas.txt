@@ -9,6 +9,31 @@
 
 
 
+
+comber2021route (in bib/SpatialStatistics) -> multiscale (~ endog?) ; // roadmap model explo (add in specific spatial mmethods? not really - a model in itself! - but explo is peculiar -> adapt to other models with changing spatial ranges? -> paper ectqg session?)
+
+----
+
+he2021heterogeneous (in bib/NetworksTerritories) -> for benchmark methods coevol -> D in Diff included? (both directions?)
+
+----
+
+ahfeldt2017compact (in bib/UrbanMorphology): SR - meta anal urbmorph - E Pietrostefani (LSE // Leverhulme)
+
+----
+
+kennedy2012sustainable (in bib/UrbanEcology): // link integrative approaches - coulping theories? (paper FRCCS)
+
+----
+
+arcaute202future (in bib/SmartCities): // complexities csdm - link inge complexity with complex systems? (-> bib paper)
+
+----
+
+2123-27161 ; 2123-27158 (in bib/NetworksTerritories): historical dataset - dynamical networks? (Levinson students)
+
+----
+
 batty2021entropy (in bib/UrbanComplexity) -> // SpatioTempEntropy ?
 
 ----
