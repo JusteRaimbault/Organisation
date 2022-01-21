@@ -5,6 +5,34 @@
 ====
 2022/01/21
 
+
+
+
+
+stupp2021co (in bib/Coevolution): effective bio coevol used to enhance ML method: complementarity thematic/ML? here coevol not a metaphor or transfered concept!
+
+----
+
+fruth:tel-01151170 (in bib/SensitivityAnalysis): estimate indices with already drawn samples/model values? (-> implement in oml) : possible?
+
+----
+
+losacker2021license (in bib/PatentsMining): also patents China -> Incopat database, Chinese database. Techno diffusion using patent licensing. : ?
+
+----
+
+simini2021deep (in bib/UrbanMobility): generalisation of gravity model?
+
+----
+
+treasury2015aqua, edmonds2016aqua (in bib/ModelValidation)/ govt perspective - evidence based decision making: one performative perspective on model valid (// paper Etienne)
+
+----
+
+van2022chinese (in bib/PatentsMining): work on Chinese patents? here uspto data: ~
+
+----
+
 li2022coevolution (in bib/Coevolution): which def of coevol? 5 co-evolving layers: too much to be understandable? Stability analysis: dynamical system model?
 
 
