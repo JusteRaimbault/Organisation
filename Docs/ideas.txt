@@ -1,6 +1,31 @@
 
 
 
+
+====
+2022/01/31
+
+
+
+kang2021integrated (in bib/SensitivityAnalysis): // exploration roadmap: refer to? ; benchmark with profile for model reduction?
+
+----
+
+Data parc Ecrins - traj gps bouq: explore?
+
+----
+
+10.1038/s41467-022-28123-z (in bib/NetworkScience): // spatio temp correlations?
+
+----
+
+Middle sized urb area (Bleau): carbon neutral strategy - mobility, relevance of tram planning - which extent, integrated approach, ?
+-> case study?
+
+----
+
+Paper SR SDG urban databases? SDG series springer https://www.springer.com/series/15486 (one possible entry? ~)
+
 ====
 2022/01/28
 
