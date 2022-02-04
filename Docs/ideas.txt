@@ -2,6 +2,22 @@
 
 
 
+
+====
+2022/02/04
+
+
+Ozhamaratli, F., Kitov, O., & Barucca, P. (2022). A generative model for age and income distribution. EPJ Data Science, 11(1), 1-26. (in bib/ComputationalSocialScience): combined micro/macro calibration? + method of moments -> OML?
+
+----
+
+falchetta2021comparing (in bib/Accessibility): // global urban access comparison/mappings?
+
+----
+
+lahoorpoor2022access (in bib/NetworksTerritories): compares patterns of activities densities and network topologies - respective effects. potential method for benchmark? ~ - no dynamical aspect
+
+
 ====
 2022/02/02
 
