@@ -11,7 +11,7 @@ if [ -z ${DATAVERSE_URL+x} ]; then
 fi
 
 if [ "$#" -lt 2 ]; then
-  echo "Usage: dataverse-upload FILE DESCR [DIR DATASET_PERSISTENTID]";
+  echo "Usage: dataverse-upload FILE DATASET_PERSISTENTID [DESCR DIR]";
   exit 0;
 fi
 
