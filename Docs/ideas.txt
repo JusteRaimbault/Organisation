@@ -7,6 +7,14 @@
 2022/02/23
 
 
+hassen2022using (in bib/AgentBasedModeling): game theory - ABM // Lutecia
+
+----
+
+10.4324/9781315159904 (in bib/Epistemology): Varenne book - ref EN model functions? [cited abmfirms] (in books to get)
+
+----
+
 generic paper on benchmark methods // model functions
 
 ====
