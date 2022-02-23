@@ -1,0 +1,4 @@
+# shortcut to avoid retrieving overleaf pwd and prompting it (https - pwd ident forced recently by overleaf; added cache option and username in git config (cf resources), still pwd asked first time
+
+cat ~/.overleaf | git clone $1
+
