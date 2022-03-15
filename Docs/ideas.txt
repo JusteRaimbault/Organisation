@@ -4,6 +4,30 @@
 
 
 ====
+2022/03/15
+
+
+
+
+dubiau2022faire (in bib/UrbanEcology): // territorialisation: context/streams?
+
+----
+
+l2017detour ( in bib/OptimalDistance): project OptimalDistance: formalise gen def of geo distance (diff from math), conesequence for underlying space - link gravity - relat G ? ~
+
+----
+
+shutters2022urbanization (in bib/UrbanScaling): // wages and ineq: sust: additional dim? -> paper sdg
+
+----
+
+feng2022effects (in bib/UrbanGrowth): calib CA and "multiscale" (multiresolution) -> paper multiscale
+
+----
+
+yang2022morphological (in bib/UrbanMorphology): // idea morpho/functional carac (phone data hotspots, morpho-networks more recently)
+
+====
 2022/03/09
 
 
