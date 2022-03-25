@@ -2,6 +2,25 @@
 
 
 
+====
+2022/03/25
+
+
+
+piovani2018measuring (in bib/Accessibility): //benchmark mobility models - radiation - gravity?
+
+----
+
+ferrer2018sustainable (in bib/UrbanSustainability): // SDGs ?
+
+----
+
+gibson2022revisiting (in bib/UrbanGrowth): method: sptial reg? (eco !)
+
+----
+
+Biblio/DomainSpecific/Transportation/dot_12144_DS1.pdf
+(zahavi report) - Q cours: updates globals de cette etude?
 
 ====
 2022/03/15
