@@ -8,3 +8,6 @@
 [submodule "Models/Utils/TorPool"]
 	path = Models/Utils/TorPool
 	url = git@github.com:JusteRaimbault/TorPool.git
+[submodule "Models/Utils/rss2email"]
+	path = Models/Utils/rss2email
+	url = git@github.com:JusteRaimbault/rss2email.git
