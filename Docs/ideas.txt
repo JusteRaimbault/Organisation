@@ -4,6 +4,19 @@
 
 
 ====
+2022/06/15
+
+
+
+2202.13906 : remarks: point process not good way to model systems of cities - no interactions ; ! size distrib not "fully charac" (hypocr cit? Clem/Barth)
+; citations "qui vont bien" ~, mauvaise representation de la connaissance/des debats?
+pb data insee? (why not geocites db?)
+
+ -> critical reading todo
++ postpub review? - see later where pub!
+
+
+====
 2022/06/08
 
 
