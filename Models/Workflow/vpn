@@ -1,0 +1,2 @@
+f5fpc -s -x -t `cat ~/.vpn_host` -r /etc/ssl/certs/${HOSTNAME}.crt -k /etc/ssl/private/${HOSTNAME}.pem -u `cat ~/.vpn_user` -p `cat ~/.vpn_pwd`
+
