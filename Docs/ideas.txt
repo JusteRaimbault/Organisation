@@ -2,6 +2,29 @@
 
 
 
+====
+2022/07/20
+
+
+
+
+cottineau2022analyses (in bib/UrbanScaling): // analysis cit nw: eco journal? [todos carnet]
+
+----
+
+belete2019exploring (in bib/ModelCoupling) : vs model embedding? include in SR review model coupling/workflow systems? ; + low carbon futures : integration for sust! (// project)
+
+----
+
+hartley2022pathetic (in bib/Literature): sci-fi / sustainability / alife?
+
+----
+
+barwick2021efficiency (in bib/UrbanEconomics): endog congestion; // idea transport concur? No at all ; more sort of 4 step eco model - link with Lutis - transport planning - quant geo? [bridges:? (ectqg 17) ~]
+
+----
+
+10.48550/ARXIV.2206.04896 (in bib/Complexity) : // complexity-complexities ; multi-scale coupling? 
 
 ====
 2022/07/19
