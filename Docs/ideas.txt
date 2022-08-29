@@ -2,6 +2,18 @@
 
 
 
+
+====
+2022/08/29
+
+lazer2010coevolution (in bib/Coevolution): coevol nw structure/opinions: // infra=access/ mobility? (other level); which methods used, causality? data school, political opinions.
+
+====
+2022/08/26
+
+
+marquez2022enabling (in bib/BikeSharing): data 6Y 27 systems: Paris dataset too small? (//OBrien)
+
 ====
 2022/07/20
 
