@@ -4,6 +4,12 @@
 
 
 ====
+2022/09/09
+
+peters2022ergodicity (in bib/Complexity): random growth model: // stoch models city growth?
+
+
+====
 2022/08/29
 
 lazer2010coevolution (in bib/Coevolution): coevol nw structure/opinions: // infra=access/ mobility? (other level); which methods used, causality? data school, political opinions.
