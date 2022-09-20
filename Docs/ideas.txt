@@ -2,6 +2,18 @@
 
 
 
+====
+2022/09/20
+
+
+
+
+Mesures distance gps / geoportail: proj ou distance reelle - quelle différence?
+
+----
+
+[projet orientDev]: q classement sportifs (applic trail?) -> semi supervisé?
+
 
 ====
 2022/09/09

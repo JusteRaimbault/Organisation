@@ -1,0 +1,2 @@
+openmole --proxy $HTTP_PROXY --mem 16G --password-file ~/.omlpwd "$@"
+
