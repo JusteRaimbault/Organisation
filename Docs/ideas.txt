@@ -3,6 +3,36 @@
 
 
 ====
+2022/10/03
+
+
+data anr communes for coevol analysis (// contact through soduco?)
+
+----
+
+barzina2022all (in bib/Economics): dataset to try?
+
+----
+
+sayama2022representing (in bib/AgentBasedModeling): method linking abm/PDE: explore/ implement oml? ~
+
+----
+
+wong2022asymptotic (in bib/ArtificialLife): role of cities - worldcity - next level of evolution/emergence: ? // S Walker successive evols? -> reconsider from the viewpoint of urbsci ! [selfmail]
+
+----
+
+guo2022understanding (in bib/UrbanSystems): "reverse fitting gravity with PSO" ("): benchmark with GA mulitobj calib? (not really similar settings?); epjds! (paper l2!) ; + data web search, interesting?
+
+----
+
+arvidsson2022beyond (in bib/ComputationalSocialScience): "micro-macro, mulitscale?" ("): better valid than just generative sufficiency? tackle equifinality? better link micro-macro? (specific to soc sci? ego nws): ???
+
+----
+
+10.48550/arxiv.2202.13906 (in bib/UrbanSystems): "critical review"(selfmail): // chrtistaller, just voronoi: interet? pas distance geo, pas prop fonctionelles. [disc @ urbansys satellite ccs22]; pub ceus: ! (low standard "geo consistence"?)
+
+====
 2022/09/30
 
 
