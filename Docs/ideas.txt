@@ -1,6 +1,11 @@
 
 
 
+====
+2022/10/04
+
+
+pena2021life (in bib/ArtificialLife): explore with oml methods (pse?) different rules of life? (or too few to be interesting?)
 
 ====
 2022/10/03
