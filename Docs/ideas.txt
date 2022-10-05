@@ -2,6 +2,19 @@
 
 
 ====
+2022/10/05
+
+
+
+(from mail 19/08): données hist dispo ign: carte etat maj 20000? versions etc? -> longer term, find data catalogue, send Pa. [geoplatforme? cf Julien seminar: pas clair quoi dispo?]
+Données geohist: carte Peutinger romains -> trop stylisé ou exemple de carte geohist à explorer? (futurs projets? plus archéo?)
+
+----
+
+10.48550/arxiv.2207.04719 (in bib/UrbanPlanning): empirical study of planning conflicts/different dimensions -> data to parametrisation of Mike's model of planning consensus?
+
+
+====
 2022/10/04
 
 
