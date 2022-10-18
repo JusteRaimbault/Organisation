@@ -1,6 +1,61 @@
 
 
 
+====
+2022/10/05
+
+
+
+(from mail 19/08): données hist dispo ign: carte etat maj 20000? versions etc? -> longer term, find data catalogue, send Pa. [geoplatforme? cf Julien seminar: pas clair quoi dispo?]
+Données geohist: carte Peutinger romains -> trop stylisé ou exemple de carte geohist à explorer? (futurs projets? plus archéo?)
+
+----
+
+10.48550/arxiv.2207.04719 (in bib/UrbanPlanning): empirical study of planning conflicts/different dimensions -> data to parametrisation of Mike's model of planning consensus?
+
+
+====
+2022/10/04
+
+
+pena2021life (in bib/ArtificialLife): explore with oml methods (pse?) different rules of life? (or too few to be interesting?)
+
+====
+2022/10/03
+
+
+data anr communes for coevol analysis (// contact through soduco?)
+
+----
+
+barzina2022all (in bib/Economics): dataset to try?
+
+----
+
+sayama2022representing (in bib/AgentBasedModeling): method linking abm/PDE: explore/ implement oml? ~
+
+----
+
+wong2022asymptotic (in bib/ArtificialLife): role of cities - worldcity - next level of evolution/emergence: ? // S Walker successive evols? -> reconsider from the viewpoint of urbsci ! [selfmail]
+
+----
+
+guo2022understanding (in bib/UrbanSystems): "reverse fitting gravity with PSO" ("): benchmark with GA mulitobj calib? (not really similar settings?); epjds! (paper l2!) ; + data web search, interesting?
+
+----
+
+arvidsson2022beyond (in bib/ComputationalSocialScience): "micro-macro, mulitscale?" ("): better valid than just generative sufficiency? tackle equifinality? better link micro-macro? (specific to soc sci? ego nws): ???
+
+----
+
+10.48550/arxiv.2202.13906 (in bib/UrbanSystems): "critical review"(selfmail): // chrtistaller, just voronoi: interet? pas distance geo, pas prop fonctionelles. [disc @ urbansys satellite ccs22]; pub ceus: ! (low standard "geo consistence"?)
+
+====
+2022/09/30
+
+
+
+dine2022amenagement (in bib/NetworksTerritories - no doc): point vue planif/gov - TOD ; multiechelle: ? - ~ quali. Lien extensions Lutecia?
 
 ====
 2022/09/20
