@@ -2,6 +2,12 @@
 
 
 ====
+2022/11/03
+
+
+breznau2022observing (in bib/Rperoducibility): intrinsic variation in sci analysis (here stat models): 95% ! what does this means for model benchmarking? sim model coupling? etc.? // spatial sensitivity, even stronger with spatial data? do similar experiment? - to think
+
+====
 2022/10/05
 
 
