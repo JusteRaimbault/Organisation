@@ -3,6 +3,14 @@
 
 
 ====
+2022/12/13
+
+arxiv 2208.06384 : selfmail 2/11: bib powergrid / synthdata. 
+ -> relaunch power grid? project sysreview synthetic data? ~
+(in bib/PowerGrid [arxiv version, // pub pnas!]; overleaf powergrid)
+
+
+====
 2022/11/07
 
 https://www.nature.com/articles/s41467-022-31202-w (in bib/Sustainability): [selfmail 15/09: Projet SDGs: adapt cities? meso/micro // simplu?] -> mapping of SDGs and required adpatation -> which impct in terms of implementation; first step to inform which dimensions / models?
