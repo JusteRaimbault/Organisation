@@ -3,6 +3,13 @@
 
 
 ====
+2023/01/05
+
+
+Huang, C., & Xu, N. (2022). Quantifying urban expansion from 1985 to 2018 in large cities worldwide. Geocarto International, 1-16. (in bib/UrbanGrowth) -> delim of areas:? - global syst method is too far from terrain truth -> why not crowdsourced db - adapted to each context? - pb of difficulty to compare still ? ~
+
+
+====
 2022/12/13
 
 arxiv 2208.06384 : selfmail 2/11: bib powergrid / synthdata. 
