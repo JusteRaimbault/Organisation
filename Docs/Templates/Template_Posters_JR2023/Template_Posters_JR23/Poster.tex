@@ -1,0 +1,358 @@
+%% This is a new latex template for poster creation
+%% For conferences / research meetings etc.
+%% Following IGN guidelines
+
+%% This template is based on tikzposter
+%% With custom style but still a lot of stuff
+%% That needs to be handed-specified
+%% Also the comments are sketchy and the english is poor
+
+%% Tikzposter ->
+%% Copyright (C) 2014 by Pascal Richter, Elena Botoeva, Richard Barnard, and Dirk Surmann
+%%
+%%
+%%
+%%
+%% History:
+%% 17/02/2018 - Creation
+%% 15/01/2020 - Update for the 2020 edition
+%% 12/03/2021 - Date change for 2021 edition
+%%
+%%
+%% If you want to modify the style,
+%% Please define your custom blocks etc.
+%% In the attached files
+%% The name says what is contained in each file.
+%% And the layout themes file is what sums up your custom layout
+%% By precising the block style, background style, color style etc. you need
+%%
+%%
+%% 
+%%
+%% Also if you need the doc, it is available here:
+%% - pdf. doc : https://mirror.hmc.edu/ctan/graphics/pgf/contrib/tikzposter/tikzposter.pdf
+%% - poster example : https://www.sharelatex.com/templates/53332341910d975953dffdab/v/1/pdf?inline=true&name=Tikzposter%20(extended%20example)
+
+
+\documentclass[a0paper]{tikzposter} %Options for format can be included here
+
+%Choose Layout
+\usetheme{Steph}
+
+% Packages
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage{natbib}
+\usepackage{amsmath}
+\usepackage{calc}
+\usepackage{graphicx}
+\usepackage{amssymb}
+\usepackage{relsize}
+\usepackage{multirow}
+\usepackage{rotating}
+\usepackage{bm}
+\usepackage{url}
+\usepackage{multicol}
+\usepackage{array}
+\usepackage{subfigure}
+\usepackage{xcolor}
+\usepackage{tikz}
+\usetikzlibrary{arrows,patterns, calc, arrows.meta}
+\tikzset{>={Latex[width=3mm,length=5mm]}}
+
+\renewcommand{\rmdefault}{phv}
+\renewcommand{\sfdefault}{phv} 
+\renewcommand{\labelitemi}{$\bullet$}
+
+\newcommand{\compresslist}{
+    \setlength{\itemsep}{1pt}
+	\setlength{\parskip}{0pt}
+	\setlength{\parsep}{0pt}
+}
+
+\definecolor{IGNVert}{RGB}{163, 210,  11}
+\definecolor{IGNGris}{RGB}{159, 164, 168}
+\definecolor{IGNGrisFonce}{RGB}{101, 105, 110}
+
+\graphicspath{./images}
+
+
+% Here specify title, author and institution
+% Logos that are normally in "titlegraphic"
+% Are specified after
+\title{\textbf{ Titre Ici }}
+\author{Auteur}
+\institute{Institut}
+\titlegraphic{}
+
+% Layout of title and logos, some other possible logos are available in images folder
+% Don't hesitate to modify the positions if it doesn't suit you
+\makeatletter
+\renewcommand\TP@maketitle{
+    \hspace{-.12\textwidth}
+	\begin{tabular}{lcl}
+	%logo box 1
+    	\begin{minipage}[b][.1\textheight][b]{.15\textwidth}
+        	\includegraphics[scale=0.9]{./images/LOGO_IGN}
+    	\end{minipage}
+    	&
+    	%title box
+    	\begin{minipage}[b][.1\textheight][b]{.6\textwidth}
+    	
+    		\centering
+    		\color{titlefgcolor}
+    		{\bfseries \Huge \sc \@title \par}
+    		
+    		{\bfseries \huge \sc Potentiel sous-titre \par}
+    		\vspace*{2em}
+    		{\huge \@author \par}
+    		\vspace*{1em}
+    		{\LARGE \@institute}
+    		
+    	\end{minipage}
+    	&
+    	%logo box 2
+    	\begin{minipage}[b][.1\textheight][b]{.15\textwidth}
+        	\begin{tabular}{c}
+            	\includegraphics[width=1\textwidth]{./images/logo_MSTIC}\\~\\
+            	\includegraphics[width=1\textwidth]{./images/logo_uge}\\
+            	~\\~\\~\\~\\~\\~\\~\\
+        	\end{tabular}
+    	\end{minipage}
+	\end{tabular}
+}
+\makeatother
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Multicol Settings
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\setlength{\columnsep}{1.5em}
+\setlength{\columnseprule}{0mm}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Save space in lists. Use this after the opening of the list
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+% To remove the "latex tikz poster" at the bottom right corner
+\tikzposterlatexaffectionproofoff
+
+\begin{document}
+	% Title block with title, author, logo, etc.
+	\maketitle
+	
+%------------------------------------------------------
+%----------------LINE 1--------------------------------
+%------------------------------------------------------
+	\begin{columns}
+		
+		% first column with relative width
+		% be sure that on a same line column widths sum to 1, otherwise columns are left aligned and it is awful
+		
+		\column{0.33}% Width set relative to text width
+		
+		% This is a block
+		% The size of the block-title is specified with "titlewidthscale" and the name of the block is given after
+		% The full formalism is \block[options]{title}{content}
+		
+		%==============================================
+		\block[titlewidthscale=0.35]{Contexte}{
+			\begin{itemize}
+				\item Item 1
+				\item Item 2
+				\item Item 3 
+				\item Item 4 
+			\end{itemize}
+		}
+		%==============================================
+		
+		% Second column on same line than first one
+		\column{0.34}
+	    %==============================================
+		\block[titlewidthscale=0.3,bodyoffsety=1.8cm,titleoffsety=.1cm]{Objectifs}{
+			
+			Texte pour expliquer les objectifs du travail 
+			
+			\vspace{.5cm}
+		}
+		%==============================================
+		
+		% Third column on first line
+		\column{0.33}% Width set relative to text width
+		%==============================================
+		\block[titlewidthscale=0.35]{Méthode}{
+			\begin{enumerate}
+				\item Méthode 1
+				\item Méthode 2
+				\item Méthode 3
+			\end{enumerate}
+		}
+		%==============================================
+		%end of first line
+	\end{columns}
+	
+%------------------------------------------------------
+%----------------LINE 2--------------------------------
+%------------------------------------------------------
+
+	\begin{columns}
+		
+		\column{0.25}
+		%==============================================
+		\block[titlewidthscale=0.8]{Bloc 1}{
+			Texte pour le bloc 1 
+			
+			\vspace{.5cm}
+			
+			%This block contain example of Tikz
+			
+			\centering
+			
+			\begin{tikzpicture}[scale=2]
+			\draw[-latex] (0,0) -- (0,3.2);
+			\draw[-latex] (0,0) -- (5.2,0);
+			\node at (-0.2,1.5) {$\theta$};
+			\node at (2.5,-0.2) {$\mathit{t}$};
+			
+			\node at (0.2,0) {$\bullet$};
+			\node at (0.4,0.8) {$\bullet$};
+			\node at (0.6,1.6) {$\bullet$};
+			\node at (0.8,2.4) {$\bullet$};
+			\node at (1.8,0.4) {$\bullet$};
+			\node at (2,1.2) {\textcolor{red!60!black}{$\bullet$}};
+			\node at (2.2,2) {$\bullet$};
+			\node at (2.4,2.8) {$\bullet$};
+			\node at (3.4,0) {$\bullet$};
+			\node at (3.6,0.8) {$\bullet$};
+			\node at (3.8,1.6) {$\bullet$};
+			\node at (4,2.4) {$\bullet$};
+			
+			\draw[->,red!60!black] (2,1.2) -- (0.4,0.8);
+			\draw[->,red!60!black] (2,1.2) -- (0.6,1.6);
+			\draw[->,red!60!black] (2,1.2) -- (1.8,0.4);
+			\draw[->,red!60!black] (2,1.2) -- (2.2,2);
+			\draw[->,red!60!black] (2,1.2) -- (3.6,0.8);
+			\draw[->,red!60!black] (2,1.2) -- (3.8,1.6);
+			\end{tikzpicture}
+			
+			Exemple de Tikz 
+
+			\vspace{.5cm}
+			
+		}
+		
+		\column{0.45}
+		%==============================================
+		\block[titlewidthscale=0.52]{Bloc 2}{
+		
+			%This block contain example of formula
+			
+			Texte pour le bloc 2. Exemple de formules mathématiques : \\ 
+			\vspace{1.5cm}
+		    $ X=(x_1,x_2,.....,x_m)$. \\ 
+			\vspace{1.5cm}
+			$\delta^{0} X =X  $ \\ 
+			\vspace{1.5cm}
+			$ \delta^{i} X = \delta (\delta^{i-1} X ),$ \\
+			\vspace{1.5cm}
+		    $ \delta^{i} X = \left( \sum_{k=0}^{i} \binom{i}{k}x_{1+k}, \ \sum_{k=0}^{i} \binom{i}{k}x_{2+k}, ......, \ \sum_{k=0}^{i} \binom{i}{k}x_{m-i+k}   \right)$. \\
+			\vspace{1.5cm}
+			$\Delta X \ = \ \bigcup_{i=0}^{m-1} \delta^{i}  X $.
+			\vspace{1.5cm}
+		}
+		%==============================================
+		
+		
+		\column{0.3}
+		%==============================================
+		\block[titlewidthscale=0.95]{Bloc 3}{
+		
+		    %This block contain example of images
+			\begin{center}
+				\includegraphics[scale=1.5]{images/Exemple_figure.png}
+	        \end{center} 
+		}
+		%==============================================
+	\end{columns}
+	
+%------------------------------------------------------
+%----------------LINE 3--------------------------------
+%------------------------------------------------------
+
+	% block alone on its line so you don't have to specify the columns environment
+
+	%==============================================
+	\block[titlewidthscale=0.12]{Résultats}{
+		\parbox{0.5\textwidth}{
+			\includegraphics[width=18cm,height=20.5cm]{images/Hasse-diagram.png} \hspace{.5cm}
+			\includegraphics[width=18cm,height=20.5cm]{images/aire-triangle.png} \hspace{.5cm}
+		}
+		\parbox{0.35\textwidth}{
+			Commentaire de la première figure : 
+			\vspace{.5cm}
+			\begin{itemize}
+				\item Diagramme de Hasse de  l'ensemble $\mathcal{P}( \{x,y,z\})$
+				\item Correspond à la visualisation d'un treillis 
+			\end{itemize}
+			\vspace{1.5cm}
+			Commentaire de la deuxième figure : 
+			
+			\begin{itemize}
+				\item Principe de calcul de l'air d'un triangle
+				\item L'air d'un triangle se déduit depuis l'air d'un rectangle 
+			\end{itemize}
+			\vspace{.5cm}
+			
+		}
+		%==============================================
+	}
+	
+%------------------------------------------------------
+%----------------LINE 4--------------------------------
+%------------------------------------------------------
+
+	\begin{columns}
+		%In this block you can specify possible improvment or any extra information
+		\column{0.25}
+		%==============================================
+		\block[titlewidthscale=0.65]{Bloc 4}{
+			\begin{itemize}
+			%Here is example for cite a reference from your biblio. 
+				\item Item 1 \citep{Biscotti15}
+				\item Item 2 \citep{karpinski}
+			\end{itemize}
+		}
+		
+		\column{0.25}
+		%==============================================
+		\block[titlewidthscale=0.6]{Informations}{
+			\begin{itemize}
+				\item Date de début du projet 
+				\item Institution
+				\item Équipe
+				\item Autre information
+				\item Autre information
+			\end{itemize}
+		}
+		
+		\column{0.5}
+		%==============================================
+		% bibliography managed with natbib
+		\block[titlewidthscale=0.3,bodyoffsety=1.8cm,titleoffsety=.1cm]{Bibliographie}{
+			% This command is to prevent the printing of a second "références" in text and to delete white space between block title and bibliography
+			\renewcommand\refname{\vskip -3.4cm}
+			% Bibliography input. 
+			%Refrences should be added directly to the Biblio.bib file. Refrences should in bibTex Format. Every Reference cited in the poster will be automatically added.
+			
+			\bibliography{Biblio}
+			% Plain style so that cited articles appear as number in the poster and are only fully displayed here
+			\bibliographystyle{plain}
+		}
+	    %==============================================	
+	\end{columns}
+	
+\node [above right,outer sep=20pt,minimum width=\textwidth,align=center,draw=none,fill=none, text = IGNGrisFonce] at (bottomleft) {\centering \huge \bf Journées de la Recherche IGN - 2023};
+
+\end{document}
+
+\endinput
