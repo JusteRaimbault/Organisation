@@ -11,3 +11,9 @@
 [submodule "Models/Utils/rss2email"]
 	path = Models/Utils/rss2email
 	url = git@github.com:JusteRaimbault/rss2email.git
+[submodule "Docs/Templates/firstname-lastname-template"]
+	path = Docs/Templates/firstname-lastname-template
+	url = git@github.com:umrlastig/firstname-lastname-template.git
+[submodule "juste-raimbault"]
+	path = juste-raimbault
+	url = git@github.com:umrlastig/juste-raimbault.git
