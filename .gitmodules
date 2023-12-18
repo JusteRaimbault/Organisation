@@ -17,3 +17,6 @@
 [submodule "juste-raimbault"]
 	path = juste-raimbault
 	url = git@github.com:umrlastig/juste-raimbault.git
+[submodule "Docs/lastig_data"]
+	path = Docs/lastig_data
+	url = git@github.com:umrlastig/lastig_data.git
