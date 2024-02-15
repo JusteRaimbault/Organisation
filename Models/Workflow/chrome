@@ -1,0 +1,15 @@
+#!/bin/sh
+if [ -z "${HTTP_PROXY}" ]; then
+    echo "Launching chrome with no proxy"
+    google-chrome
+else
+    echo "Launching chrome with proxy $HTTP_PROXY"
+    # here assume the proxy env variable is defined as http://host:port/
+    # TODO generic test if otehr form (ex ip:port)
+    proxy_host=`echo $HTTP_PROXY | awk -F"/" '{print $3}' | awk -F":" '{print $1}'`
+    proxy_ip=`host $proxy_host | head -n 1 | awk -F" " '{print $4}'`
+    proxy_port=`echo $HTTP_PROXY | awk -F":" '{print $3}' | awk -F"/" '{print $1}'`
+    echo "$proxy_ip:$proxy_port"
+    google-chrome --proxy-server="$proxy_ip:$proxy_port"
+fi
+
