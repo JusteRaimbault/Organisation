@@ -1,0 +1,12 @@
+#!/bin/sh
+
+# TODO: multiple args - or by default for all file in dirs
+FILE=$1
+
+if [ -e "$FILE.source" ]
+then
+    url=`cat $FILE.source`
+    echo "Getting file $FILE from $url"
+    wget $url > $FILE
+fi
+
