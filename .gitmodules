@@ -20,3 +20,6 @@
 [submodule "Docs/lastig_data"]
 	path = Docs/lastig_data
 	url = git@github.com:umrlastig/lastig_data.git
+[submodule "Docs/Templates/reveal-md-github-pages"]
+	path = Docs/Templates/reveal-md-github-pages
+	url = https://github.com/gaerfield/reveal-md-github-pages.git
