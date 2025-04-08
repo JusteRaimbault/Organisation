@@ -1,2 +1,5 @@
+# [20250325] this does not work - not needed for intranet, only if need internal ip for accessing bib for example
+~/.vpn_proxy
+
 f5fpc -s -x -t `cat ~/.vpn_host` -r /etc/ssl/certs/${HOSTNAME}.crt -k /etc/ssl/private/${HOSTNAME}.pem -u `cat ~/.vpn_user` -p `cat ~/.vpn_pwd`
 
