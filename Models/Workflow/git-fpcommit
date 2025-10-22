@@ -6,7 +6,7 @@
 # display status
 git status
 git add -A
-git commit -m $1
+git commit -m "$1"
 
 # default remote is github, and branch master
 # test if 'github' remote exists, also pushes to origin
