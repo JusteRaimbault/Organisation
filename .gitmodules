@@ -23,3 +23,6 @@
 [submodule "Docs/Templates/reveal-md-github-pages"]
 	path = Docs/Templates/reveal-md-github-pages
 	url = https://github.com/gaerfield/reveal-md-github-pages.git
+[submodule "Docs/Templates/UMRLaSTIG-templates"]
+	path = Docs/Templates/UMRLaSTIG-templates
+	url = git@github.com:umrlastig/templates.git
