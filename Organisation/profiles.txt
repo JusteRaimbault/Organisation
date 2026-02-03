@@ -1,4 +1,6 @@
 
+DBLP https://dblp.org/pid/164/6650.html
+
 Bsky https://bsky.app/profile/justeraimbault.bsky.social
 
 Publons https://publons.com/researcher/1624436/juste-raimbault/
